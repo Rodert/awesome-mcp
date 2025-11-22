@@ -1,0 +1,25 @@
+{
+  "name": "awesome-mcp",
+  "version": "1.0.0",
+  "description": "A curated list of awesome Model Context Protocol projects",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rodert/awesome-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "awesome",
+    "awesome-list"
+  ],
+  "license": "Apache-2.0"
+}
+
