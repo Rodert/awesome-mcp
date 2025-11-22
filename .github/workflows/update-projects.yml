@@ -35,6 +35,7 @@ jobs:
       - name: Collect projects from GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEBUG_MODE: ${{ vars.DEBUG_MODE || 'true' }}  # 默认启用调试模式，可通过仓库变量控制
         run: |
           cd scripts
           python collect_projects.py

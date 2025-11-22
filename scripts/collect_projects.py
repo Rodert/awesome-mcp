@@ -44,6 +44,12 @@ MIN_STARS = 10
 # API 请求延迟（避免速率限制）
 REQUEST_DELAY = 0.5
 
+# 调试模式：通过环境变量控制，调试时只采集少量项目
+DEBUG_MODE = os.environ.get('DEBUG_MODE', 'false').lower() == 'true'
+MAX_PROJECTS_PER_QUERY = 3 if DEBUG_MODE else 30  # 调试模式：每个查询最多3个，正常模式：30个
+MAX_SEARCH_QUERIES = 2 if DEBUG_MODE else len(SEARCH_QUERIES)  # 调试模式：只使用前2个查询
+MAX_TOPICS = 1 if DEBUG_MODE else len(TOPICS)  # 调试模式：只使用前1个话题
+
 
 def categorize_project(repo) -> str:
     """根据仓库信息分类项目"""
@@ -83,10 +89,13 @@ def collect_projects(github_token: str) -> List[Dict]:
     g = Github(github_token)
     projects: Dict[str, Dict] = {}
     
+    if DEBUG_MODE:
+        print("🔧 调试模式：只采集少量项目以加快调试速度")
+    
     print("开始收集 MCP 项目...")
     
     # 通过关键词搜索
-    for query in SEARCH_QUERIES:
+    for query in SEARCH_QUERIES[:MAX_SEARCH_QUERIES]:
         print(f"搜索关键词: {query}")
         try:
             repos = g.search_repositories(
@@ -147,8 +156,8 @@ def collect_projects(github_token: str) -> List[Dict]:
                     
                     time.sleep(REQUEST_DELAY)
                     
-                    # 限制每个查询最多收集 30 个项目
-                    if count >= 30:
+                    # 限制每个查询最多收集的项目数
+                    if count >= MAX_PROJECTS_PER_QUERY:
                         break
                         
                 except Exception as e:
@@ -160,7 +169,7 @@ def collect_projects(github_token: str) -> List[Dict]:
             continue
     
     # 通过话题搜索
-    for topic in TOPICS:
+    for topic in TOPICS[:MAX_TOPICS]:
         print(f"搜索话题: {topic}")
         try:
             repos = g.search_repositories(
@@ -204,7 +213,7 @@ def collect_projects(github_token: str) -> List[Dict]:
                     
                     time.sleep(REQUEST_DELAY)
                     
-                    if count >= 30:
+                    if count >= MAX_PROJECTS_PER_QUERY:
                         break
                         
                 except Exception as e:
