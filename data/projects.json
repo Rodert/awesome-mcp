@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-22T05:44:36.035647",
+  "last_updated": "2025-11-22T06:26:05.332335",
   "total": 9,
   "projects": [
     {
@@ -7,9 +7,9 @@
       "full_name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 157879,
+      "stars": 157885,
       "language": "TypeScript",
-      "updated_at": "2025-11-22T05:43:04+00:00",
+      "updated_at": "2025-11-22T06:24:01+00:00",
       "created_at": "2019-06-22T09:24:21+00:00",
       "topics": [
         "automation",
@@ -42,9 +42,9 @@
       "full_name": "langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "url": "https://github.com/langgenius/dify",
-      "stars": 119501,
+      "stars": 119503,
       "language": "TypeScript",
-      "updated_at": "2025-11-22T05:40:05+00:00",
+      "updated_at": "2025-11-22T06:20:39+00:00",
       "created_at": "2023-04-12T07:40:24+00:00",
       "topics": [
         "ai",
@@ -77,9 +77,9 @@
       "full_name": "open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": 115900,
+      "stars": 115901,
       "language": "JavaScript",
-      "updated_at": "2025-11-22T05:34:49+00:00",
+      "updated_at": "2025-11-22T06:07:56+00:00",
       "created_at": "2023-10-06T22:08:27+00:00",
       "topics": [
         "ollama",
@@ -159,9 +159,9 @@
       "full_name": "modelcontextprotocol/servers",
       "description": "Model Context Protocol Servers",
       "url": "https://github.com/modelcontextprotocol/servers",
-      "stars": 73079,
+      "stars": 73081,
       "language": "TypeScript",
-      "updated_at": "2025-11-22T05:30:47+00:00",
+      "updated_at": "2025-11-22T05:58:01+00:00",
       "created_at": "2024-11-19T01:10:17+00:00",
       "topics": [],
       "category": "servers",
@@ -175,7 +175,7 @@
       "url": "https://github.com/infiniflow/ragflow",
       "stars": 68128,
       "language": "Python",
-      "updated_at": "2025-11-22T05:29:11+00:00",
+      "updated_at": "2025-11-22T06:23:51+00:00",
       "created_at": "2023-12-12T06:13:13+00:00",
       "topics": [
         "document-understanding",

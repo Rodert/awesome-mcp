@@ -17,7 +17,7 @@ A curated list of awesome [Model Context Protocol (MCP)](https://modelcontextpro
 
 ### 1. [dify](https://github.com/langgenius/dify)
 
-⭐ **119,501** | 🔤 **TypeScript** | 📅 **2025-11-22**
+⭐ **119,503** | 🔤 **TypeScript** | 📅 **2025-11-22**
 
 Production-ready platform for agentic workflow development.
 
@@ -27,7 +27,7 @@ Production-ready platform for agentic workflow development.
 
 ### 2. [open-webui](https://github.com/open-webui/open-webui)
 
-⭐ **115,900** | 🔤 **JavaScript** | 📅 **2025-11-22**
+⭐ **115,901** | 🔤 **JavaScript** | 📅 **2025-11-22**
 
 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 
@@ -57,7 +57,7 @@ A collection of MCP servers.
 
 ### 5. [servers](https://github.com/modelcontextprotocol/servers)
 
-⭐ **73,079** | 🔤 **TypeScript** | 📅 **2025-11-22**
+⭐ **73,081** | 🔤 **TypeScript** | 📅 **2025-11-22**
 
 Model Context Protocol Servers
 
@@ -99,7 +99,7 @@ This open-source curriculum introduces the fundamentals of Model Context Protoco
 
 ### 1. [n8n](https://github.com/n8n-io/n8n)
 
-⭐ **157,879** | 🔤 **TypeScript** | 📅 **2025-11-22**
+⭐ **157,885** | 🔤 **TypeScript** | 📅 **2025-11-22**
 
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
