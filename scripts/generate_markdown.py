@@ -132,7 +132,7 @@ Found a great MCP project that's missing? Feel free to open an issue or submit a
 
 ## 📄 License
 
-This list is licensed under the Apache License 2.0. See the [LICENSE](../LICENSE) file for details.
+This list is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/Rodert/awesome-mcp/blob/main/LICENSE) file for details.
 """
     
     # 保存文件

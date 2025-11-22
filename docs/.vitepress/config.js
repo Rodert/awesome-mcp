@@ -6,6 +6,14 @@ export default defineConfig({
   
   base: '/awesome-mcp/',  // GitHub Pages base path
   
+  markdown: {
+    links: {
+      externalLinkIcon: true
+    }
+  },
+  
+  ignoreDeadLinks: true,
+  
   head: [
     ['link', { rel: 'icon', href: '/awesome-mcp/favicon.ico' }],
     ['meta', { name: 'keywords', content: 'MCP, Model Context Protocol, awesome, awesome-list' }]
