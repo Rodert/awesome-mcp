@@ -1,62 +1,118 @@
-# Awesome MCP 项目
+# Awesome MCP Projects
 
-> 🚀 此页面是自动生成的。首次自动采集后，项目将显示在这里。
+> 🚀 Last updated: **2025-11-22** | 📦 Total projects: **9**
 
-## 📋 目录
+A curated list of awesome [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) projects collected from GitHub.
 
-- [MCP 服务器](#servers)
-- [MCP 客户端](#clients)
-- [工具和库](#tools)
-- [示例](#examples)
-- [文档](#documentation)
+## 📋 Table of Contents
 
----
-
-## MCP 服务器
-
-*提供协议服务的 MCP 服务器实现*
-
-*即将推出...*
+- [MCP Servers](#servers)
+- [Tools & Libraries](#tools)
 
 ---
 
-## MCP 客户端
+## MCP Servers
 
-*连接到 MCP 服务器的 MCP 客户端应用程序*
+*MCP server implementations that provide protocol services*
 
-*即将推出...*
+### 1. [dify](https://github.com/langgenius/dify)
 
----
+⭐ **119,501** | 🔤 **TypeScript** | 📅 **2025-11-22**
 
-## 工具和库
+Production-ready platform for agentic workflow development.
 
-*用于 MCP 开发的工具和库*
-
-*即将推出...*
+**Tags:** `ai` `gpt` `llm` `openai` `python` `rag` `orchestration` `gpt-4`
 
 ---
 
-## 示例
+### 2. [open-webui](https://github.com/open-webui/open-webui)
 
-*演示 MCP 用法的示例项目*
+⭐ **115,900** | 🔤 **JavaScript** | 📅 **2025-11-22**
 
-*即将推出...*
+User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 
----
-
-## 文档
-
-*文档、教程和学习资源*
-
-*即将推出...*
+**Tags:** `ollama` `ollama-webui` `llm` `webui` `self-hosted` `llm-ui` `llm-webui` `llms`
 
 ---
 
-## 🤝 贡献
+### 3. [netdata](https://github.com/netdata/netdata)
 
-发现了一个缺失的优秀 MCP 项目？欢迎提交 issue 或 PR！
+⭐ **76,770** | 🔤 **C** | 📅 **2025-11-22**
 
-## 📄 许可证
+The fastest path to AI-powered full stack observability, even for lean teams.
 
-本列表采用 Apache License 2.0 许可证。详见 [LICENSE](https://github.com/Rodert/awesome-mcp/blob/main/LICENSE) 文件。
+**Tags:** `monitoring` `docker` `kubernetes` `cncf` `prometheus` `netdata` `devops` `observability`
 
+---
+
+### 4. [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
+
+⭐ **75,146** | 🔤 **N/A** | 📅 **2025-11-22**
+
+A collection of MCP servers.
+
+**Tags:** `ai` `mcp`
+
+---
+
+### 5. [servers](https://github.com/modelcontextprotocol/servers)
+
+⭐ **73,079** | 🔤 **TypeScript** | 📅 **2025-11-22**
+
+Model Context Protocol Servers
+
+---
+
+### 6. [ragflow](https://github.com/infiniflow/ragflow)
+
+⭐ **68,128** | 🔤 **Python** | 📅 **2025-11-22**
+
+RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+
+**Tags:** `document-understanding` `llm` `rag` `deep-learning` `document-parser` `retrieval-augmented-generation` `agent` `graphrag`
+
+---
+
+### 7. [python-sdk](https://github.com/modelcontextprotocol/python-sdk)
+
+⭐ **20,193** | 🔤 **Python** | 📅 **2025-11-22**
+
+The official Python SDK for Model Context Protocol servers and clients
+
+---
+
+### 8. [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
+
+⭐ **13,376** | 🔤 **Jupyter Notebook** | 📅 **2025-11-22**
+
+This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.
+
+**Tags:** `csharp` `java` `javascript` `mcp` `mcp-client` `mcp-security` `mcp-server` `model`
+
+
+
+---
+
+## Tools & Libraries
+
+*Development tools and libraries for working with MCP*
+
+### 1. [n8n](https://github.com/n8n-io/n8n)
+
+⭐ **157,879** | 🔤 **TypeScript** | 📅 **2025-11-22**
+
+Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+
+**Tags:** `automation` `ipaas` `n8n` `workflow` `typescript` `self-hosted` `integrations` `workflow-automation`
+
+
+
+---
+
+## 🤝 Contributing
+
+Found a great MCP project that's missing? Feel free to open an issue or submit a PR!
+
+## 📄 License
+
+This list is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/Rodert/awesome-mcp/blob/main/LICENSE) file for details.
