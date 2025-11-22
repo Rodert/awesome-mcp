@@ -1,16 +1,24 @@
 #!/usr/bin/env python3
 """
-使用 AI 翻译将英文内容翻译为其他语言
+使用离线翻译将英文内容翻译为其他语言
+使用 Argos Translate - 完全离线的翻译工具
 """
-import json
 import re
-import time
 from pathlib import Path
-from typing import Dict, List
-from googletrans import Translator
+import argostranslate.package
+import argostranslate.translate
 
-# 支持的语言
+# 支持的语言代码映射（Argos Translate 使用 ISO 639-1 代码）
 LANGUAGES = {
+    'zh': 'zh',
+    'ru': 'ru',
+    'ja': 'ja',
+    'fr': 'fr',
+    'es': 'es'
+}
+
+# 语言显示名称
+LANGUAGE_NAMES = {
     'zh': 'Chinese',
     'ru': 'Russian',
     'ja': 'Japanese',
@@ -18,8 +26,46 @@ LANGUAGES = {
     'es': 'Spanish'
 }
 
-# 翻译延迟（避免 API 限制）
-TRANSLATE_DELAY = 1.0
+# 源语言（英文）
+SOURCE_LANG = 'en'
+
+
+
+def ensure_language_installed(from_code: str, to_code: str):
+    """确保所需语言包已安装"""
+    # 检查并安装语言包
+    installed_languages = argostranslate.translate.get_installed_languages()
+    
+    from_lang = None
+    to_lang = None
+    
+    for lang in installed_languages:
+        if lang.code == from_code:
+            from_lang = lang
+        if lang.code == to_code:
+            to_lang = lang
+    
+    if from_lang is None or to_lang is None:
+        print(f"  安装语言包: {from_code} -> {to_code}")
+        # 获取可用的语言包
+        available_packages = argostranslate.package.get_available_packages()
+        package_to_install = None
+        
+        for package in available_packages:
+            if package.from_code == from_code and package.to_code == to_code:
+                package_to_install = package
+                break
+        
+        if package_to_install:
+            argostranslate.package.install_from_path(package_to_install.download())
+            # 重新获取已安装的语言
+            installed_languages = argostranslate.translate.get_installed_languages()
+            from_lang = [l for l in installed_languages if l.code == from_code][0]
+            to_lang = [l for l in installed_languages if l.code == to_code][0]
+        else:
+            raise ValueError(f"找不到语言包: {from_code} -> {to_code}")
+    
+    return from_lang, to_lang
 
 # 需要翻译的固定文本
 FIXED_TEXTS = {
@@ -45,34 +91,40 @@ FIXED_TEXTS = {
 }
 
 
-def translate_text(translator: Translator, text: str, dest_lang: str, max_retries: int = 3) -> str:
-    """翻译文本，带重试机制"""
+def translate_text(text: str, from_lang: str, to_lang: str, from_lang_obj=None, to_lang_obj=None) -> str:
+    """使用 Argos Translate 翻译文本，失败则返回原文"""
     if not text or not text.strip():
         return text
     
-    for attempt in range(max_retries):
-        try:
-            result = translator.translate(text, dest=dest_lang)
-            time.sleep(TRANSLATE_DELAY)
-            return result.text
-        except Exception as e:
-            if attempt < max_retries - 1:
-                print(f"  翻译失败，重试 {attempt + 1}/{max_retries}: {str(e)}")
-                time.sleep(TRANSLATE_DELAY * 2)
-            else:
-                print(f"  翻译失败，跳过: {str(e)}")
-                return text
-    return text
+    try:
+        # 如果提供了语言对象，直接使用；否则确保语言包已安装
+        if from_lang_obj is None or to_lang_obj is None:
+            from_lang_obj, to_lang_obj = ensure_language_installed(from_lang, to_lang)
+        
+        # 翻译文本
+        translated = argostranslate.translate.translate(text, from_lang_obj, to_lang_obj)
+        return translated
+    except Exception as e:
+        print(f"  翻译失败，跳过（保留原文）: {str(e)}")
+        return text
 
 
 def translate_markdown_file(input_file: str, output_file: str, target_lang: str):
     """翻译 Markdown 文件"""
-    print(f"\n翻译到 {LANGUAGES[target_lang]} ({target_lang})...")
+    target_lang_code = LANGUAGES.get(target_lang, target_lang)
+    lang_name = LANGUAGE_NAMES.get(target_lang, target_lang)
+    print(f"\n翻译到 {lang_name} ({target_lang_code})...")
+    
+    # 确保语言包已安装
+    try:
+        from_lang_obj, to_lang_obj = ensure_language_installed(SOURCE_LANG, target_lang_code)
+    except Exception as e:
+        print(f"  无法安装语言包: {str(e)}")
+        print(f"  跳过 {lang_name} 的翻译")
+        return
     
     with open(input_file, 'r', encoding='utf-8') as f:
         content = f.read()
-    
-    translator = Translator()
     
     # 提取需要翻译的部分
     lines = content.split('\n')
@@ -110,7 +162,7 @@ def translate_markdown_file(input_file: str, output_file: str, target_lang: str)
                     
                     # 不翻译数字开头的链接（如 "1. [name](url)"）
                     if link_text and not link_text[0].isdigit():
-                        translated_text = translate_text(translator, link_text, target_lang)
+                        translated_text = translate_text(link_text, SOURCE_LANG, target_lang_code, from_lang_obj, to_lang_obj)
                         translated_line = (
                             translated_line[:match.start()] +
                             f'[{translated_text}]({link_url})' +
@@ -137,7 +189,7 @@ def translate_markdown_file(input_file: str, output_file: str, target_lang: str)
                 # 提取标题文本（跳过 # 符号）
                 title_text = re.sub(r'^#+\s*', '', line).strip()
                 if title_text and not title_text.startswith('['):
-                    translated_title = translate_text(translator, title_text, target_lang)
+                    translated_title = translate_text(title_text, SOURCE_LANG, target_lang_code, from_lang_obj, to_lang_obj)
                     translated_lines.append(line.replace(title_text, translated_title))
                 else:
                     translated_lines.append(line)
@@ -145,7 +197,7 @@ def translate_markdown_file(input_file: str, output_file: str, target_lang: str)
                 # 提取引用文本
                 quote_text = line.strip()[1:].strip()
                 if quote_text:
-                    translated_quote = translate_text(translator, quote_text, target_lang)
+                    translated_quote = translate_text(quote_text, SOURCE_LANG, target_lang_code, from_lang_obj, to_lang_obj)
                     translated_lines.append(f"> {translated_quote}")
                 else:
                     translated_lines.append(line)
@@ -157,7 +209,7 @@ def translate_markdown_file(input_file: str, output_file: str, target_lang: str)
         
         # 翻译普通文本行
         if line.strip() and not line.strip().startswith('⭐') and not line.strip().startswith('🔤'):
-            translated_line = translate_text(translator, line, target_lang)
+            translated_line = translate_text(line, SOURCE_LANG, target_lang_code, from_lang_obj, to_lang_obj)
             translated_lines.append(translated_line)
         else:
             translated_lines.append(line)
@@ -176,21 +228,6 @@ def translate_markdown_file(input_file: str, output_file: str, target_lang: str)
     print(f"✓ 翻译完成: {output_file}")
 
 
-def translate_fixed_texts(translator: Translator, lang: str) -> Dict:
-    """翻译固定文本"""
-    fixed_texts = {}
-    
-    for key, value in FIXED_TEXTS['en'].items():
-        if isinstance(value, dict):
-            fixed_texts[key] = {}
-            for k, v in value.items():
-                fixed_texts[key][k] = translate_text(translator, v, lang)
-        else:
-            fixed_texts[key] = translate_text(translator, value, lang)
-    
-    return fixed_texts
-
-
 def main():
     """主函数"""
     script_dir = Path(__file__).parent
@@ -203,10 +240,12 @@ def main():
         return
     
     print("开始翻译 Markdown 文件...")
+    print("注意: 使用离线翻译 (Argos Translate)，首次运行需要下载语言包...")
     print("注意: 翻译过程可能需要较长时间，请耐心等待...")
     
     # 翻译到各种语言
-    for lang_code, lang_name in LANGUAGES.items():
+    for lang_code, lang_code_map in LANGUAGES.items():
+        lang_name = LANGUAGE_NAMES.get(lang_code, lang_code)
         try:
             output_file = project_root / 'docs' / lang_code / 'projects.md'
             translate_markdown_file(str(en_file), str(output_file), lang_code)

@@ -1,5 +1,5 @@
 PyGithub==2.1.1
 requests==2.31.0
-googletrans==4.0.0rc1
+argostranslate==1.9.0
 pyyaml==6.0.1
 
