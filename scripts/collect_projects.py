@@ -46,8 +46,10 @@ REQUEST_DELAY = 0.5
 
 # 调试模式：通过环境变量控制，调试时只采集少量项目
 DEBUG_MODE = os.environ.get('DEBUG_MODE', 'false').lower() == 'true'
-# 放开采集限制：正常模式不限制采集数量
-MAX_PROJECTS_PER_QUERY = 3 if DEBUG_MODE else 100  # 调试模式：每个查询最多3个，正常模式：100个
+# 目标采集数量：每次采集100个新项目（去重后）
+TARGET_NEW_PROJECTS = 3 if DEBUG_MODE else 100
+# 如果不够，可以降低stars要求继续采集
+FALLBACK_MIN_STARS = 5  # 备用最小stars要求
 MAX_SEARCH_QUERIES = 2 if DEBUG_MODE else len(SEARCH_QUERIES)  # 调试模式：只使用前2个查询，正常模式：使用所有查询
 MAX_TOPICS = 1 if DEBUG_MODE else len(TOPICS)  # 调试模式：只使用前1个话题，正常模式：使用所有话题
 
@@ -102,19 +104,100 @@ def load_existing_projects(data_file: Path) -> Dict[str, Dict]:
 
 
 def collect_projects(github_token: str, existing_projects: Dict[str, Dict] = None) -> List[Dict]:
-    """收集符合条件的 MCP 项目，保留已有项目并更新其信息"""
+    """收集符合条件的 MCP 项目，保留已有项目并更新其信息
+    目标：采集 TARGET_NEW_PROJECTS 个新项目（去重后），如果不够则继续采集
+    """
     g = Github(github_token)
     projects: Dict[str, Dict] = existing_projects.copy() if existing_projects else {}
     
     if DEBUG_MODE:
         print("🔧 调试模式：只采集少量项目以加快调试速度")
     
-    print("开始收集 MCP 项目...")
+    print(f"开始收集 MCP 项目（目标：{TARGET_NEW_PROJECTS} 个新项目）...")
     new_count = 0
     updated_projects = set()  # 记录被更新的项目，避免重复计数
     
-    # 通过关键词搜索
+    # 记录初始项目数量
+    initial_count = len(projects)
+    
+    def get_new_count() -> int:
+        """获取当前新增项目数量（去重后）"""
+        return len(projects) - initial_count
+    
+    def should_continue_collecting() -> bool:
+        """检查是否还需要继续采集"""
+        return get_new_count() < TARGET_NEW_PROJECTS
+    
+    def process_repo(repo, min_stars: int) -> bool:
+        """处理单个仓库，返回是否成功采集为新项目"""
+        nonlocal new_count
+        
+        # 如果项目已存在，更新其信息
+        if repo.full_name in projects:
+            existing = projects[repo.full_name]
+            existing['stars'] = repo.stargazers_count
+            existing['updated_at'] = repo.updated_at.isoformat()
+            existing['language'] = repo.language or 'N/A'
+            existing['topics'] = repo.get_topics()
+            existing['archived'] = repo.archived
+            existing['description'] = repo.description or existing.get('description', '')
+            existing['category'] = categorize_project(repo)
+            updated_projects.add(repo.full_name)
+            print(f"  ↻ 更新: {repo.full_name} ({repo.stargazers_count} ⭐)")
+            time.sleep(REQUEST_DELAY)
+            return False  # 不是新项目
+        
+        # 检查是否有 README
+        try:
+            repo.get_readme()
+        except:
+            return False
+        
+        # 检查 Stars 数量
+        if repo.stargazers_count < min_stars:
+            return False
+        
+        # 检查是否真的与 MCP 相关
+        desc_lower = (repo.description or '').lower()
+        name_lower = repo.name.lower()
+        topics = [t.lower() for t in repo.get_topics()]
+        
+        mcp_keywords = ['mcp', 'model context protocol', 'model-context-protocol']
+        if not any(kw in desc_lower or kw in name_lower or kw in ' '.join(topics) 
+                   for kw in mcp_keywords):
+            if not any(topic in topics for topic in TOPICS):
+                return False
+        
+        # 采集项目
+        project = {
+            'name': repo.name,
+            'full_name': repo.full_name,
+            'description': repo.description or '',
+            'url': repo.html_url,
+            'stars': repo.stargazers_count,
+            'language': repo.language or 'N/A',
+            'updated_at': repo.updated_at.isoformat(),
+            'created_at': repo.created_at.isoformat(),
+            'topics': repo.get_topics(),
+            'category': categorize_project(repo),
+            'owner': repo.owner.login,
+            'archived': repo.archived
+        }
+        
+        projects[repo.full_name] = project
+        new_count += 1
+        current_new = get_new_count()
+        print(f"  ✓ 收集: {repo.full_name} ({repo.stargazers_count} ⭐) [{current_new}/{TARGET_NEW_PROJECTS}]")
+        time.sleep(REQUEST_DELAY)
+        return True  # 成功采集为新项目
+    
+    # 第一阶段：通过关键词搜索（使用 MIN_STARS）
+    print(f"\n📊 第一阶段：关键词搜索（stars >= {MIN_STARS}）...")
     for query in SEARCH_QUERIES[:MAX_SEARCH_QUERIES]:
+        if not should_continue_collecting():
+            print(f"  ✓ 已达到目标数量，停止采集")
+            break
+            
         print(f"搜索关键词: {query}")
         try:
             repos = g.search_repositories(
@@ -123,75 +206,11 @@ def collect_projects(github_token: str, existing_projects: Dict[str, Dict] = Non
                 order='desc'
             )
             
-            count = 0
             for repo in repos:
+                if not should_continue_collecting():
+                    break
                 try:
-                    # 如果项目已存在，更新其信息
-                    if repo.full_name in projects:
-                        existing = projects[repo.full_name]
-                        # 更新可能变化的信息
-                        existing['stars'] = repo.stargazers_count
-                        existing['updated_at'] = repo.updated_at.isoformat()
-                        existing['language'] = repo.language or 'N/A'
-                        existing['topics'] = repo.get_topics()
-                        existing['archived'] = repo.archived
-                        existing['description'] = repo.description or existing.get('description', '')
-                        # 重新分类（可能分类规则变化）
-                        existing['category'] = categorize_project(repo)
-                        updated_projects.add(repo.full_name)
-                        print(f"  ↻ 更新: {repo.full_name} ({repo.stargazers_count} ⭐)")
-                        time.sleep(REQUEST_DELAY)
-                        continue
-                    
-                    # 检查是否有 README
-                    try:
-                        repo.get_readme()
-                    except:
-                        print(f"  跳过 {repo.full_name}: 没有 README")
-                        continue
-                    
-                    # 检查 Stars 数量
-                    if repo.stargazers_count < MIN_STARS:
-                        continue
-                    
-                    # 检查是否真的与 MCP 相关
-                    desc_lower = (repo.description or '').lower()
-                    name_lower = repo.name.lower()
-                    topics = [t.lower() for t in repo.get_topics()]
-                    
-                    # 简单的相关性检查
-                    mcp_keywords = ['mcp', 'model context protocol', 'model-context-protocol']
-                    if not any(kw in desc_lower or kw in name_lower or kw in ' '.join(topics) 
-                               for kw in mcp_keywords):
-                        # 检查 topics
-                        if not any(topic in topics for topic in TOPICS):
-                            continue
-                    
-                    project = {
-                        'name': repo.name,
-                        'full_name': repo.full_name,
-                        'description': repo.description or '',
-                        'url': repo.html_url,
-                        'stars': repo.stargazers_count,
-                        'language': repo.language or 'N/A',
-                        'updated_at': repo.updated_at.isoformat(),
-                        'created_at': repo.created_at.isoformat(),
-                        'topics': repo.get_topics(),
-                        'category': categorize_project(repo),
-                        'owner': repo.owner.login,
-                        'archived': repo.archived
-                    }
-                    
-                    projects[repo.full_name] = project
-                    count += 1
-                    print(f"  ✓ 收集: {repo.full_name} ({repo.stargazers_count} ⭐)")
-                    
-                    time.sleep(REQUEST_DELAY)
-                    
-                    # 限制每个查询最多收集的项目数
-                    if count >= MAX_PROJECTS_PER_QUERY:
-                        break
-                        
+                    process_repo(repo, MIN_STARS)
                 except Exception as e:
                     print(f"  错误处理 {repo.full_name}: {str(e)}")
                     continue
@@ -200,75 +219,89 @@ def collect_projects(github_token: str, existing_projects: Dict[str, Dict] = Non
             print(f"搜索 '{query}' 时出错: {str(e)}")
             continue
     
-    # 通过话题搜索
-    for topic in TOPICS[:MAX_TOPICS]:
-        print(f"搜索话题: {topic}")
-        try:
-            repos = g.search_repositories(
-                query=f'topic:{topic} stars:>={MIN_STARS}',
-                sort='stars',
-                order='desc'
-            )
-            
-            count = 0
-            for repo in repos:
-                try:
-                    # 如果项目已存在，更新其信息
-                    if repo.full_name in projects:
-                        existing = projects[repo.full_name]
-                        # 更新可能变化的信息
-                        existing['stars'] = repo.stargazers_count
-                        existing['updated_at'] = repo.updated_at.isoformat()
-                        existing['language'] = repo.language or 'N/A'
-                        existing['topics'] = repo.get_topics()
-                        existing['archived'] = repo.archived
-                        existing['description'] = repo.description or existing.get('description', '')
-                        # 重新分类（可能分类规则变化）
-                        existing['category'] = categorize_project(repo)
-                        updated_projects.add(repo.full_name)
-                        print(f"  ↻ 更新: {repo.full_name} ({repo.stargazers_count} ⭐)")
-                        time.sleep(REQUEST_DELAY)
-                        continue
-                    
-                    try:
-                        repo.get_readme()
-                    except:
-                        continue
-                    
-                    if repo.stargazers_count < MIN_STARS:
-                        continue
-                    
-                    project = {
-                        'name': repo.name,
-                        'full_name': repo.full_name,
-                        'description': repo.description or '',
-                        'url': repo.html_url,
-                        'stars': repo.stargazers_count,
-                        'language': repo.language or 'N/A',
-                        'updated_at': repo.updated_at.isoformat(),
-                        'created_at': repo.created_at.isoformat(),
-                        'topics': repo.get_topics(),
-                        'category': categorize_project(repo),
-                        'owner': repo.owner.login,
-                        'archived': repo.archived
-                    }
-                    
-                    projects[repo.full_name] = project
-                    count += 1
-                    new_count += 1
-                    print(f"  ✓ 新增: {repo.full_name} ({repo.stargazers_count} ⭐)")
-                    
-                    time.sleep(REQUEST_DELAY)
-                    
-                    if count >= MAX_PROJECTS_PER_QUERY:
+    # 第二阶段：通过话题搜索（使用 MIN_STARS）
+    if should_continue_collecting():
+        print(f"\n📊 第二阶段：话题搜索（stars >= {MIN_STARS}）...")
+        for topic in TOPICS[:MAX_TOPICS]:
+            if not should_continue_collecting():
+                print(f"  ✓ 已达到目标数量，停止采集")
+                break
+                
+            print(f"搜索话题: {topic}")
+            try:
+                repos = g.search_repositories(
+                    query=f'topic:{topic} stars:>={MIN_STARS}',
+                    sort='stars',
+                    order='desc'
+                )
+                
+                for repo in repos:
+                    if not should_continue_collecting():
                         break
+                    try:
+                        process_repo(repo, MIN_STARS)
+                    except Exception as e:
+                        continue
                         
-                except Exception as e:
-                    continue
-                    
-        except Exception as e:
-            print(f"搜索话题 '{topic}' 时出错: {str(e)}")
-            continue
+            except Exception as e:
+                print(f"搜索话题 '{topic}' 时出错: {str(e)}")
+                continue
+    
+    # 第三阶段：如果还不够，降低stars要求继续采集
+    if should_continue_collecting():
+        print(f"\n📊 第三阶段：降低要求继续采集（stars >= {FALLBACK_MIN_STARS}）...")
+        for query in SEARCH_QUERIES[:MAX_SEARCH_QUERIES]:
+            if not should_continue_collecting():
+                print(f"  ✓ 已达到目标数量，停止采集")
+                break
+                
+            print(f"搜索关键词（降低要求）: {query}")
+            try:
+                repos = g.search_repositories(
+                    query=f'{query} stars:>={FALLBACK_MIN_STARS}',
+                    sort='stars',
+                    order='desc'
+                )
+                
+                for repo in repos:
+                    if not should_continue_collecting():
+                        break
+                    try:
+                        process_repo(repo, FALLBACK_MIN_STARS)
+                    except Exception as e:
+                        continue
+                        
+            except Exception as e:
+                print(f"搜索 '{query}' 时出错: {str(e)}")
+                continue
+    
+    # 第四阶段：如果还不够，通过话题搜索（降低要求）
+    if should_continue_collecting():
+        print(f"\n📊 第四阶段：话题搜索（降低要求，stars >= {FALLBACK_MIN_STARS}）...")
+        for topic in TOPICS[:MAX_TOPICS]:
+            if not should_continue_collecting():
+                print(f"  ✓ 已达到目标数量，停止采集")
+                break
+                
+            print(f"搜索话题（降低要求）: {topic}")
+            try:
+                repos = g.search_repositories(
+                    query=f'topic:{topic} stars:>={FALLBACK_MIN_STARS}',
+                    sort='stars',
+                    order='desc'
+                )
+                
+                for repo in repos:
+                    if not should_continue_collecting():
+                        break
+                    try:
+                        process_repo(repo, FALLBACK_MIN_STARS)
+                    except Exception as e:
+                        continue
+                        
+            except Exception as e:
+                print(f"搜索话题 '{topic}' 时出错: {str(e)}")
+                continue
     
     # 过滤掉已归档的项目
     active_projects = [p for p in projects.values() if not p['archived']]
@@ -276,13 +309,19 @@ def collect_projects(github_token: str, existing_projects: Dict[str, Dict] = Non
     # 按 stars 排序
     active_projects.sort(key=lambda x: x['stars'], reverse=True)
     
+    final_new_count = get_new_count()
     print(f"\n📊 采集统计:")
-    print(f"  - 新增项目: {new_count}")
+    print(f"  - 新增项目: {final_new_count} / {TARGET_NEW_PROJECTS} (目标)")
     print(f"  - 更新项目: {len(updated_projects)}")
     if existing_projects:
         preserved_count = len(existing_projects) - len(updated_projects)
         print(f"  - 保留已有: {preserved_count}")
     print(f"  - 总计: {len(active_projects)} 个项目")
+    
+    if final_new_count < TARGET_NEW_PROJECTS:
+        print(f"  ⚠️  未达到目标数量，可能 MCP 相关项目数量有限")
+    else:
+        print(f"  ✅ 已达到目标数量")
     
     return active_projects
 
