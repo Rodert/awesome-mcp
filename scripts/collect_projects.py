@@ -84,15 +84,33 @@ def categorize_project(repo) -> str:
         return 'tools'
 
 
-def collect_projects(github_token: str) -> List[Dict]:
-    """收集符合条件的 MCP 项目"""
+def load_existing_projects(data_file: Path) -> Dict[str, Dict]:
+    """加载已有的项目数据"""
+    existing_projects = {}
+    if data_file.exists():
+        try:
+            with open(data_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if 'projects' in data:
+                    for project in data['projects']:
+                        existing_projects[project['full_name']] = project
+                    print(f"📂 加载了 {len(existing_projects)} 个已有项目")
+        except Exception as e:
+            print(f"⚠️  读取已有项目时出错: {str(e)}")
+    return existing_projects
+
+
+def collect_projects(github_token: str, existing_projects: Dict[str, Dict] = None) -> List[Dict]:
+    """收集符合条件的 MCP 项目，保留已有项目并更新其信息"""
     g = Github(github_token)
-    projects: Dict[str, Dict] = {}
+    projects: Dict[str, Dict] = existing_projects.copy() if existing_projects else {}
     
     if DEBUG_MODE:
         print("🔧 调试模式：只采集少量项目以加快调试速度")
     
     print("开始收集 MCP 项目...")
+    new_count = 0
+    updated_projects = set()  # 记录被更新的项目，避免重复计数
     
     # 通过关键词搜索
     for query in SEARCH_QUERIES[:MAX_SEARCH_QUERIES]:
@@ -107,8 +125,21 @@ def collect_projects(github_token: str) -> List[Dict]:
             count = 0
             for repo in repos:
                 try:
-                    # 检查是否已收集
+                    # 如果项目已存在，更新其信息
                     if repo.full_name in projects:
+                        existing = projects[repo.full_name]
+                        # 更新可能变化的信息
+                        existing['stars'] = repo.stargazers_count
+                        existing['updated_at'] = repo.updated_at.isoformat()
+                        existing['language'] = repo.language or 'N/A'
+                        existing['topics'] = repo.get_topics()
+                        existing['archived'] = repo.archived
+                        existing['description'] = repo.description or existing.get('description', '')
+                        # 重新分类（可能分类规则变化）
+                        existing['category'] = categorize_project(repo)
+                        updated_projects.add(repo.full_name)
+                        print(f"  ↻ 更新: {repo.full_name} ({repo.stargazers_count} ⭐)")
+                        time.sleep(REQUEST_DELAY)
                         continue
                     
                     # 检查是否有 README
@@ -181,7 +212,21 @@ def collect_projects(github_token: str) -> List[Dict]:
             count = 0
             for repo in repos:
                 try:
+                    # 如果项目已存在，更新其信息
                     if repo.full_name in projects:
+                        existing = projects[repo.full_name]
+                        # 更新可能变化的信息
+                        existing['stars'] = repo.stargazers_count
+                        existing['updated_at'] = repo.updated_at.isoformat()
+                        existing['language'] = repo.language or 'N/A'
+                        existing['topics'] = repo.get_topics()
+                        existing['archived'] = repo.archived
+                        existing['description'] = repo.description or existing.get('description', '')
+                        # 重新分类（可能分类规则变化）
+                        existing['category'] = categorize_project(repo)
+                        updated_projects.add(repo.full_name)
+                        print(f"  ↻ 更新: {repo.full_name} ({repo.stargazers_count} ⭐)")
+                        time.sleep(REQUEST_DELAY)
                         continue
                     
                     try:
@@ -209,7 +254,8 @@ def collect_projects(github_token: str) -> List[Dict]:
                     
                     projects[repo.full_name] = project
                     count += 1
-                    print(f"  ✓ 收集: {repo.full_name} ({repo.stargazers_count} ⭐)")
+                    new_count += 1
+                    print(f"  ✓ 新增: {repo.full_name} ({repo.stargazers_count} ⭐)")
                     
                     time.sleep(REQUEST_DELAY)
                     
@@ -229,7 +275,13 @@ def collect_projects(github_token: str) -> List[Dict]:
     # 按 stars 排序
     active_projects.sort(key=lambda x: x['stars'], reverse=True)
     
-    print(f"\n总共收集 {len(active_projects)} 个项目")
+    print(f"\n📊 采集统计:")
+    print(f"  - 新增项目: {new_count}")
+    print(f"  - 更新项目: {len(updated_projects)}")
+    if existing_projects:
+        preserved_count = len(existing_projects) - len(updated_projects)
+        print(f"  - 保留已有: {preserved_count}")
+    print(f"  - 总计: {len(active_projects)} 个项目")
     
     return active_projects
 
@@ -240,7 +292,16 @@ def main():
     if not github_token:
         raise ValueError('GITHUB_TOKEN environment variable is required')
     
-    projects = collect_projects(github_token)
+    # 确保 data 目录存在
+    data_dir = Path(__file__).parent.parent / 'data'
+    data_dir.mkdir(exist_ok=True)
+    data_file = data_dir / 'projects.json'
+    
+    # 加载已有项目
+    existing_projects = load_existing_projects(data_file)
+    
+    # 收集项目（保留已有项目，只添加新的）
+    projects = collect_projects(github_token, existing_projects)
     
     # 保存到 JSON 文件
     output = {
@@ -249,16 +310,11 @@ def main():
         'projects': projects
     }
     
-    # 确保 data 目录存在
-    data_dir = Path(__file__).parent.parent / 'data'
-    data_dir.mkdir(exist_ok=True)
-    
-    output_file = data_dir / 'projects.json'
-    with open(output_file, 'w', encoding='utf-8') as f:
+    with open(data_file, 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     
-    print(f"\n数据已保存到 {output_file}")
-    print(f"共收集 {len(projects)} 个项目")
+    print(f"\n✅ 数据已保存到 {data_file}")
+    print(f"共保存 {len(projects)} 个项目")
     
     # 按分类统计
     categories_count = {}

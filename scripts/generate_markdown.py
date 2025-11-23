@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-生成英文版本的 Markdown 文件
+生成 Markdown 文件
+注意：项目列表（MCP 项目）保留原始语言，不进行翻译，所有语言版本都显示相同的原始内容
 """
 import json
 from pathlib import Path
@@ -239,7 +240,29 @@ def main():
         print(f"Error: {data_file} not found. Please run collect_projects.py first.")
         return
     
+    # 生成项目列表（保留原始语言，不翻译）
     generate_markdown(str(data_file), str(output_file))
+    
+    # 为其他语言生成相同的版本（保留原始语言，不翻译）
+    # 所有语言版本都显示相同的原始内容
+    other_languages = ['zh', 'ru', 'ja', 'fr', 'es']
+    for lang in other_languages:
+        lang_output_file = project_root / 'docs' / lang / 'projects.md'
+        lang_output_file.parent.mkdir(parents=True, exist_ok=True)
+        # 直接复制原始版本（保留原始语言）
+        with open(output_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+        with open(lang_output_file, 'w', encoding='utf-8') as f:
+            f.write(content)
+        print(f"✓ Copied original version to {lang_output_file} (preserving original language)")
+    
+    # 复制 projects.json 到 docs 目录，供前端使用
+    docs_data_file = project_root / 'docs' / 'data' / 'projects.json'
+    docs_data_file.parent.mkdir(parents=True, exist_ok=True)
+    import shutil
+    shutil.copy2(data_file, docs_data_file)
+    print(f"✓ Copied projects.json to {docs_data_file} for frontend access")
+    
     generate_readme_projects(str(data_file), str(readme_file))
 
 

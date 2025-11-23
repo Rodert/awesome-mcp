@@ -40,16 +40,10 @@ jobs:
           cd scripts
           python collect_projects.py
       
-      - name: Generate English markdown
+      - name: Generate markdown (English only, projects are not translated)
         run: |
           cd scripts
           python generate_markdown.py
-      
-      - name: Translate content to other languages
-        run: |
-          cd scripts
-          python translate_content.py
-        continue-on-error: true  # 翻译可能失败，继续执行
       
       - name: Setup Node.js
         uses: actions/setup-node@v4

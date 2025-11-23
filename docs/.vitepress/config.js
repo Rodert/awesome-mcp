@@ -14,6 +14,11 @@ export default defineConfig({
   
   ignoreDeadLinks: true,
   
+  // 确保静态资源可以被访问
+  vite: {
+    publicDir: 'public'
+  },
+  
   head: [
     ['link', { rel: 'icon', href: '/awesome-mcp/favicon.ico' }],
     ['meta', { name: 'keywords', content: 'MCP, Model Context Protocol, awesome, awesome-list' }]

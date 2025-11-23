@@ -142,9 +142,17 @@ GitHub Actions 触发构建
 
 ### generate_markdown.py
 
-**功能**: 从 JSON 数据生成英文 Markdown 文件
+**功能**: 从 JSON 数据生成 Markdown 文件
 
-**输出**: `docs/en/projects.md`
+**输出**: 
+- `docs/en/projects.md` - 英文版本（原始生成）
+- `docs/zh/projects.md` - 中文版本（复制英文版本）
+- `docs/ru/projects.md` - 俄语版本（复制英文版本）
+- `docs/ja/projects.md` - 日语版本（复制英文版本）
+- `docs/fr/projects.md` - 法语版本（复制英文版本）
+- `docs/es/projects.md` - 西班牙语版本（复制英文版本）
+
+**注意**: 项目列表（MCP 项目）不进行多语言翻译，所有语言版本都显示相同的英文内容。只有 README 文件支持多语言。
 
 **内容**:
 - 项目总数和最后更新时间
@@ -153,16 +161,11 @@ GitHub Actions 触发构建
 
 ### translate_content.py
 
-**功能**: 将英文内容翻译到其他语言
+**注意**: 此脚本已不再使用。项目列表（MCP 项目）不进行多语言翻译，只保留英文版本。
 
-**支持语言**:
-- 中文 (zh)
-- 俄语 (ru)
-- 日语 (ja)
-- 法语 (fr)
-- 西班牙语 (es)
-
-**翻译服务**: 使用 `googletrans` 库（免费但可能不稳定）
+**多语言支持**: 
+- README 文件支持多语言（README.md, README.zh.md 等）
+- 项目列表（projects.md）仅使用英文版本，所有语言版本显示相同内容
 
 ## 🌐 网站结构
 
