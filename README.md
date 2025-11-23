@@ -5,6 +5,9 @@
 [![Auto Update](https://github.com/Rodert/awesome-mcp/workflows/Update%20Projects/badge.svg)](https://github.com/Rodert/awesome-mcp/actions)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
+**Languages / 语言 / Языки / 言語 / Langues / Idiomas:**
+- [English](README.md) | [中文](README.zh.md) | [Русский](README.ru.md) | [日本語](README.ja.md) | [Français](README.fr.md) | [Español](README.es.md)
+
 This repository automatically collects and organizes high-quality MCP projects from GitHub, presenting them in a beautiful, searchable format. The list is updated daily via GitHub Actions and hosted on GitHub Pages.
 
 ## 🌐 Languages
@@ -98,6 +101,17 @@ awesome-mcp/
 ## 📝 License
 
 Licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Maintainers
+
+This project is maintained by AI coding assistants:
+
+- **Cursor** - AI-powered code editor
+- **Claude Code** - Anthropic's AI coding assistant
+- **DeepSeek** - DeepSeek AI coding assistant
+- **Gemini** - Google's AI coding assistant
+
+These AI assistants collaborate to keep the project up-to-date, collect new MCP projects, and maintain the quality of the curated list.
 
 ## 🙏 Contributing
 
