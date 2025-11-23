@@ -1,12 +1,13 @@
 # Awesome MCP Projects
 
-> 🚀 Last updated: **2025-11-23** | 📦 Total projects: **18**
+> 🚀 Last updated: **2025-11-23** | 📦 Total projects: **27**
 
 A curated list of awesome [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) projects collected from GitHub.
 
 ## 📋 Table of Contents
 
 - [MCP Clients](#clients)
+- [Documentation](#documentation)
 - [MCP Servers](#servers)
 - [Tools & Libraries](#tools)
 
@@ -23,6 +24,20 @@ A curated list of awesome [Model Context Protocol (MCP)](https://modelcontextpro
 基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择ChatGPT/Claude/DeepSeek/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。
 
 **Tags:** `chatgpt` `wechat` `openai` `python3` `feishu-bot` `linkai` `ai` `gpt-4`
+
+
+
+---
+
+## Documentation
+
+*Documentation, tutorials, and learning resources*
+
+### 1. [modelcontextprotocol](https://github.com/modelcontextprotocol/modelcontextprotocol)
+
+⭐ **6,340** | 🔤 **TypeScript** | 📅 **2025-11-22**
+
+Specification and documentation for the Model Context Protocol
 
 
 
@@ -92,7 +107,7 @@ RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine tha
 
 ### 7. [lobe-chat](https://github.com/lobehub/lobe-chat)
 
-⭐ **67,959** | 🔤 **TypeScript** | 📅 **2025-11-23**
+⭐ **67,960** | 🔤 **TypeScript** | 📅 **2025-11-23**
 
 🤯 LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.
 
@@ -130,7 +145,55 @@ The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-
 
 ---
 
-### 11. [python-sdk](https://github.com/modelcontextprotocol/python-sdk)
+### 11. [context7](https://github.com/upstash/context7)
+
+⭐ **37,725** | 🔤 **JavaScript** | 📅 **2025-11-23**
+
+Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors
+
+**Tags:** `llm` `mcp` `mcp-server` `vibe-coding`
+
+---
+
+### 12. [mindsdb](https://github.com/mindsdb/mindsdb)
+
+⭐ **37,357** | 🔤 **Python** | 📅 **2025-11-22**
+
+Federated query engine for AI - The only MCP Server you'll ever need
+
+**Tags:** `ai` `agi` `artificial-inteligence` `databases` `llms` `rag` `agents` `mcp`
+
+---
+
+### 13. [nacos](https://github.com/alibaba/nacos)
+
+⭐ **32,293** | 🔤 **Java** | 📅 **2025-11-22**
+
+an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.
+
+**Tags:** `nacos` `dubbo` `alibaba` `kubernetes` `istio` `spring-cloud` `microservices` `service-mesh`
+
+---
+
+### 14. [LibreChat](https://github.com/danny-avila/LibreChat)
+
+⭐ **31,872** | 🔤 **TypeScript** | 📅 **2025-11-23**
+
+Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
+
+**Tags:** `ai` `chatgpt` `clone` `chatgpt-clone` `librechat` `anthropic` `claude` `azure`
+
+---
+
+### 15. [PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
+
+⭐ **30,025** | 🔤 **Python** | 📅 **2025-11-23**
+
+**Tags:** `chinese` `latex` `pdf` `translation` `korean` `english` `japanese` `openai`
+
+---
+
+### 16. [python-sdk](https://github.com/modelcontextprotocol/python-sdk)
 
 ⭐ **20,212** | 🔤 **Python** | 📅 **2025-11-23**
 
@@ -138,7 +201,7 @@ The official Python SDK for Model Context Protocol servers and clients
 
 ---
 
-### 12. [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
+### 17. [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
 
 ⭐ **13,385** | 🔤 **Jupyter Notebook** | 📅 **2025-11-23**
 
@@ -148,7 +211,7 @@ This open-source curriculum introduces the fundamentals of Model Context Protoco
 
 ---
 
-### 13. [fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)
+### 18. [fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)
 
 ⭐ **11,106** | 🔤 **Python** | 📅 **2025-11-23**
 
@@ -158,7 +221,7 @@ Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!
 
 ---
 
-### 14. [typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk)
+### 19. [typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk)
 
 ⭐ **10,817** | 🔤 **TypeScript** | 📅 **2025-11-23**
 
@@ -166,11 +229,29 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 
 ---
 
-### 15. [mcp-chrome](https://github.com/hangwin/mcp-chrome)
+### 20. [mcp-chrome](https://github.com/hangwin/mcp-chrome)
 
 ⭐ **9,318** | 🔤 **TypeScript** | 📅 **2025-11-23**
 
 Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic search.
+
+---
+
+### 21. [mcp-agent](https://github.com/lastmile-ai/mcp-agent)
+
+⭐ **7,768** | 🔤 **Python** | 📅 **2025-11-22**
+
+Build effective agents using Model Context Protocol and simple workflow patterns
+
+**Tags:** `agents` `ai` `ai-agents` `llms` `mcp` `model-context-protocol` `python` `llm`
+
+---
+
+### 22. [mcp-go](https://github.com/mark3labs/mcp-go)
+
+⭐ **7,677** | 🔤 **Go** | 📅 **2025-11-23**
+
+A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.
 
 
 
@@ -182,7 +263,7 @@ Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) serve
 
 ### 1. [n8n](https://github.com/n8n-io/n8n)
 
-⭐ **158,045** | 🔤 **TypeScript** | 📅 **2025-11-23**
+⭐ **158,046** | 🔤 **TypeScript** | 📅 **2025-11-23**
 
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
@@ -197,6 +278,16 @@ Fair-code workflow automation platform with native AI capabilities. Combine visu
 🦍 The Cloud-Native Gateway for APIs & AI
 
 **Tags:** `api-gateway` `microservices` `api-management` `serverless` `apis` `reverse-proxy` `cloud-native` `microservice`
+
+---
+
+### 3. [FastGPT](https://github.com/labring/FastGPT)
+
+⭐ **26,332** | 🔤 **TypeScript** | 📅 **2025-11-23**
+
+FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
+
+**Tags:** `nextjs` `openai` `llm` `rag` `claude` `deepseek` `qwen` `workflow`
 
 
 
