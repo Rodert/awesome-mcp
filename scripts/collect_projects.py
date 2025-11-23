@@ -46,9 +46,10 @@ REQUEST_DELAY = 0.5
 
 # 调试模式：通过环境变量控制，调试时只采集少量项目
 DEBUG_MODE = os.environ.get('DEBUG_MODE', 'false').lower() == 'true'
-MAX_PROJECTS_PER_QUERY = 3 if DEBUG_MODE else 30  # 调试模式：每个查询最多3个，正常模式：30个
-MAX_SEARCH_QUERIES = 2 if DEBUG_MODE else len(SEARCH_QUERIES)  # 调试模式：只使用前2个查询
-MAX_TOPICS = 1 if DEBUG_MODE else len(TOPICS)  # 调试模式：只使用前1个话题
+# 放开采集限制：正常模式不限制采集数量
+MAX_PROJECTS_PER_QUERY = 3 if DEBUG_MODE else 100  # 调试模式：每个查询最多3个，正常模式：100个
+MAX_SEARCH_QUERIES = 2 if DEBUG_MODE else len(SEARCH_QUERIES)  # 调试模式：只使用前2个查询，正常模式：使用所有查询
+MAX_TOPICS = 1 if DEBUG_MODE else len(TOPICS)  # 调试模式：只使用前1个话题，正常模式：使用所有话题
 
 
 def categorize_project(repo) -> str:
