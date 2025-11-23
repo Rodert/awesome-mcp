@@ -40,10 +40,16 @@ jobs:
           cd scripts
           python collect_projects.py
       
-      - name: Generate markdown (English only, projects are not translated)
+      - name: Generate markdown and copy data file
         run: |
           cd scripts
           python generate_markdown.py
+          # 确保数据文件已复制到 docs/data/
+          if [ -f "../docs/data/projects.json" ]; then
+            echo "✓ Data file copied to docs/data/projects.json"
+          else
+            echo "⚠️  Data file not found in docs/data/"
+          fi
       
       - name: Setup Node.js
         uses: actions/setup-node@v4

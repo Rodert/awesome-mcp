@@ -8,6 +8,7 @@ on:
       - 'docs/**'
       - '.vitepress/**'
       - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch:
 
 permissions:
@@ -39,6 +40,16 @@ jobs:
       
       - name: Build VitePress site
         run: npm run build
+      
+      - name: Verify data file exists
+        run: |
+          if [ -f "docs/data/projects.json" ]; then
+            echo "✓ Data file exists"
+            ls -lh docs/data/projects.json
+          else
+            echo "⚠️  Data file not found, checking if it needs to be generated"
+            ls -la docs/data/ || echo "docs/data directory does not exist"
+          fi
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
