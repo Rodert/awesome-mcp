@@ -17,7 +17,7 @@ A curated list of awesome [Model Context Protocol (MCP)](https://modelcontextpro
 
 ### 1. [dify](https://github.com/langgenius/dify)
 
-⭐ **119,558** | 🔤 **TypeScript** | 📅 **2025-11-23**
+⭐ **119,560** | 🔤 **TypeScript** | 📅 **2025-11-23**
 
 Production-ready platform for agentic workflow development.
 
@@ -47,7 +47,7 @@ The fastest path to AI-powered full stack observability, even for lean teams.
 
 ### 4. [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
 
-⭐ **75,288** | 🔤 **N/A** | 📅 **2025-11-23**
+⭐ **75,295** | 🔤 **N/A** | 📅 **2025-11-23**
 
 A collection of MCP servers.
 
@@ -57,7 +57,7 @@ A collection of MCP servers.
 
 ### 5. [servers](https://github.com/modelcontextprotocol/servers)
 
-⭐ **73,136** | 🔤 **TypeScript** | 📅 **2025-11-23**
+⭐ **73,140** | 🔤 **TypeScript** | 📅 **2025-11-23**
 
 Model Context Protocol Servers
 
@@ -65,7 +65,7 @@ Model Context Protocol Servers
 
 ### 6. [ragflow](https://github.com/infiniflow/ragflow)
 
-⭐ **68,164** | 🔤 **Python** | 📅 **2025-11-23**
+⭐ **68,166** | 🔤 **Python** | 📅 **2025-11-23**
 
 RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
 
@@ -75,7 +75,7 @@ RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine tha
 
 ### 7. [python-sdk](https://github.com/modelcontextprotocol/python-sdk)
 
-⭐ **20,210** | 🔤 **Python** | 📅 **2025-11-23**
+⭐ **20,211** | 🔤 **Python** | 📅 **2025-11-23**
 
 The official Python SDK for Model Context Protocol servers and clients
 
@@ -99,7 +99,7 @@ This open-source curriculum introduces the fundamentals of Model Context Protoco
 
 ### 1. [n8n](https://github.com/n8n-io/n8n)
 
-⭐ **158,035** | 🔤 **TypeScript** | 📅 **2025-11-23**
+⭐ **158,042** | 🔤 **TypeScript** | 📅 **2025-11-23**
 
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
