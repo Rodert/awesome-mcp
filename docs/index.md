@@ -1,33 +1,36 @@
 ---
-layout: home
+layout: doc
+outline: false
+---
 
-hero:
-  name: Awesome MCP
-  text: Model Context Protocol Projects
-  tagline: A curated list of awesome MCP projects from GitHub
-  # image:
-  #   src: /awesome-mcp/logo.svg
-  #   alt: Awesome MCP
-  actions:
-    - theme: brand
-      text: Browse Projects (EN)
-      link: /awesome-mcp/en/projects
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/Rodert/awesome-mcp
+# Awesome MCP
 
-features:
-  - icon: 🤖
-    title: Auto Updated
-    details: Automatically collected and updated daily via GitHub Actions
-  - icon: 🌐
-    title: Multi-Language
-    details: Available in 6 languages (EN, ZH, RU, JA, FR, ES)
-  - icon: 🔍
-    title: Searchable
-    details: Full-text search support for easy discovery
-  - icon: 📦
-    title: Well Organized
-    details: Projects categorized by use case (servers, clients, tools, etc.)
+A curated list of awesome [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) projects from GitHub.
+
+## 🌐 Languages
+
+- [English](/awesome-mcp/en/projects) - Interactive search panel
+- [中文](/awesome-mcp/zh/projects) - 交互式搜索面板
+- [Русский](/awesome-mcp/ru/projects) - Интерактивная панель поиска
+- [日本語](/awesome-mcp/ja/projects) - インタラクティブ検索パネル
+- [Français](/awesome-mcp/fr/projects) - Panneau de recherche interactif
+- [Español](/awesome-mcp/es/projects) - Panel de búsqueda interactivo
+
+## ✨ Features
+
+- 🔍 **Interactive Search** - Real-time search with beautiful animations
+- 🏷️ **Smart Filtering** - Filter by category, language, and tags
+- 📊 **Sort Options** - Sort by stars, updated date, or name
+- 🎨 **Modern Design** - Beautiful cards with smooth animations
+- 📱 **Responsive** - Works perfectly on mobile and desktop
+- 🤖 **Auto Updated** - Automatically updated daily via GitHub Actions
+
+## 📚 Quick Start
+
+Click on any language above to explore the interactive search panel, or visit the [GitHub repository](https://github.com/Rodert/awesome-mcp) to learn more.
+
+---
+
+<ProjectSearch lang="en" />
 
 ---
