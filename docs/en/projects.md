@@ -1,8 +1,8 @@
 # Awesome MCP Projects
 
-> 🚀 Last updated: **2025-11-23** | 📦 Total projects: **27**
-
 A curated list of awesome [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) projects collected from GitHub.
+
+<ProjectSearch lang="en" />
 
 ## 📋 Table of Contents
 
