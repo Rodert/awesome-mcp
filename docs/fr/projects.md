@@ -1,6 +1,6 @@
 # Awesome MCP Projects
 
-> 🚀 Last updated: **2025-11-28** | 📦 Total projects: **617**
+> 🚀 Last updated: **2025-11-29** | 📦 Total projects: **711**
 
 A curated list of awesome [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) projects collected from GitHub.
 
@@ -20,7 +20,7 @@ A curated list of awesome [Model Context Protocol (MCP)](https://modelcontextpro
 
 ### 1. [chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat)
 
-⭐ **39,845** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **39,854** | 🔤 **Python** | 📅 **2025-11-29**
 
 基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择ChatGPT/Claude/DeepSeek/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。
 
@@ -30,7 +30,7 @@ A curated list of awesome [Model Context Protocol (MCP)](https://modelcontextpro
 
 ### 2. [agentscope](https://github.com/agentscope-ai/agentscope)
 
-⭐ **14,103** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **14,115** | 🔤 **Python** | 📅 **2025-11-28**
 
 AgentScope: Agent-Oriented Programming for Building LLM Applications
 
@@ -40,7 +40,7 @@ AgentScope: Agent-Oriented Programming for Building LLM Applications
 
 ### 3. [bytebot](https://github.com/bytebot-ai/bytebot)
 
-⭐ **9,786** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **9,798** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.
 
@@ -50,7 +50,7 @@ Bytebot is a self-hosted AI desktop agent that automates computer tasks through 
 
 ### 4. [valuecell](https://github.com/ValueCell-ai/valuecell)
 
-⭐ **6,835** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **6,884** | 🔤 **Python** | 📅 **2025-11-29**
 
 ValueCell is a community-driven, multi-agent platform for financial applications.
 
@@ -60,7 +60,7 @@ ValueCell is a community-driven, multi-agent platform for financial applications
 
 ### 5. [ruoyi-ai](https://github.com/ageerle/ruoyi-ai)
 
-⭐ **4,429** | 🔤 **Java** | 📅 **2025-11-27**
+⭐ **4,439** | 🔤 **Java** | 📅 **2025-11-28**
 
 RuoYi AI 是一个全栈式 AI 开发平台，旨在帮助开发者快速构建和部署个性化的 AI 应用。
 
@@ -70,7 +70,7 @@ RuoYi AI 是一个全栈式 AI 开发平台，旨在帮助开发者快速构建�
 
 ### 6. [shippie](https://github.com/mattzcarey/shippie)
 
-⭐ **2,295** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,296** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 extendable code review and QA agent 🚢
 
@@ -80,13 +80,13 @@ extendable code review and QA agent 🚢
 
 ### 7. [open-mcp-client](https://github.com/CopilotKit/open-mcp-client)
 
-⭐ **1,624** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,625** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 ---
 
 ### 8. [supermemory-mcp](https://github.com/supermemoryai/supermemory-mcp)
 
-⭐ **1,551** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **1,552** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Your memories are in ChatGPT... But nowhere else. Universal Memory MCP makes your memories available to every single LLM. No logins or paywall. One command to set it up.
 
@@ -106,7 +106,7 @@ ChatGPT CLI is a versatile tool for interacting with LLMs through OpenAI, Azure,
 
 ### 10. [openinference](https://github.com/Arize-ai/openinference)
 
-⭐ **740** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **741** | 🔤 **Python** | 📅 **2025-11-28**
 
 OpenTelemetry Instrumentation for AI Observability
 
@@ -116,7 +116,7 @@ OpenTelemetry Instrumentation for AI Observability
 
 ### 11. [VectorCode](https://github.com/Davidyz/VectorCode)
 
-⭐ **725** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **728** | 🔤 **Python** | 📅 **2025-11-28**
 
 A code repository indexing tool to supercharge your LLM experience.
 
@@ -154,7 +154,7 @@ The easiest way to discover and install MCPs
 
 ### 15. [voicemode](https://github.com/mbailey/voicemode)
 
-⭐ **468** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **469** | 🔤 **Python** | 📅 **2025-11-28**
 
 VoiceMode MCP brings natural conversations to Claude Code
 
@@ -164,7 +164,7 @@ VoiceMode MCP brings natural conversations to Claude Code
 
 ### 16. [flow-like](https://github.com/TM9657/flow-like)
 
-⭐ **448** | 🔤 **Rust** | 📅 **2025-11-27**
+⭐ **449** | 🔤 **Rust** | 📅 **2025-11-28**
 
 Flow-Like: Strongly Typed Enterprise Scale Workflows. Built for scalability, speed, seamless AI integration and rich customization.
 
@@ -179,6 +179,16 @@ Flow-Like: Strongly Typed Enterprise Scale Workflows. Built for scalability, spe
 The A2A x402 Extension brings cryptocurrency payments to the Agent-to-Agent (A2A) protocol, enabling agents to monetize their services through on-chain payments. This extension revives the spirit of HTTP 402 "Payment Required" for the decentralized agent ecosystem.
 
 **Tags:** `a2a` `a2a-protocol` `agentic-ai` `agents` `gen-ai` `generative-ai` `mcp`
+
+---
+
+### 18. [RetroMCP-Java](https://github.com/MCPHackers/RetroMCP-Java)
+
+⭐ **312** | 🔤 **Java** | 📅 **2025-11-26**
+
+A rewrite of MCP to provide support for many versions of Minecraft which were never supported by original MCP
+
+**Tags:** `minecraft` `java` `retro` `retrogaming`
 
 
 
@@ -208,7 +218,7 @@ Jar Analyzer - 一个 JAR 包 GUI 分析工具，方法调用关系搜索，方�
 
 ### 3. [ai-guide](https://github.com/liyupi/ai-guide)
 
-⭐ **843** | 🔤 **JavaScript** | 📅 **2025-11-26**
+⭐ **845** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 程序员鱼皮的 AI 资源导航，汇总热门的 AI 大模型和工具，比如 Deepseek 使用指南、提示词技巧、知识干货、应用场景、AI 变现、行业资讯、教程资源等一系列内容，帮助你快速掌握 AI 技术，走在时代前沿。涉及大模型 ChatGPT、Claude、Gemini、Deepseek、QWEN、GROK 等；涉及技术 Spring AI、LangChain、RAG、MCP、A2A 等；涉及 Cursor、TRAE 等工具。本项目为开源文档版本，已升级为鱼皮AI导航网站
 
@@ -224,7 +234,7 @@ Jar Analyzer - 一个 JAR 包 GUI 分析工具，方法调用关系搜索，方�
 
 ### 1. [YC-Killer](https://github.com/sahibzada-allahyar/YC-Killer)
 
-⭐ **2,598** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,599** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups. If you are excited about democratizing AI access & AI agents, please star ⭐️ this repository and use the link in the readme to join our open source AI research team.
 
@@ -240,7 +250,7 @@ A library of enterprise-grade AI agents designed to democratize artificial intel
 
 ### 1. [dify](https://github.com/langgenius/dify)
 
-⭐ **119,992** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **120,065** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Production-ready platform for agentic workflow development.
 
@@ -250,7 +260,7 @@ Production-ready platform for agentic workflow development.
 
 ### 2. [open-webui](https://github.com/open-webui/open-webui)
 
-⭐ **116,428** | 🔤 **Svelte** | 📅 **2025-11-28**
+⭐ **116,503** | 🔤 **Svelte** | 📅 **2025-11-29**
 
 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 
@@ -260,7 +270,7 @@ User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 
 ### 3. [netdata](https://github.com/netdata/netdata)
 
-⭐ **76,832** | 🔤 **C** | 📅 **2025-11-28**
+⭐ **76,838** | 🔤 **C** | 📅 **2025-11-29**
 
 The fastest path to AI-powered full stack observability, even for lean teams.
 
@@ -270,7 +280,7 @@ The fastest path to AI-powered full stack observability, even for lean teams.
 
 ### 4. [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
 
-⭐ **75,751** | 🔤 **N/A** | 📅 **2025-11-28**
+⭐ **75,819** | 🔤 **N/A** | 📅 **2025-11-29**
 
 A collection of MCP servers.
 
@@ -288,7 +298,7 @@ Model Context Protocol Servers
 
 ### 6. [ragflow](https://github.com/infiniflow/ragflow)
 
-⭐ **68,458** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **68,494** | 🔤 **Python** | 📅 **2025-11-29**
 
 RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
 
@@ -298,7 +308,7 @@ RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine tha
 
 ### 7. [lobe-chat](https://github.com/lobehub/lobe-chat)
 
-⭐ **68,166** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **68,221** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 🤯 LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.
 
@@ -308,7 +318,7 @@ RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine tha
 
 ### 8. [anything-llm](https://github.com/Mintplex-Labs/anything-llm)
 
-⭐ **51,587** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **51,619** | 🔤 **JavaScript** | 📅 **2025-11-29**
 
 The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.
 
@@ -318,7 +328,7 @@ The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-
 
 ### 9. [JeecgBoot](https://github.com/jeecgboot/JeecgBoot)
 
-⭐ **44,490** | 🔤 **Java** | 📅 **2025-11-28**
+⭐ **44,500** | 🔤 **Java** | 📅 **2025-11-28**
 
 🔥AI低代码平台，助力企业快速实现低代码开发和构建AI应用！ 成熟的AI应用平台：涵盖AI应用、AI模型、AI聊天助手、知识库、AI流程编排、MCP和插件，聊天式业务操作等，兼容多种大模型；提供强大代码生成器：实现前后端一键生成，无需手写代码! 引领AI开发模式：AI生成→在线配置→代码生成→手工合并，解决Java项目80%重复工作，提升效率节省成本，又不失灵活~
 
@@ -328,9 +338,9 @@ The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-
 
 ### 10. [LocalAI](https://github.com/mudler/LocalAI)
 
-⭐ **39,326** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **39,382** | 🔤 **Go** | 📅 **2025-11-29**
 
-:robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference
+:robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, MCP, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference
 
 **Tags:** `llama` `rwkv` `ai` `llm` `stable-diffusion` `api` `tts` `musicgen`
 
@@ -338,7 +348,7 @@ The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-
 
 ### 11. [context7](https://github.com/upstash/context7)
 
-⭐ **38,076** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **38,151** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors
 
@@ -348,7 +358,7 @@ Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editor
 
 ### 12. [mindsdb](https://github.com/mindsdb/mindsdb)
 
-⭐ **37,406** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **37,417** | 🔤 **Python** | 📅 **2025-11-29**
 
 Federated query engine for AI - The only MCP Server you'll ever need
 
@@ -358,7 +368,7 @@ Federated query engine for AI - The only MCP Server you'll ever need
 
 ### 13. [nacos](https://github.com/alibaba/nacos)
 
-⭐ **32,302** | 🔤 **Java** | 📅 **2025-11-28**
+⭐ **32,307** | 🔤 **Java** | 📅 **2025-11-28**
 
 an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.
 
@@ -368,7 +378,7 @@ an easy-to-use dynamic service discovery, configuration and service management p
 
 ### 14. [1Panel](https://github.com/1Panel-dev/1Panel)
 
-⭐ **32,170** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **32,177** | 🔤 **Go** | 📅 **2025-11-29**
 
 🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.
 
@@ -376,19 +386,9 @@ an easy-to-use dynamic service discovery, configuration and service management p
 
 ---
 
-### 15. [LibreChat](https://github.com/danny-avila/LibreChat)
+### 15. [TrendRadar](https://github.com/sansan0/TrendRadar)
 
-⭐ **31,991** | 🔤 **TypeScript** | 📅 **2025-11-28**
-
-Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
-
-**Tags:** `ai` `chatgpt` `clone` `chatgpt-clone` `librechat` `anthropic` `claude` `azure`
-
----
-
-### 16. [TrendRadar](https://github.com/sansan0/TrendRadar)
-
-⭐ **31,075** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **32,048** | 🔤 **Python** | 📅 **2025-11-29**
 
 🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/个人微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 推送，30秒网页部署，1分钟手机通知，无需编程。支持Docker部署⭐ 让算法为你服务，用AI理解热点
 
@@ -396,9 +396,19 @@ Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, 
 
 ---
 
+### 16. [LibreChat](https://github.com/danny-avila/LibreChat)
+
+⭐ **32,021** | 🔤 **TypeScript** | 📅 **2025-11-29**
+
+Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
+
+**Tags:** `ai` `chatgpt` `clone` `chatgpt-clone` `librechat` `anthropic` `claude` `azure`
+
+---
+
 ### 17. [PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
 
-⭐ **30,143** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **30,171** | 🔤 **Python** | 📅 **2025-11-28**
 
 **Tags:** `chinese` `latex` `pdf` `translation` `korean` `english` `japanese` `openai`
 
@@ -406,7 +416,7 @@ Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, 
 
 ### 18. [composio](https://github.com/ComposioHQ/composio)
 
-⭐ **26,186** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **26,189** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Composio equips your AI agents & LLMs with 100+ high-quality integrations via function calling
 
@@ -416,7 +426,7 @@ Composio equips your AI agents & LLMs with 100+ high-quality integrations via fu
 
 ### 19. [github-mcp-server](https://github.com/github/github-mcp-server)
 
-⭐ **24,768** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **24,791** | 🔤 **Go** | 📅 **2025-11-29**
 
 GitHub's official MCP Server
 
@@ -426,7 +436,7 @@ GitHub's official MCP Server
 
 ### 20. [gpt-researcher](https://github.com/assafelovic/gpt-researcher)
 
-⭐ **24,300** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **24,311** | 🔤 **Python** | 📅 **2025-11-28**
 
 An LLM agent that conducts deep research (local and web) on any given topic and generates a long report with citations.
 
@@ -436,7 +446,7 @@ An LLM agent that conducts deep research (local and web) on any given topic and 
 
 ### 21. [playwright-mcp](https://github.com/microsoft/playwright-mcp)
 
-⭐ **23,695** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **23,734** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Playwright MCP server
 
@@ -446,7 +456,7 @@ Playwright MCP server
 
 ### 22. [goose](https://github.com/block/goose)
 
-⭐ **22,441** | 🔤 **Rust** | 📅 **2025-11-28**
+⭐ **22,482** | 🔤 **Rust** | 📅 **2025-11-29**
 
 an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
 
@@ -456,7 +466,7 @@ an open source, extensible AI agent that goes beyond code suggestions - install,
 
 ### 23. [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32)
 
-⭐ **21,880** | 🔤 **C++** | 📅 **2025-11-28**
+⭐ **21,905** | 🔤 **C++** | 📅 **2025-11-29**
 
 An MCP-based chatbot | 一个基于MCP的聊天机器人
 
@@ -466,7 +476,7 @@ An MCP-based chatbot | 一个基于MCP的聊天机器人
 
 ### 24. [ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)
 
-⭐ **21,135** | 🔤 **Jupyter Notebook** | 📅 **2025-11-27**
+⭐ **21,146** | 🔤 **Jupyter Notebook** | 📅 **2025-11-29**
 
 In-depth tutorials on LLMs, RAGs and real-world AI agent applications.
 
@@ -476,7 +486,7 @@ In-depth tutorials on LLMs, RAGs and real-world AI agent applications.
 
 ### 25. [fastmcp](https://github.com/jlowin/fastmcp)
 
-⭐ **20,673** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **20,696** | 🔤 **Python** | 📅 **2025-11-28**
 
 🚀 The fast, Pythonic way to build MCP servers and clients
 
@@ -486,7 +496,7 @@ In-depth tutorials on LLMs, RAGs and real-world AI agent applications.
 
 ### 26. [repomix](https://github.com/yamadashy/repomix)
 
-⭐ **20,382** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **20,401** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.
 
@@ -504,7 +514,7 @@ The official Python SDK for Model Context Protocol servers and clients
 
 ### 28. [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)
 
-⭐ **19,607** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **19,620** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
 
@@ -514,7 +524,7 @@ The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and
 
 ### 29. [activepieces](https://github.com/activepieces/activepieces)
 
-⭐ **19,309** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **19,318** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
 
@@ -524,7 +534,7 @@ AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) �
 
 ### 30. [mastra](https://github.com/mastra-ai/mastra)
 
-⭐ **18,515** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **18,528** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 The TypeScript AI agent framework. ⚡ Assistants, RAG, observability. Supports any LLM: GPT-4, Claude, Gemini, Llama.
 
@@ -534,7 +544,7 @@ The TypeScript AI agent framework. ⚡ Assistants, RAG, observability. Supports 
 
 ### 31. [agentic](https://github.com/transitive-bullshit/agentic)
 
-⭐ **18,042** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **18,041** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Your API ⇒ Paid MCP. Instantly.
 
@@ -544,7 +554,7 @@ Your API ⇒ Paid MCP. Instantly.
 
 ### 32. [serena](https://github.com/oraios/serena)
 
-⭐ **16,488** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **16,539** | 🔤 **Python** | 📅 **2025-11-29**
 
 A powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & other integrations)
 
@@ -554,7 +564,7 @@ A powerful coding agent toolkit providing semantic retrieval and editing capabil
 
 ### 33. [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
 
-⭐ **15,488** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **15,551** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Chrome DevTools for coding agents
 
@@ -564,13 +574,13 @@ Chrome DevTools for coding agents
 
 ### 34. [blender-mcp](https://github.com/ahujasid/blender-mcp)
 
-⭐ **14,299** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **14,310** | 🔤 **Python** | 📅 **2025-11-28**
 
 ---
 
 ### 35. [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
 
-⭐ **13,455** | 🔤 **Jupyter Notebook** | 📅 **2025-11-27**
+⭐ **13,469** | 🔤 **Jupyter Notebook** | 📅 **2025-11-28**
 
 This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.
 
@@ -580,7 +590,7 @@ This open-source curriculum introduces the fundamentals of Model Context Protoco
 
 ### 36. [filestash](https://github.com/mickael-kerjean/filestash)
 
-⭐ **13,106** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **13,113** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 :file_folder: The Dropbox like web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...
 
@@ -590,7 +600,7 @@ This open-source curriculum introduces the fundamentals of Model Context Protoco
 
 ### 37. [trigger.dev](https://github.com/triggerdotdev/trigger.dev)
 
-⭐ **12,853** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **12,861** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Trigger.dev – build and deploy fully‑managed AI agents and workflows
 
@@ -600,7 +610,7 @@ Trigger.dev – build and deploy fully‑managed AI agents and workflows
 
 ### 38. [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)
 
-⭐ **12,492** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **12,505** | 🔤 **Python** | 📅 **2025-11-29**
 
 Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.
 
@@ -608,7 +618,7 @@ Agent framework and applications built upon Qwen>=3.0, featuring Function Callin
 
 ### 39. [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 
-⭐ **11,962** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **11,970** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 MCP server to provide Figma layout information to AI coding agents like Cursor
 
@@ -618,7 +628,7 @@ MCP server to provide Figma layout information to AI coding agents like Cursor
 
 ### 40. [genai-toolbox](https://github.com/googleapis/genai-toolbox)
 
-⭐ **11,575** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **11,583** | 🔤 **Go** | 📅 **2025-11-28**
 
 MCP Toolbox for Databases is an open source MCP server for databases.
 
@@ -628,7 +638,7 @@ MCP Toolbox for Databases is an open source MCP server for databases.
 
 ### 41. [fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)
 
-⭐ **11,139** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **11,149** | 🔤 **Python** | 📅 **2025-11-28**
 
 Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!
 
@@ -646,7 +656,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 
 ### 43. [n8n-mcp](https://github.com/czlonkowski/n8n-mcp)
 
-⭐ **10,298** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **10,335** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you
 
@@ -656,7 +666,7 @@ A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflow
 
 ### 44. [claude-flow](https://github.com/ruvnet/claude-flow)
 
-⭐ **10,144** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **10,179** | 🔤 **JavaScript** | 📅 **2025-11-29**
 
 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code support via MCP protocol. Ranked #1 in agent-based frameworks.
 
@@ -666,7 +676,7 @@ A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflow
 
 ### 45. [nginx-ui](https://github.com/0xJacky/nginx-ui)
 
-⭐ **10,019** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **10,034** | 🔤 **Go** | 📅 **2025-11-28**
 
 Yet another WebUI for Nginx
 
@@ -676,7 +686,7 @@ Yet another WebUI for Nginx
 
 ### 46. [gateway](https://github.com/Portkey-AI/gateway)
 
-⭐ **9,991** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **9,998** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails with 1 fast & friendly API.
 
@@ -686,7 +696,7 @@ A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI
 
 ### 47. [zen-mcp-server](https://github.com/BeehiveInnovations/zen-mcp-server)
 
-⭐ **9,798** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **9,820** | 🔤 **Python** | 📅 **2025-11-29**
 
 The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.
 
@@ -694,7 +704,7 @@ The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter 
 
 ### 48. [mcp-chrome](https://github.com/hangwin/mcp-chrome)
 
-⭐ **9,367** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **9,384** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic search.
 
@@ -702,7 +712,7 @@ Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) serve
 
 ### 49. [mcp-use](https://github.com/mcp-use/mcp-use)
 
-⭐ **8,413** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **8,417** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 mcp-use is the easiest way to interact with mcp servers with custom agents
 
@@ -712,7 +722,7 @@ mcp-use is the easiest way to interact with mcp servers with custom agents
 
 ### 50. [Scrapling](https://github.com/D4Vinci/Scrapling)
 
-⭐ **8,250** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **8,256** | 🔤 **Python** | 📅 **2025-11-28**
 
 🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be!
 
@@ -722,7 +732,7 @@ mcp-use is the easiest way to interact with mcp servers with custom agents
 
 ### 51. [mcp-agent](https://github.com/lastmile-ai/mcp-agent)
 
-⭐ **7,796** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **7,803** | 🔤 **Python** | 📅 **2025-11-28**
 
 Build effective agents using Model Context Protocol and simple workflow patterns
 
@@ -732,7 +742,7 @@ Build effective agents using Model Context Protocol and simple workflow patterns
 
 ### 52. [awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)
 
-⭐ **7,729** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **7,735** | 🔤 **Python** | 📅 **2025-11-28**
 
 A collection of projects showcasing RAG, agents, workflows, and other AI use cases
 
@@ -742,7 +752,7 @@ A collection of projects showcasing RAG, agents, workflows, and other AI use cas
 
 ### 53. [inspector](https://github.com/modelcontextprotocol/inspector)
 
-⭐ **7,717** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **7,728** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Visual testing tool for MCP servers
 
@@ -750,7 +760,7 @@ Visual testing tool for MCP servers
 
 ### 54. [mcp-go](https://github.com/mark3labs/mcp-go)
 
-⭐ **7,710** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **7,718** | 🔤 **Go** | 📅 **2025-11-28**
 
 A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.
 
@@ -758,7 +768,7 @@ A Go implementation of the Model Context Protocol (MCP), enabling seamless integ
 
 ### 55. [mcp](https://github.com/awslabs/mcp)
 
-⭐ **7,481** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **7,490** | 🔤 **Python** | 📅 **2025-11-28**
 
 AWS MCP Servers — helping you get the most out of AWS, wherever you use MCP.
 
@@ -768,7 +778,7 @@ AWS MCP Servers — helping you get the most out of AWS, wherever you use MCP.
 
 ### 56. [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp)
 
-⭐ **7,155** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **7,181** | 🔤 **Go** | 📅 **2025-11-28**
 
 MCP for xiaohongshu.com
 
@@ -778,7 +788,7 @@ MCP for xiaohongshu.com
 
 ### 57. [git-mcp](https://github.com/idosal/git-mcp)
 
-⭐ **7,054** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **7,063** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project
 
@@ -788,7 +798,7 @@ Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP ser
 
 ### 58. [browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp)
 
-⭐ **6,862** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **6,865** | 🔤 **JavaScript** | 📅 **2025-11-29**
 
 Monitor browser logs directly from Cursor and other MCP compatible IDEs.
 
@@ -798,7 +808,7 @@ Monitor browser logs directly from Cursor and other MCP compatible IDEs.
 
 ### 59. [awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources)
 
-⭐ **6,822** | 🔤 **N/A** | 📅 **2025-11-27**
+⭐ **6,832** | 🔤 **N/A** | 📅 **2025-11-29**
 
 🧑‍🚀 全世界最好的LLM资料总结（语音视频生成、Agent、辅助编程、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources.
 
@@ -808,7 +818,7 @@ Monitor browser logs directly from Cursor and other MCP compatible IDEs.
 
 ### 60. [GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
 
-⭐ **6,586** | 🔤 **Java** | 📅 **2025-11-27**
+⭐ **6,588** | 🔤 **Java** | 📅 **2025-11-28**
 
 MCP Server for Ghidra
 
@@ -816,7 +826,7 @@ MCP Server for Ghidra
 
 ### 61. [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
-⭐ **6,037** | 🔤 **N/A** | 📅 **2025-11-27**
+⭐ **6,042** | 🔤 **N/A** | 📅 **2025-11-29**
 
 A collection of MCP clients.
 
@@ -826,7 +836,7 @@ A collection of MCP clients.
 
 ### 62. [registry](https://github.com/modelcontextprotocol/registry)
 
-⭐ **5,948** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **5,951** | 🔤 **Go** | 📅 **2025-11-29**
 
 A community driven registry service for Model Context Protocol (MCP) servers.
 
@@ -836,7 +846,7 @@ A community driven registry service for Model Context Protocol (MCP) servers.
 
 ### 63. [cursor-talk-to-figma-mcp](https://github.com/grab/cursor-talk-to-figma-mcp)
 
-⭐ **5,726** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **5,731** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 TalkToFigma: MCP integration between Cursor and Figma, allowing Cursor Agentic AI to communicate with Figma for reading designs and modifying them programmatically.
 
@@ -846,7 +856,7 @@ TalkToFigma: MCP integration between Cursor and Figma, allowing Cursor Agentic A
 
 ### 64. [klavis](https://github.com/Klavis-AI/klavis)
 
-⭐ **5,481** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **5,485** | 🔤 **Python** | 📅 **2025-11-29**
 
 Klavis AI (YC X25):  MCP integration platforms that let AI agents use tools reliably at any scale
 
@@ -856,7 +866,7 @@ Klavis AI (YC X25):  MCP integration platforms that let AI agents use tools reli
 
 ### 65. [cc-switch](https://github.com/farion1231/cc-switch)
 
-⭐ **5,262** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **5,315** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI.
 
@@ -866,7 +876,7 @@ A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemi
 
 ### 66. [Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH)
 
-⭐ **5,111** | 🔤 **N/A** | 📅 **2025-11-28**
+⭐ **5,128** | 🔤 **N/A** | 📅 **2025-11-29**
 
 MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients
 
@@ -876,7 +886,7 @@ MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients
 
 ### 67. [whatsapp-mcp](https://github.com/lharries/whatsapp-mcp)
 
-⭐ **5,092** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **5,095** | 🔤 **Go** | 📅 **2025-11-28**
 
 WhatsApp MCP server
 
@@ -886,7 +896,7 @@ WhatsApp MCP server
 
 ### 68. [mcp](https://github.com/BrowserMCP/mcp)
 
-⭐ **5,026** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **5,035** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser
 
@@ -896,7 +906,7 @@ Browser MCP is a Model Context Provider (MCP) server that allows AI applications
 
 ### 69. [mcp-playwright](https://github.com/executeautomation/mcp-playwright)
 
-⭐ **5,014** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **5,017** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in Claude Desktop, Cline, Cursor IDE and More 🔌
 
@@ -904,7 +914,7 @@ Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in
 
 ### 70. [gaianet-node](https://github.com/GaiaNet-AI/gaianet-node)
 
-⭐ **5,009** | 🔤 **Shell** | 📅 **2025-11-27**
+⭐ **5,009** | 🔤 **Shell** | 📅 **2025-11-28**
 
 Install, run and deploy your own decentralized AI agent service
 
@@ -914,7 +924,7 @@ Install, run and deploy your own decentralized AI agent service
 
 ### 71. [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
 
-⭐ **4,995** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **5,001** | 🔤 **JavaScript** | 📅 **2025-11-29**
 
 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.
 
@@ -924,7 +934,7 @@ Install, run and deploy your own decentralized AI agent service
 
 ### 72. [DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 
-⭐ **4,969** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **4,972** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities
 
@@ -934,7 +944,7 @@ This is MCP server for Claude that gives it terminal control, file system search
 
 ### 73. [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
 
-⭐ **4,934** | 🔤 **N/A** | 📅 **2025-11-27**
+⭐ **4,938** | 🔤 **N/A** | 📅 **2025-11-28**
 
 Awesome MCP Servers - A curated list of Model Context Protocol servers
 
@@ -944,7 +954,7 @@ Awesome MCP Servers - A curated list of Model Context Protocol servers
 
 ### 74. [5ire](https://github.com/nanbingxyz/5ire)
 
-⭐ **4,803** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **4,805** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers,  supports local knowledge base and  tools via model context protocol servers .
 
@@ -954,7 +964,7 @@ Awesome MCP Servers - A curated list of Model Context Protocol servers
 
 ### 75. [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 
-⭐ **4,728** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **4,748** | 🔤 **Python** | 📅 **2025-11-29**
 
 HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.
 
@@ -974,7 +984,7 @@ ACI.dev is the open source tool-calling platform that hooks up 600+ tools into a
 
 ### 77. [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
 
-⭐ **4,576** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **4,603** | 🔤 **Python** | 📅 **2025-11-29**
 
 Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection
 
@@ -984,7 +994,7 @@ Convert documentation websites, GitHub repositories, and PDFs into Claude AI ski
 
 ### 78. [claude-context](https://github.com/zilliztech/claude-context)
 
-⭐ **4,575** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **4,585** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
 
@@ -994,7 +1004,7 @@ Code search MCP for Claude Code. Make entire codebase the context for any coding
 
 ### 79. [Kiln](https://github.com/Kiln-AI/Kiln)
 
-⭐ **4,431** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **4,431** | 🔤 **Python** | 📅 **2025-11-28**
 
 Easily build AI systems with Evals, RAG, Agents, fine-tuning, synthetic data, and more.
 
@@ -1004,7 +1014,7 @@ Easily build AI systems with Evals, RAG, Agents, fine-tuning, synthetic data, an
 
 ### 80. [ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
 
-⭐ **4,385** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **4,397** | 🔤 **Python** | 📅 **2025-11-28**
 
 AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.
 
@@ -1014,7 +1024,7 @@ AI-powered reverse engineering assistant that bridges IDA Pro with language mode
 
 ### 81. [casibase](https://github.com/casibase/casibase)
 
-⭐ **4,299** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **4,299** | 🔤 **Go** | 📅 **2025-11-28**
 
 ⚡️AI Cloud OS: Open-source enterprise-level AI knowledge base and MCP (model-context-protocol)/A2A (agent-to-agent) management platform with admin UI, user management and Single-Sign-On⚡️, supports ChatGPT, Claude, Llama, Ollama, HuggingFace, etc., chat bot demo: https://ai.casibase.com, admin UI demo: https://ai-admin.casibase.com
 
@@ -1024,7 +1034,7 @@ AI-powered reverse engineering assistant that bridges IDA Pro with language mode
 
 ### 82. [deep-research](https://github.com/u14app/deep-research)
 
-⭐ **4,240** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **4,239** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 Use any LLMs (Large Language Models) for Deep Research. Support SSE API and MCP server.
 
@@ -1034,7 +1044,7 @@ Use any LLMs (Large Language Models) for Deep Research. Support SSE API and MCP 
 
 ### 83. [sdk-python](https://github.com/strands-agents/sdk-python)
 
-⭐ **4,106** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **4,118** | 🔤 **Python** | 📅 **2025-11-29**
 
 A model-driven approach to building AI agents in just a few lines of code.
 
@@ -1044,7 +1054,7 @@ A model-driven approach to building AI agents in just a few lines of code.
 
 ### 84. [microsandbox](https://github.com/zerocore-ai/microsandbox)
 
-⭐ **4,079** | 🔤 **Rust** | 📅 **2025-11-28**
+⭐ **4,082** | 🔤 **Rust** | 📅 **2025-11-28**
 
 self-hosted plaform for secure execution of untrusted user or AI-generated code
 
@@ -1054,7 +1064,7 @@ self-hosted plaform for secure execution of untrusted user or AI-generated code
 
 ### 85. [voltagent](https://github.com/VoltAgent/voltagent)
 
-⭐ **4,056** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **4,066** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Open Source TypeScript AI Agent Framework with built-in LLM Observability
 
@@ -1064,7 +1074,7 @@ Open Source TypeScript AI Agent Framework with built-in LLM Observability
 
 ### 86. [unity-mcp](https://github.com/CoplayDev/unity-mcp)
 
-⭐ **4,027** | 🔤 **C#** | 📅 **2025-11-28**
+⭐ **4,042** | 🔤 **C#** | 📅 **2025-11-29**
 
 An MCP server that allows MCP clients like Claude Desktop or Cursor to perform actions in the Unity Editor
 
@@ -1072,17 +1082,9 @@ An MCP server that allows MCP clients like Claude Desktop or Cursor to perform a
 
 ---
 
-### 87. [magic-mcp](https://github.com/21st-dev/magic-mcp)
+### 87. [astron-rpa](https://github.com/iflytek/astron-rpa)
 
-⭐ **3,963** | 🔤 **TypeScript** | 📅 **2025-11-28**
-
-It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic
-
----
-
-### 88. [astron-rpa](https://github.com/iflytek/astron-rpa)
-
-⭐ **3,942** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **3,969** | 🔤 **Python** | 📅 **2025-11-28**
 
 Agent-ready RPA suite with out-of-the-box automation tools. Built for individuals and enterprises.
 
@@ -1090,9 +1092,17 @@ Agent-ready RPA suite with out-of-the-box automation tools. Built for individual
 
 ---
 
+### 88. [magic-mcp](https://github.com/21st-dev/magic-mcp)
+
+⭐ **3,966** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic
+
+---
+
 ### 89. [directories](https://github.com/pontusab/directories)
 
-⭐ **3,832** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **3,833** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 The Cursor & Windsurf community, find rules and MCPs
 
@@ -1100,7 +1110,7 @@ The Cursor & Windsurf community, find rules and MCPs
 
 ### 90. [learn-agentic-ai](https://github.com/panaversity/learn-agentic-ai)
 
-⭐ **3,760** | 🔤 **Jupyter Notebook** | 📅 **2025-11-27**
+⭐ **3,761** | 🔤 **Jupyter Notebook** | 📅 **2025-11-28**
 
 Learn Agentic AI using Dapr Agentic Cloud Ascent (DACA) Design Pattern and Agent-Native Cloud Technologies: OpenAI Agents SDK, Memory, MCP, A2A, Knowledge Graphs, Dapr, Rancher Desktop, and Kubernetes.
 
@@ -1108,39 +1118,9 @@ Learn Agentic AI using Dapr Agentic Cloud Ascent (DACA) Design Pattern and Agent
 
 ---
 
-### 91. [mcpo](https://github.com/open-webui/mcpo)
+### 91. [Everywhere](https://github.com/DearVa/Everywhere)
 
-⭐ **3,697** | 🔤 **Python** | 📅 **2025-11-27**
-
-A simple, secure MCP-to-OpenAPI proxy server
-
-**Tags:** `mcp` `mcp-server` `open-webui` `openapi` `mcp-to-openapi`
-
----
-
-### 92. [mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
-
-⭐ **3,665** | 🔤 **Python** | 📅 **2025-11-27**
-
-MCP server for Atlassian tools (Confluence, Jira)
-
-**Tags:** `atlassian` `confluence` `jira` `mcp`
-
----
-
-### 93. [mcp-ui](https://github.com/MCP-UI-Org/mcp-ui)
-
-⭐ **3,631** | 🔤 **TypeScript** | 📅 **2025-11-28**
-
-UI over MCP. Create next-gen UI experiences with the protocol and SDK!
-
-**Tags:** `ai` `llm` `mcp` `ui` `frontend` `web`
-
----
-
-### 94. [Everywhere](https://github.com/DearVa/Everywhere)
-
-⭐ **3,596** | 🔤 **C#** | 📅 **2025-11-28**
+⭐ **3,734** | 🔤 **C#** | 📅 **2025-11-29**
 
 A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools.
 
@@ -1148,9 +1128,39 @@ A context-aware AI assistant for your desktop. Ready to respond intelligently, s
 
 ---
 
+### 92. [mcpo](https://github.com/open-webui/mcpo)
+
+⭐ **3,702** | 🔤 **Python** | 📅 **2025-11-28**
+
+A simple, secure MCP-to-OpenAPI proxy server
+
+**Tags:** `mcp` `mcp-server` `open-webui` `openapi` `mcp-to-openapi`
+
+---
+
+### 93. [mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
+
+⭐ **3,677** | 🔤 **Python** | 📅 **2025-11-28**
+
+MCP server for Atlassian tools (Confluence, Jira)
+
+**Tags:** `atlassian` `confluence` `jira` `mcp`
+
+---
+
+### 94. [mcp-ui](https://github.com/MCP-UI-Org/mcp-ui)
+
+⭐ **3,646** | 🔤 **TypeScript** | 📅 **2025-11-29**
+
+UI over MCP. Create next-gen UI experiences with the protocol and SDK!
+
+**Tags:** `ai` `llm` `mcp` `ui` `frontend` `web`
+
+---
+
 ### 95. [core](https://github.com/opensumi/core)
 
-⭐ **3,538** | 🔤 **TypeScript** | 📅 **2025-11-26**
+⭐ **3,539** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server.
 
@@ -1160,7 +1170,7 @@ A framework helps you quickly build AI Native IDE products. MCP Client, supports
 
 ### 96. [notion-mcp-server](https://github.com/makenotion/notion-mcp-server)
 
-⭐ **3,532** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **3,537** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Official Notion MCP Server
 
@@ -1168,7 +1178,7 @@ Official Notion MCP Server
 
 ### 97. [Windows-MCP](https://github.com/CursorTouch/Windows-MCP)
 
-⭐ **3,499** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **3,507** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP Server for Computer Use in Windows
 
@@ -1178,7 +1188,7 @@ MCP Server for Computer Use in Windows
 
 ### 98. [fast-agent](https://github.com/evalstate/fast-agent)
 
-⭐ **3,475** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **3,477** | 🔤 **Python** | 📅 **2025-11-29**
 
 Define, Prompt and Test MCP enabled Agents and Workflows
 
@@ -1194,7 +1204,7 @@ Enhanced MCP server for interactive user feedback and command execution in AI-as
 
 ### 100. [ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community)
 
-⭐ **3,377** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **3,379** | 🔤 **Python** | 📅 **2025-11-29**
 
 CISO Assistant is a one-stop-shop for GRC, covering Risk, AppSec, Compliance/Audit Management, Privacy and supporting +100 frameworks worldwide with auto-mapping: NIST CSF, ISO 27001, SOC2, CIS, PCI DSS, NIS2, CMMC, PSPF, GDPR, HIPAA, Essential Eight, NYDFS-500, DORA, NIST AI RMF, 800-53, CyFun, AirCyber, NCSC, ECC, SCF and so much more
 
@@ -1204,7 +1214,7 @@ CISO Assistant is a one-stop-shop for GRC, covering Risk, AppSec, Compliance/Aud
 
 ### 101. [exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
 
-⭐ **3,298** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **3,306** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Exa MCP for web search and web crawling!
 
@@ -1212,7 +1222,7 @@ Exa MCP for web search and web crawling!
 
 ### 102. [cipher](https://github.com/campfirein/cipher)
 
-⭐ **3,274** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **3,276** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Byterover Cipher is an opensource memory layer specifically designed for coding agents. Compatible with Cursor, Codex, Claude Code, Windsurf, Cline, Claude Desktop, Gemini CLI, AWS's Kiro, VS Code, Roo Code, Trae, Amp Code and Warp through MCP. Built by https://byterover.dev/
 
@@ -1222,7 +1232,7 @@ Byterover Cipher is an opensource memory layer specifically designed for coding 
 
 ### 103. [PeopleInSpace](https://github.com/joreilly/PeopleInSpace)
 
-⭐ **3,252** | 🔤 **Kotlin** | 📅 **2025-11-27**
+⭐ **3,253** | 🔤 **Kotlin** | 📅 **2025-11-28**
 
 Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Compose for Desktop, and Compose for Web clients along with Ktor backend.
 
@@ -1232,7 +1242,7 @@ Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Com
 
 ### 104. [mcp-server-chart](https://github.com/antvis/mcp-server-chart)
 
-⭐ **3,232** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **3,240** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 🤖 A visualization mcp contains 25+ visual charts using @antvis. Using for chart generation and data analysis.
 
@@ -1242,7 +1252,7 @@ Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Com
 
 ### 105. [telegram-search](https://github.com/groupultra/telegram-search)
 
-⭐ **3,174** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **3,197** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 🔍  Semantic search your Telegram chat history | 语义化搜索您的 Telegram 聊天记录
 
@@ -1250,15 +1260,9 @@ Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Com
 
 ---
 
-### 106. [mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)
+### 106. [MemOS](https://github.com/MemTensor/MemOS)
 
-⭐ **3,166** | 🔤 **TypeScript** | 📅 **2025-11-27**
-
----
-
-### 107. [MemOS](https://github.com/MemTensor/MemOS)
-
-⭐ **3,161** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **3,173** | 🔤 **Python** | 📅 **2025-11-28**
 
 Build memory-native AI agents with Memory OS — an open-source framework for long-term memory, retrieval, and adaptive learning in large language models. Agent Memory | Memory  System | Memory Management | Memory MCP | MCP System | LLM Memory | Agents Memory System |
 
@@ -1266,9 +1270,15 @@ Build memory-native AI agents with Memory OS — an open-source framework for lo
 
 ---
 
+### 107. [mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)
+
+⭐ **3,168** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+---
+
 ### 108. [metorial](https://github.com/metorial/metorial)
 
-⭐ **3,155** | 🔤 **TypeScript** | 📅 **2025-11-26**
+⭐ **3,157** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Connect any AI model to 600+ integrations; powered by MCP 📡 🚀
 
@@ -1278,7 +1288,7 @@ Connect any AI model to 600+ integrations; powered by MCP 📡 🚀
 
 ### 109. [go-whatsapp-web-multidevice](https://github.com/aldinokemal/go-whatsapp-web-multidevice)
 
-⭐ **3,146** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **3,154** | 🔤 **Go** | 📅 **2025-11-29**
 
 GOWA - WhatsApp REST API with support for UI, Webhooks, and MCP. Built with Golang for efficient memory use.
 
@@ -1288,7 +1298,7 @@ GOWA - WhatsApp REST API with support for UI, Webhooks, and MCP. Built with Gola
 
 ### 110. [MCP-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide)
 
-⭐ **3,131** | 🔤 **N/A** | 📅 **2025-11-27**
+⭐ **3,136** | 🔤 **N/A** | 📅 **2025-11-29**
 
 Model Context Protocol(MCP) 编程极速入门
 
@@ -1298,7 +1308,7 @@ Model Context Protocol(MCP) 编程极速入门
 
 ### 111. [spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp)
 
-⭐ **3,124** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **3,132** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.
 
@@ -1306,7 +1316,7 @@ A Model Context Protocol (MCP) server that provides structured spec-driven devel
 
 ### 112. [langchain-mcp-adapters](https://github.com/langchain-ai/langchain-mcp-adapters)
 
-⭐ **3,121** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **3,124** | 🔤 **Python** | 📅 **2025-11-28**
 
 LangChain 🔌 MCP
 
@@ -1316,7 +1326,7 @@ LangChain 🔌 MCP
 
 ### 113. [Olares](https://github.com/beclab/Olares)
 
-⭐ **3,098** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **3,115** | 🔤 **Go** | 📅 **2025-11-29**
 
 Olares: An Open-Source Personal Cloud to Reclaim Your Data
 
@@ -1326,7 +1336,7 @@ Olares: An Open-Source Personal Cloud to Reclaim Your Data
 
 ### 114. [awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers)
 
-⭐ **3,038** | 🔤 **N/A** | 📅 **2025-11-27**
+⭐ **3,041** | 🔤 **N/A** | 📅 **2025-11-28**
 
 A curated list of Model Context Protocol (MCP) servers
 
@@ -1334,7 +1344,7 @@ A curated list of Model Context Protocol (MCP) servers
 
 ### 115. [py-xiaozhi](https://github.com/huangjunsen0406/py-xiaozhi)
 
-⭐ **2,948** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **2,953** | 🔤 **Python** | 📅 **2025-11-28**
 
 A Python-based Xiaozhi AI for users who want the full Xiaozhi experience without owning specialized hardware.
 
@@ -1344,7 +1354,7 @@ A Python-based Xiaozhi AI for users who want the full Xiaozhi experience without
 
 ### 116. [AionUi](https://github.com/iOfficeAI/AionUi)
 
-⭐ **2,932** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,951** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Free, local, open-source GUI app for Gemini CLI, Claude Code, Codex, Qwen Code, and more — Enhanced Chat UI, WebUI, Multi-Agent & Multi-LLM, MCP Integration | 🌟 Star if you like it!
 
@@ -1352,7 +1362,17 @@ Free, local, open-source GUI app for Gemini CLI, Claude Code, Codex, Qwen Code, 
 
 ---
 
-### 117. [core](https://github.com/cheshire-cat-ai/core)
+### 117. [memU](https://github.com/NevaMind-AI/memU)
+
+⭐ **2,926** | 🔤 **Python** | 📅 **2025-11-28**
+
+Memory infrastructure for LLMs and AI agents
+
+**Tags:** `agent` `agentic-ai` `agentic-framework` `agentic-workflow` `ai` `ai-agents` `ai-companion` `ai-roleplay`
+
+---
+
+### 118. [core](https://github.com/cheshire-cat-ai/core)
 
 ⭐ **2,920** | 🔤 **Python** | 📅 **2025-11-27**
 
@@ -1362,19 +1382,9 @@ AI agent microservice
 
 ---
 
-### 118. [memU](https://github.com/NevaMind-AI/memU)
-
-⭐ **2,918** | 🔤 **Python** | 📅 **2025-11-27**
-
-Memory infrastructure for LLMs and AI agents
-
-**Tags:** `agent` `agentic-ai` `agentic-framework` `agentic-workflow` `ai` `ai-agents` `ai-companion` `ai-roleplay`
-
----
-
 ### 119. [XcodeBuildMCP](https://github.com/cameroncooke/XcodeBuildMCP)
 
-⭐ **2,904** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,908** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A Model Context Protocol (MCP) server that provides Xcode-related tools for integration with AI assistants and other MCP clients.
 
@@ -1384,7 +1394,7 @@ A Model Context Protocol (MCP) server that provides Xcode-related tools for inte
 
 ### 120. [n8n-nodes-mcp](https://github.com/nerding-io/n8n-nodes-mcp)
 
-⭐ **2,903** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,904** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 n8n custom node for MCP
 
@@ -1392,7 +1402,7 @@ n8n custom node for MCP
 
 ### 121. [mcp-context-forge](https://github.com/IBM/mcp-context-forge)
 
-⭐ **2,883** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **2,891** | 🔤 **Python** | 📅 **2025-11-28**
 
 A Model Context Protocol (MCP) Gateway & Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE, Streamable HTTP).
 
@@ -1402,7 +1412,7 @@ A Model Context Protocol (MCP) Gateway & Registry. Serves as a central managemen
 
 ### 122. [excel-mcp-server](https://github.com/haris-musa/excel-mcp-server)
 
-⭐ **2,875** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **2,880** | 🔤 **Python** | 📅 **2025-11-28**
 
 A Model Context Protocol server for Excel file manipulation
 
@@ -1412,7 +1422,7 @@ A Model Context Protocol server for Excel file manipulation
 
 ### 123. [boost](https://github.com/laravel/boost)
 
-⭐ **2,870** | 🔤 **PHP** | 📅 **2025-11-27**
+⭐ **2,873** | 🔤 **PHP** | 📅 **2025-11-28**
 
 Laravel-focused MCP server for augmenting your AI powered local development experience.
 
@@ -1422,7 +1432,7 @@ Laravel-focused MCP server for augmenting your AI powered local development expe
 
 ### 124. [learn-ai-engineering](https://github.com/ashishps1/learn-ai-engineering)
 
-⭐ **2,863** | 🔤 **N/A** | 📅 **2025-11-27**
+⭐ **2,867** | 🔤 **N/A** | 📅 **2025-11-28**
 
 Learn AI and LLMs from scratch using free resources
 
@@ -1432,7 +1442,7 @@ Learn AI and LLMs from scratch using free resources
 
 ### 125. [mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase)
 
-⭐ **2,856** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,857** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Allow LLMs to control a browser with Browserbase and Stagehand
 
@@ -1442,7 +1452,7 @@ Allow LLMs to control a browser with Browserbase and Stagehand
 
 ### 126. [apple-mcp](https://github.com/supermemoryai/apple-mcp)
 
-⭐ **2,844** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,847** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Collection of apple-native tools for the model context protocol.
 
@@ -1452,7 +1462,7 @@ Collection of apple-native tools for the model context protocol.
 
 ### 127. [octelium](https://github.com/octelium/octelium)
 
-⭐ **2,835** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **2,842** | 🔤 **Go** | 📅 **2025-11-29**
 
 A next-gen FOSS self-hosted unified zero trust secure access platform that can operate as a remote access VPN, a ZTNA platform, API/AI/MCP gateway, a PaaS, an ngrok-alternative and a homelab infrastructure.
 
@@ -1462,7 +1472,7 @@ A next-gen FOSS self-hosted unified zero trust secure access platform that can o
 
 ### 128. [fastmcp](https://github.com/punkpeye/fastmcp)
 
-⭐ **2,779** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,781** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A TypeScript framework for building MCP servers.
 
@@ -1472,7 +1482,7 @@ A TypeScript framework for building MCP servers.
 
 ### 129. [wanwu](https://github.com/UnicomAI/wanwu)
 
-⭐ **2,706** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **2,722** | 🔤 **Go** | 📅 **2025-11-29**
 
 China Unicom's Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agent development platform. It helps users build applications such as intelligent agents, workflows, and rag, and also supports model management. The platform features a developer-friendly license, and we welcome all developers to build upon the platform.
 
@@ -1482,7 +1492,7 @@ China Unicom's Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenan
 
 ### 130. [claude-code-guide](https://github.com/zebbern/claude-code-guide)
 
-⭐ **2,677** | 🔤 **N/A** | 📅 **2025-11-28**
+⭐ **2,682** | 🔤 **N/A** | 📅 **2025-11-29**
 
 Full guide on claude tips and tricks and how you can optimise your claude code the best & strive to find every command possible even hidden ones!
 
@@ -1492,7 +1502,7 @@ Full guide on claude tips and tricks and how you can optimise your claude code t
 
 ### 131. [kreuzberg](https://github.com/Goldziher/kreuzberg)
 
-⭐ **2,543** | 🔤 **HTML** | 📅 **2025-11-28**
+⭐ **2,548** | 🔤 **HTML** | 📅 **2025-11-29**
 
 A polyglot document intelligence framework with a Rust core. Extract text, metadata, and structured information from PDFs, Office documents, images, and 50+ formats. Available for Rust, Python, Ruby, Go, and TypeScript/Node.js—or use via CLI, REST API, or MCP server.
 
@@ -1502,7 +1512,7 @@ A polyglot document intelligence framework with a Rust core. Extract text, metad
 
 ### 132. [mobile-mcp](https://github.com/mobile-next/mobile-mcp)
 
-⭐ **2,520** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,523** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)
 
@@ -1512,7 +1522,7 @@ Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, 
 
 ### 133. [rikkahub](https://github.com/rikkahub/rikkahub)
 
-⭐ **2,515** | 🔤 **Kotlin** | 📅 **2025-11-28**
+⭐ **2,521** | 🔤 **Kotlin** | 📅 **2025-11-28**
 
 RikkaHub is an Android APP that supports for multiple LLM providers.
 
@@ -1532,7 +1542,7 @@ A mcp server to allow LLMS gain context about shadcn ui component structure,usag
 
 ### 135. [nunu](https://github.com/go-nunu/nunu)
 
-⭐ **2,493** | 🔤 **Go** | 📅 **2025-11-26**
+⭐ **2,494** | 🔤 **Go** | 📅 **2025-11-28**
 
 A CLI tool for building Go applications.
 
@@ -1542,7 +1552,7 @@ A CLI tool for building Go applications.
 
 ### 136. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
 
-⭐ **2,466** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **2,468** | 🔤 **Python** | 📅 **2025-11-28**
 
 A.I.G (AI-Infra-Guard) is a comprehensive, intelligent, and easy-to-use AI Red Teaming platform developed by Tencent Zhuque Lab.
 
@@ -1552,7 +1562,7 @@ A.I.G (AI-Infra-Guard) is a comprehensive, intelligent, and easy-to-use AI Red T
 
 ### 137. [mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)
 
-⭐ **2,460** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **2,465** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP server that interacts with Obsidian via the Obsidian rest API community plugin
 
@@ -1560,7 +1570,7 @@ MCP server that interacts with Obsidian via the Obsidian rest API community plug
 
 ### 138. [PPTAgent](https://github.com/icip-cas/PPTAgent)
 
-⭐ **2,304** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **2,309** | 🔤 **Python** | 📅 **2025-11-28**
 
 PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides [EMNLP 2025]
 
@@ -1570,7 +1580,7 @@ PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides [EMNLP 2
 
 ### 139. [supabase-mcp](https://github.com/supabase-community/supabase-mcp)
 
-⭐ **2,291** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **2,292** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Connect Supabase to your AI assistants
 
@@ -1588,7 +1598,7 @@ A Model Context Protocol server for converting almost anything to Markdown
 
 ### 141. [supergateway](https://github.com/supercorp-ai/supergateway)
 
-⭐ **2,255** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **2,259** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Run MCP stdio servers over SSE and SSE over stdio. AI gateway.
 
@@ -1596,7 +1606,7 @@ Run MCP stdio servers over SSE and SSE over stdio. AI gateway.
 
 ### 142. [UltraRAG](https://github.com/OpenBMB/UltraRAG)
 
-⭐ **2,227** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **2,237** | 🔤 **Python** | 📅 **2025-11-28**
 
 UltraRAG v2: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines
 
@@ -1606,25 +1616,15 @@ UltraRAG v2: A Low-Code MCP Framework for Building Complex and Innovative RAG Pi
 
 ### 143. [mcp](https://github.com/microsoft/mcp)
 
-⭐ **2,222** | 🔤 **C#** | 📅 **2025-11-27**
+⭐ **2,225** | 🔤 **C#** | 📅 **2025-11-28**
 
 Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration
 
 ---
 
-### 144. [chatmcp](https://github.com/daodao97/chatmcp)
+### 144. [basic-memory](https://github.com/basicmachines-co/basic-memory)
 
-⭐ **2,130** | 🔤 **Dart** | 📅 **2025-11-27**
-
-ChatMCP is an AI chat client implementing the Model Context Protocol (MCP).
-
-**Tags:** `mcp` `mcp-client` `ai` `chat` `client`
-
----
-
-### 145. [basic-memory](https://github.com/basicmachines-co/basic-memory)
-
-⭐ **2,130** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **2,135** | 🔤 **Python** | 📅 **2025-11-29**
 
 AI conversations that actually remember. Never re-explain your project to your AI again. Join our Discord: https://discord.gg/tyvKNccgqN
 
@@ -1632,9 +1632,19 @@ AI conversations that actually remember. Never re-explain your project to your A
 
 ---
 
+### 145. [chatmcp](https://github.com/daodao97/chatmcp)
+
+⭐ **2,131** | 🔤 **Dart** | 📅 **2025-11-29**
+
+ChatMCP is an AI chat client implementing the Model Context Protocol (MCP).
+
+**Tags:** `mcp` `mcp-client` `ai` `chat` `client`
+
+---
+
 ### 146. [MCP-SuperAssistant](https://github.com/srbhptl39/MCP-SuperAssistant)
 
-⭐ **2,100** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,103** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Brings MCP to ChatGPT, DeepSeek, Perplexity, Grok, Gemini, Google AI Studio, OpenRouter, DeepSeek, T3 Chat and more...
 
@@ -1644,7 +1654,7 @@ Brings MCP to ChatGPT, DeepSeek, Perplexity, Grok, Gemini, Google AI Studio, Ope
 
 ### 147. [mcp-proxy](https://github.com/sparfenyuk/mcp-proxy)
 
-⭐ **2,034** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **2,037** | 🔤 **Python** | 📅 **2025-11-28**
 
 A bridge between Streamable HTTP and stdio MCP transports
 
@@ -1654,13 +1664,13 @@ A bridge between Streamable HTTP and stdio MCP transports
 
 ### 148. [ableton-mcp](https://github.com/ahujasid/ableton-mcp)
 
-⭐ **2,028** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **2,028** | 🔤 **Python** | 📅 **2025-11-29**
 
 ---
 
 ### 149. [claude-code-subagents-collection](https://github.com/davepoon/claude-code-subagents-collection)
 
-⭐ **2,019** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **2,020** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Claude Code Subagents & Commands Collection + CLI Tool
 
@@ -1670,7 +1680,7 @@ Claude Code Subagents & Commands Collection + CLI Tool
 
 ### 150. [comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party)
 
-⭐ **2,013** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **2,014** | 🔤 **Python** | 📅 **2025-11-28**
 
 LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfaces, such as o1,ollama, gemini, grok, qwen, GLM, deepseek, kimi,doubao. Adapted to local llms, vlm, gguf such as llama-3.3 Janus-Pro, Linkage graphRAG
 
@@ -1680,7 +1690,7 @@ LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT
 
 ### 151. [DevDocs](https://github.com/cyberagiinc/DevDocs)
 
-⭐ **1,972** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,973** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Completely free, private, UI based Tech Documentation MCP server. Designed for coders and software developers in mind. Easily integrate into Cursor, Windsurf, Cline, Roo Code, Claude Desktop App
 
@@ -1690,7 +1700,7 @@ Completely free, private, UI based Tech Documentation MCP server. Designed for c
 
 ### 152. [papersgpt-for-zotero](https://github.com/papersgpt/papersgpt-for-zotero)
 
-⭐ **1,969** | 🔤 **JavaScript** | 📅 **2025-11-26**
+⭐ **1,973** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 A powerful Zotero AI and MCP plugin with ChatGPT, Gemini 3, Claude, Grok, DeepSeek, OpenRouter, Kimi, GLM, SiliconFlow, GPT-oss, Gemma 3, Qwen 3
 
@@ -1700,7 +1710,7 @@ A powerful Zotero AI and MCP plugin with ChatGPT, Gemini 3, Claude, Grok, DeepSe
 
 ### 153. [superglue](https://github.com/superglue-ai/superglue)
 
-⭐ **1,947** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **1,948** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 superglue (YC W25) builds integrations and tools from natural language. Get production-grade tools for long tail and enterprise systems.
 
@@ -1720,7 +1730,7 @@ superglue (YC W25) builds integrations and tools from natural language. Get prod
 
 ### 155. [mcpso](https://github.com/chatmcp/mcpso)
 
-⭐ **1,920** | 🔤 **TypeScript** | 📅 **2025-11-26**
+⭐ **1,921** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 directory for Awesome MCP Servers
 
@@ -1730,7 +1740,7 @@ directory for Awesome MCP Servers
 
 ### 156. [arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server)
 
-⭐ **1,912** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,916** | 🔤 **Python** | 📅 **2025-11-28**
 
 A Model Context Protocol server for searching and analyzing arXiv papers
 
@@ -1740,7 +1750,7 @@ A Model Context Protocol server for searching and analyzing arXiv papers
 
 ### 157. [mcp-grafana](https://github.com/grafana/mcp-grafana)
 
-⭐ **1,906** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **1,907** | 🔤 **Go** | 📅 **2025-11-28**
 
 MCP server for Grafana
 
@@ -1748,7 +1758,7 @@ MCP server for Grafana
 
 ### 158. [mcp-shrimp-task-manager](https://github.com/cjo4m06/mcp-shrimp-task-manager)
 
-⭐ **1,891** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **1,893** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 Shrimp Task Manager is a task tool built for AI Agents, emphasizing chain-of-thought, reflection, and style consistency. It converts natural language into structured dev tasks with dependency tracking and iterative refinement, enabling agent-like developer behavior in reasoning AI systems.
 
@@ -1758,7 +1768,7 @@ Shrimp Task Manager is a task tool built for AI Agents, emphasizing chain-of-tho
 
 ### 159. [mcp-crawl4ai-rag](https://github.com/coleam00/mcp-crawl4ai-rag)
 
-⭐ **1,881** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,883** | 🔤 **Python** | 📅 **2025-11-29**
 
 Web Crawling and RAG Capabilities for AI Agents and AI Coding Assistants
 
@@ -1766,7 +1776,7 @@ Web Crawling and RAG Capabilities for AI Agents and AI Coding Assistants
 
 ### 160. [yomo](https://github.com/yomorun/yomo)
 
-⭐ **1,869** | 🔤 **Go** | 📅 **2025-11-24**
+⭐ **1,870** | 🔤 **Go** | 📅 **2025-11-29**
 
 🦖 Serverless AI Agent Framework with Geo-distributed Edge AI Infra.
 
@@ -1776,7 +1786,7 @@ Web Crawling and RAG Capabilities for AI Agents and AI Coding Assistants
 
 ### 161. [kagent](https://github.com/kagent-dev/kagent)
 
-⭐ **1,860** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **1,865** | 🔤 **Go** | 📅 **2025-11-28**
 
 Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord
 
@@ -1786,7 +1796,7 @@ Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord
 
 ### 162. [modelcontextprotocol](https://github.com/perplexityai/modelcontextprotocol)
 
-⭐ **1,793** | 🔤 **TypeScript** | 📅 **2025-11-26**
+⭐ **1,795** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 The official MCP server implementation for the Perplexity API Platform
 
@@ -1800,7 +1810,7 @@ The official MCP server implementation for the Perplexity API Platform
 
 ### 164. [witsy](https://github.com/nbonamy/witsy)
 
-⭐ **1,752** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,751** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Witsy: desktop AI assistant / universal MCP client
 
@@ -1810,7 +1820,7 @@ Witsy: desktop AI assistant / universal MCP client
 
 ### 165. [lemonade](https://github.com/lemonade-sdk/lemonade)
 
-⭐ **1,740** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,744** | 🔤 **Python** | 📅 **2025-11-28**
 
 Lemonade helps users run local LLMs with the highest performance by configuring state-of-the-art inference engines for their NPUs and GPUs. Join our discord: https://discord.gg/5xXzkMu8Zk
 
@@ -1830,7 +1840,7 @@ Connect your browser to AI models. Just use Dia on Chrome, Arc or Firefox.
 
 ### 167. [metamcp](https://github.com/metatool-ai/metamcp)
 
-⭐ **1,714** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,717** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 MCP Aggregator, Orchestrator, Middleware, Gateway in one docker
 
@@ -1840,7 +1850,7 @@ MCP Aggregator, Orchestrator, Middleware, Gateway in one docker
 
 ### 168. [beelzebub](https://github.com/mariocandela/beelzebub)
 
-⭐ **1,703** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **1,705** | 🔤 **Go** | 📅 **2025-11-28**
 
 A secure low code honeypot framework, leveraging AI for System Virtualization.
 
@@ -1850,7 +1860,7 @@ A secure low code honeypot framework, leveraging AI for System Virtualization.
 
 ### 169. [brightdata-mcp](https://github.com/brightdata/brightdata-mcp)
 
-⭐ **1,658** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **1,667** | 🔤 **JavaScript** | 📅 **2025-11-29**
 
 A powerful Model Context Protocol (MCP) server that provides an all-in-one solution for public web access.
 
@@ -1858,7 +1868,17 @@ A powerful Model Context Protocol (MCP) server that provides an all-in-one solut
 
 ---
 
-### 170. [Dive](https://github.com/OpenAgentPlatform/Dive)
+### 170. [gemini-mcp-tool](https://github.com/jamubc/gemini-mcp-tool)
+
+⭐ **1,645** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+MCP server that enables AI assistants to interact with Google Gemini CLI, leveraging Gemini's massive token window for large file analysis and codebase understanding
+
+**Tags:** `ai` `claude` `cli` `codebase-analysis` `file-analysis` `gemini` `mcp` `model-context-protocol`
+
+---
+
+### 171. [Dive](https://github.com/OpenAgentPlatform/Dive)
 
 ⭐ **1,641** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
@@ -1868,9 +1888,9 @@ Dive is an open-source MCP Host Desktop Application that seamlessly integrates w
 
 ---
 
-### 171. [mcphub.nvim](https://github.com/ravitemer/mcphub.nvim)
+### 172. [mcphub.nvim](https://github.com/ravitemer/mcphub.nvim)
 
-⭐ **1,638** | 🔤 **Lua** | 📅 **2025-11-27**
+⭐ **1,641** | 🔤 **Lua** | 📅 **2025-11-28**
 
 An MCP client for Neovim that seamlessly integrates MCP servers into your editing workflow with an intuitive interface for managing, testing, and using MCP servers with your favorite chat plugins.
 
@@ -1878,19 +1898,9 @@ An MCP client for Neovim that seamlessly integrates MCP servers into your editin
 
 ---
 
-### 172. [gemini-mcp-tool](https://github.com/jamubc/gemini-mcp-tool)
-
-⭐ **1,635** | 🔤 **TypeScript** | 📅 **2025-11-28**
-
-MCP server that enables AI assistants to interact with Google Gemini CLI, leveraging Gemini's massive token window for large file analysis and codebase understanding
-
-**Tags:** `ai` `claude` `cli` `codebase-analysis` `file-analysis` `gemini` `mcp` `model-context-protocol`
-
----
-
 ### 173. [dbhub](https://github.com/bytebase/dbhub)
 
-⭐ **1,634** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,640** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Universal database MCP server connecting to MySQL, PostgreSQL, SQL Server, MariaDB, SQLite.
 
@@ -1898,17 +1908,9 @@ Universal database MCP server connecting to MySQL, PostgreSQL, SQL Server, Maria
 
 ---
 
-### 174. [interactive-feedback-mcp](https://github.com/noopstudios/interactive-feedback-mcp)
+### 174. [agentset](https://github.com/agentset-ai/agentset)
 
-⭐ **1,625** | 🔤 **Python** | 📅 **2025-11-25**
-
-Interactive User Feedback MCP
-
----
-
-### 175. [agentset](https://github.com/agentset-ai/agentset)
-
-⭐ **1,623** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,627** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 The open-source RAG platform: built-in citations, deep research, 22+ file formats, partitions, MCP server, and more.
 
@@ -1916,9 +1918,17 @@ The open-source RAG platform: built-in citations, deep research, 22+ file format
 
 ---
 
+### 175. [interactive-feedback-mcp](https://github.com/noopstudios/interactive-feedback-mcp)
+
+⭐ **1,626** | 🔤 **Python** | 📅 **2025-11-28**
+
+Interactive User Feedback MCP
+
+---
+
 ### 176. [sanic-web](https://github.com/apconw/sanic-web)
 
-⭐ **1,614** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **1,626** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 一个轻量级、支持全链路且易于二次开发的大模型应用项目(Large Model Data Assistant) 支持DeepSeek/Qwen3等大模型 基于 Dify 、LangChain/LangGraph、Ollama&Vllm、Sanic 和 Text2SQL 📊 等技术构建的一站式大模型应用开发项目，采用 Vue3、TypeScript 和 Vite 5 打造现代UI。它支持通过 ECharts 📈 实现基于大模型的数据图形化问答，具备处理 CSV 文件 📂 表格问答的能力。同时，能方便对接第三方开源 RAG 系统 检索系统 🌐等，以支持广泛的通用知识问答。
 
@@ -1928,7 +1938,7 @@ The open-source RAG platform: built-in citations, deep research, 22+ file format
 
 ### 177. [AIaW](https://github.com/NitroRCr/AIaW)
 
-⭐ **1,610** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,612** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 AI as Workspace - An elegant AI chat client. Full-featured, lightweight. Support multiple workspaces, plugin system, cross-platform, local first + real-time cloud sync, Artifacts, MCP | 更好的 AI 客户端
 
@@ -1938,7 +1948,7 @@ AI as Workspace - An elegant AI chat client. Full-featured, lightweight. Support
 
 ### 178. [mcphub](https://github.com/samanhappy/mcphub)
 
-⭐ **1,580** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,585** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies
 
@@ -1948,7 +1958,7 @@ A unified hub for centrally managing and dynamically orchestrating multiple MCP 
 
 ### 179. [postgres-mcp](https://github.com/crystaldba/postgres-mcp)
 
-⭐ **1,577** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,583** | 🔤 **Python** | 📅 **2025-11-29**
 
 Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.
 
@@ -1956,7 +1966,7 @@ Postgres MCP Pro provides configurable read/write access and performance analysi
 
 ### 180. [mcpb](https://github.com/modelcontextprotocol/mcpb)
 
-⭐ **1,576** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,578** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Desktop Extensions: One-click local MCP server installation in desktop apps
 
@@ -1972,7 +1982,7 @@ Coding assistant MCP for Claude Desktop
 
 ### 182. [zenfeed](https://github.com/glidea/zenfeed)
 
-⭐ **1,571** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **1,571** | 🔤 **Go** | 📅 **2025-11-28**
 
 Make RSS 📰 great again with AI 🧠✨!!
 
@@ -1992,7 +2002,7 @@ Query anything (GitHub, Notion, +40 more) with SQL and let LLMs (ChatGPT, Claude
 
 ### 184. [sandbox](https://github.com/agent-infra/sandbox)
 
-⭐ **1,520** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,522** | 🔤 **Python** | 📅 **2025-11-28**
 
 All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.
 
@@ -2000,17 +2010,9 @@ All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSC
 
 ---
 
-### 185. [mcphost](https://github.com/mark3labs/mcphost)
+### 185. [py-gpt](https://github.com/szczyglis-dev/py-gpt)
 
-⭐ **1,477** | 🔤 **Go** | 📅 **2025-11-28**
-
-A CLI host application that enables Large Language Models (LLMs) to interact with external tools through the Model Context Protocol (MCP).
-
----
-
-### 186. [py-gpt](https://github.com/szczyglis-dev/py-gpt)
-
-⭐ **1,477** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **1,478** | 🔤 **Python** | 📅 **2025-11-28**
 
 Desktop AI Assistant powered by GPT-5, GPT-4, o1, o3, Gemini, Claude, Ollama, DeepSeek, Perplexity, Grok, Bielik, chat, vision, voice, RAG, image and video generation, agents, tools, MCP, plugins, speech synthesis and recognition, web search, memory, presets, assistants,and more. Linux, Windows, Mac
 
@@ -2018,9 +2020,17 @@ Desktop AI Assistant powered by GPT-5, GPT-4, o1, o3, Gemini, Claude, Ollama, De
 
 ---
 
+### 186. [mcphost](https://github.com/mark3labs/mcphost)
+
+⭐ **1,477** | 🔤 **Go** | 📅 **2025-11-28**
+
+A CLI host application that enables Large Language Models (LLMs) to interact with external tools through the Model Context Protocol (MCP).
+
+---
+
 ### 187. [n8n-mcp-server](https://github.com/leonardsellem/n8n-mcp-server)
 
-⭐ **1,476** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,477** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 MCP server that provides tools and resources for interacting with n8n API
 
@@ -2028,7 +2038,7 @@ MCP server that provides tools and resources for interacting with n8n API
 
 ### 188. [mcp-installer](https://github.com/anaisbetts/mcp-installer)
 
-⭐ **1,468** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **1,470** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 An MCP server that installs other MCP servers for you
 
@@ -2036,7 +2046,7 @@ An MCP server that installs other MCP servers for you
 
 ### 189. [inspector](https://github.com/MCPJam/inspector)
 
-⭐ **1,437** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,440** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Visual inspector for MCP server - Postman for MCP
 
@@ -2046,7 +2056,7 @@ Visual inspector for MCP server - Postman for MCP
 
 ### 190. [kubb](https://github.com/kubb-labs/kubb)
 
-⭐ **1,434** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,434** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 🧩 The ultimate toolkit for working with APIs.
 
@@ -2056,7 +2066,7 @@ Visual inspector for MCP server - Postman for MCP
 
 ### 191. [toolhive](https://github.com/stacklok/toolhive)
 
-⭐ **1,402** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **1,402** | 🔤 **Go** | 📅 **2025-11-29**
 
 ToolHive makes deploying MCP servers easy, secure and fun
 
@@ -2066,7 +2076,7 @@ ToolHive makes deploying MCP servers easy, secure and fun
 
 ### 192. [MCP-Reborn](https://github.com/Hexeption/MCP-Reborn)
 
-⭐ **1,398** | 🔤 **N/A** | 📅 **2025-11-26**
+⭐ **1,401** | 🔤 **N/A** | 📅 **2025-11-28**
 
 MCP-Reborn is an MCP (Mod Coder Pack) for Minecraft for making modded clients and researching its code. (1.13-1.21.4)
 
@@ -2076,7 +2086,7 @@ MCP-Reborn is an MCP (Mod Coder Pack) for Minecraft for making modded clients an
 
 ### 193. [agentgateway](https://github.com/agentgateway/agentgateway)
 
-⭐ **1,382** | 🔤 **Rust** | 📅 **2025-11-28**
+⭐ **1,384** | 🔤 **Rust** | 📅 **2025-11-28**
 
 Next Generation Agentic Proxy for AI Agents and MCP servers
 
@@ -2086,7 +2096,7 @@ Next Generation Agentic Proxy for AI Agents and MCP servers
 
 ### 194. [mcptools](https://github.com/f/mcptools)
 
-⭐ **1,365** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **1,367** | 🔤 **Go** | 📅 **2025-11-29**
 
 A command-line interface for interacting with MCP (Model Context Protocol) servers using both stdio and HTTP transport.
 
@@ -2096,7 +2106,7 @@ A command-line interface for interacting with MCP (Model Context Protocol) serve
 
 ### 195. [rulego](https://github.com/rulego/rulego)
 
-⭐ **1,348** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **1,349** | 🔤 **Go** | 📅 **2025-11-28**
 
 ⛓️RuleGo is a lightweight, high-performance, embedded, next-generation component orchestration rule engine framework for Go.
 
@@ -2106,7 +2116,7 @@ A command-line interface for interacting with MCP (Model Context Protocol) serve
 
 ### 196. [super-agent-party](https://github.com/heshengtao/super-agent-party)
 
-⭐ **1,314** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **1,315** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 ⭐零门槛的桌面伴侣！支持接入QQ、B站直播、RAG、联网、长期记忆、 酒馆角色卡、claude code 、浏览器控制、Dify、 Home Assistant、MCP、A2A、Comfyui、数字人口播等功能！⭐ A desktop companion with zero barriers! Supports integration with QQ, Bilibili live, RAG, web search, long-term memory, sillyTavern Card, claude code, browser control, HA, Dify, MCP, A2A, ComfyUI,Digital Human broadcast,more!
 
@@ -2126,7 +2136,7 @@ The Simple Agent Development Kit.
 
 ### 198. [mcp-scan](https://github.com/invariantlabs-ai/mcp-scan)
 
-⭐ **1,293** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **1,294** | 🔤 **Python** | 📅 **2025-11-28**
 
 Constrain, log and scan your MCP connections for security vulnerabilities.
 
@@ -2136,7 +2146,7 @@ Constrain, log and scan your MCP connections for security vulnerabilities.
 
 ### 199. [mcp-language-server](https://github.com/isaacphi/mcp-language-server)
 
-⭐ **1,285** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **1,287** | 🔤 **Go** | 📅 **2025-11-28**
 
 mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics.
 
@@ -2146,7 +2156,7 @@ mcp-language-server gives MCP enabled clients access semantic tools like get def
 
 ### 200. [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server)
 
-⭐ **1,264** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,267** | 🔤 **Python** | 📅 **2025-11-28**
 
 A MCP (Model Context Protocol) server for PowerPoint manipulation using python-pptx. This server provides tools for creating, editing, and manipulating PowerPoint presentations through the MCP protocol.
 
@@ -2154,7 +2164,7 @@ A MCP (Model Context Protocol) server for PowerPoint manipulation using python-p
 
 ### 201. [ios-simulator-mcp](https://github.com/joshuayoes/ios-simulator-mcp)
 
-⭐ **1,255** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **1,256** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 MCP server for interacting with the iOS simulator
 
@@ -2162,7 +2172,7 @@ MCP server for interacting with the iOS simulator
 
 ### 202. [mcp-router](https://github.com/mcp-router/mcp-router)
 
-⭐ **1,251** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,256** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 A Unified MCP Server Management App (MCP Manager).
 
@@ -2172,7 +2182,7 @@ A Unified MCP Server Management App (MCP Manager).
 
 ### 203. [Claude-Code-Development-Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit)
 
-⭐ **1,234** | 🔤 **Shell** | 📅 **2025-11-28**
+⭐ **1,235** | 🔤 **Shell** | 📅 **2025-11-28**
 
 Handle context at scale - my custom Claude Code workflow including hooks, mcp and sub agents
 
@@ -2190,7 +2200,7 @@ A secure sandbox environment for malware developers and red teamers to test payl
 
 ### 205. [damn-vulnerable-MCP-server](https://github.com/harishsg993010/damn-vulnerable-MCP-server)
 
-⭐ **1,226** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,227** | 🔤 **Python** | 📅 **2025-11-28**
 
 Damn Vulnerable MCP Server
 
@@ -2214,19 +2224,9 @@ An MCP server that autonomously evaluates web applications.
 
 ---
 
-### 208. [yu-ai-agent](https://github.com/liyupi/yu-ai-agent)
+### 208. [RisuAI](https://github.com/kwaroran/RisuAI)
 
-⭐ **1,206** | 🔤 **Java** | 📅 **2025-11-28**
-
-编程导航 2025 年 AI 开发实战新项目，基于 Spring Boot 3 + Java 21 + Spring AI 构建 AI 恋爱大师应用和 ReAct 模式自主规划智能体YuManus，覆盖 AI 大模型接入、Spring AI 核心特性、Prompt 工程和优化、RAG 检索增强、向量数据库、Tool Calling 工具调用、MCP 模型上下文协议、AI Agent 开发（Manas Java 实现）、Cursor AI 工具等核心知识。用一套教程将程序员必知必会的 AI 技术一网打尽，帮你成为 AI 时代企业的香饽饽，给你的简历和求职大幅增加竞争力。
-
-**Tags:** `ai` `ai-model` `backend` `frontend` `java` `langchain4j` `mcp` `rag`
-
----
-
-### 209. [RisuAI](https://github.com/kwaroran/RisuAI)
-
-⭐ **1,205** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,209** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Make your own story. User-friendly software for LLM roleplaying
 
@@ -2234,9 +2234,19 @@ Make your own story. User-friendly software for LLM roleplaying
 
 ---
 
+### 209. [yu-ai-agent](https://github.com/liyupi/yu-ai-agent)
+
+⭐ **1,205** | 🔤 **Java** | 📅 **2025-11-28**
+
+编程导航 2025 年 AI 开发实战新项目，基于 Spring Boot 3 + Java 21 + Spring AI 构建 AI 恋爱大师应用和 ReAct 模式自主规划智能体YuManus，覆盖 AI 大模型接入、Spring AI 核心特性、Prompt 工程和优化、RAG 检索增强、向量数据库、Tool Calling 工具调用、MCP 模型上下文协议、AI Agent 开发（Manas Java 实现）、Cursor AI 工具等核心知识。用一套教程将程序员必知必会的 AI 技术一网打尽，帮你成为 AI 时代企业的香饽饽，给你的简历和求职大幅增加竞争力。
+
+**Tags:** `ai` `ai-model` `backend` `frontend` `java` `langchain4j` `mcp` `rag`
+
+---
+
 ### 210. [mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes)
 
-⭐ **1,193** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,195** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 MCP Server for kubernetes management commands
 
@@ -2256,7 +2266,7 @@ The Grafbase GraphQL Federation Gateway
 
 ### 212. [sre](https://github.com/SmythOS/sre)
 
-⭐ **1,175** | 🔤 **TypeScript** | 📅 **2025-11-25**
+⭐ **1,175** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 The SmythOS Runtime Environment (SRE) is an open-source, cloud-native runtime for agentic AI. Secure, modular, and production-ready, it lets developers build, run, and manage intelligent agents across local, cloud, and edge environments.
 
@@ -2266,7 +2276,7 @@ The SmythOS Runtime Environment (SRE) is an open-source, cloud-native runtime fo
 
 ### 213. [mcp-golang](https://github.com/metoro-io/mcp-golang)
 
-⭐ **1,162** | 🔤 **Go** | 📅 **2025-11-25**
+⭐ **1,164** | 🔤 **Go** | 📅 **2025-11-28**
 
 Write Model Context Protocol servers in few lines of go code. Docs at https://mcpgolang.com . Created by https://metoro.io
 
@@ -2274,7 +2284,7 @@ Write Model Context Protocol servers in few lines of go code. Docs at https://mc
 
 ### 214. [docker-mcp-tutorial](https://github.com/theNetworkChuck/docker-mcp-tutorial)
 
-⭐ **1,161** | 🔤 **N/A** | 📅 **2025-11-27**
+⭐ **1,163** | 🔤 **N/A** | 📅 **2025-11-28**
 
 Complete tutorial materials for building MCP servers with Docker - from NetworkChuck's video
 
@@ -2292,7 +2302,7 @@ The official Kotlin SDK for Model Context Protocol servers and clients. Maintain
 
 ### 216. [deepwiki-mcp](https://github.com/regenrek/deepwiki-mcp)
 
-⭐ **1,150** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,153** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 📖 MCP server for fetch deepwiki.com and get latest knowledge in Cursor and other Code Editors
 
@@ -2300,13 +2310,13 @@ The official Kotlin SDK for Model Context Protocol servers and clients. Maintain
 
 ### 217. [mcp-remote](https://github.com/geelen/mcp-remote)
 
-⭐ **1,145** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,150** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 ---
 
 ### 218. [godot-mcp](https://github.com/Coding-Solo/godot-mcp)
 
-⭐ **1,140** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **1,149** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.
 
@@ -2316,7 +2326,7 @@ MCP server for interfacing with Godot game engine. Provides tools for launching 
 
 ### 219. [ai](https://github.com/stripe/ai)
 
-⭐ **1,128** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,129** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 One-stop shop for building AI-powered products and businesses with Stripe.
 
@@ -2326,7 +2336,7 @@ One-stop shop for building AI-powered products and businesses with Stripe.
 
 ### 220. [xmcp](https://github.com/basementstudio/xmcp)
 
-⭐ **1,124** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,126** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 The TypeScript MCP framework
 
@@ -2336,7 +2346,7 @@ The TypeScript MCP framework
 
 ### 221. [swift-sdk](https://github.com/modelcontextprotocol/swift-sdk)
 
-⭐ **1,116** | 🔤 **Swift** | 📅 **2025-11-27**
+⭐ **1,117** | 🔤 **Swift** | 📅 **2025-11-28**
 
 The official Swift SDK for Model Context Protocol servers and clients.
 
@@ -2346,7 +2356,7 @@ The official Swift SDK for Model Context Protocol servers and clients.
 
 ### 222. [mcp-unity](https://github.com/CoderGamester/mcp-unity)
 
-⭐ **1,108** | 🔤 **C#** | 📅 **2025-11-27**
+⭐ **1,110** | 🔤 **C#** | 📅 **2025-11-28**
 
 Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for OpenAI, Gemini, Claude, Deepseek and Grok interoperability
 
@@ -2366,7 +2376,7 @@ A desktop MCP client designed as a tool unitary utility integration, acceleratin
 
 ### 224. [MiniMax-MCP](https://github.com/MiniMax-AI/MiniMax-MCP)
 
-⭐ **1,097** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,100** | 🔤 **Python** | 📅 **2025-11-28**
 
 Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs.
 
@@ -2396,7 +2406,7 @@ A Ruby Implementation of the Model Context Protocol
 
 ### 227. [mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant)
 
-⭐ **1,081** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,082** | 🔤 **Python** | 📅 **2025-11-28**
 
 An official Qdrant Model Context Protocol (MCP) server implementation
 
@@ -2406,7 +2416,7 @@ An official Qdrant Model Context Protocol (MCP) server implementation
 
 ### 228. [npcpy](https://github.com/NPC-Worldwide/npcpy)
 
-⭐ **1,080** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,079** | 🔤 **Python** | 📅 **2025-11-28**
 
 The AI toolkit for the AI developer
 
@@ -2416,7 +2426,7 @@ The AI toolkit for the AI developer
 
 ### 229. [terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server)
 
-⭐ **1,073** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **1,074** | 🔤 **Go** | 📅 **2025-11-28**
 
 The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.
 
@@ -2434,7 +2444,7 @@ The official ElevenLabs MCP server
 
 ### 231. [code-mode](https://github.com/universal-tool-calling-protocol/code-mode)
 
-⭐ **1,063** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,072** | 🔤 **Python** | 📅 **2025-11-28**
 
 🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via code execution.
 
@@ -2454,7 +2464,7 @@ Flock is a workflow-based low-code platform for rapidly building chatbots, RAG, 
 
 ### 233. [azure-devops-mcp](https://github.com/microsoft/azure-devops-mcp)
 
-⭐ **1,049** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,052** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
 
@@ -2462,7 +2472,7 @@ The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to 
 
 ### 234. [Agent-MCP](https://github.com/rinadelph/Agent-MCP)
 
-⭐ **1,044** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,046** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Agent-MCP is a framework for creating multi-agent systems that enables coordinated, efficient AI collaboration through the Model Context Protocol (MCP). The system is designed for developers building AI applications that benefit from multiple specialized agents working in parallel on different aspects of a project.
 
@@ -2470,7 +2480,7 @@ Agent-MCP is a framework for creating multi-agent systems that enables coordinat
 
 ### 235. [unreal-mcp](https://github.com/chongdashu/unreal-mcp)
 
-⭐ **1,044** | 🔤 **C++** | 📅 **2025-11-28**
+⭐ **1,045** | 🔤 **C++** | 📅 **2025-11-28**
 
 Enable AI assistant clients like Cursor, Windsurf and Claude Desktop to control Unreal Engine through natural language using the Model Context Protocol (MCP).
 
@@ -2480,7 +2490,7 @@ Enable AI assistant clients like Cursor, Windsurf and Claude Desktop to control 
 
 ### 236. [AWorld](https://github.com/inclusionAI/AWorld)
 
-⭐ **1,029** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,030** | 🔤 **Python** | 📅 **2025-11-28**
 
 Build, evaluate and train General Multi-Agent Assistance with ease
 
@@ -2490,7 +2500,7 @@ Build, evaluate and train General Multi-Agent Assistance with ease
 
 ### 237. [Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server)
 
-⭐ **1,026** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,030** | 🔤 **Python** | 📅 **2025-11-28**
 
 A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interface, providing rich document editing capabilities.
 
@@ -2508,7 +2518,7 @@ Query and Summarize your chat messages.
 
 ### 239. [search_with_ai](https://github.com/yokingma/search_with_ai)
 
-⭐ **1,019** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **1,021** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 AI Search Chat , Support DeepResearch, OpenAI/Anthropic/VertexAI/Gemini, SearXNG, Docker.  AI对话式搜索引擎，支持DeepResearch, 支持OpenAI/Anthropic/VertexAI/Gemini接口、聚合搜索引擎SearXNG，支持Docker一键部署。
 
@@ -2544,7 +2554,7 @@ A web UI for Claude Code agents
 
 ### 243. [xiaozhi-esp32-server-java](https://github.com/joey-zhou/xiaozhi-esp32-server-java)
 
-⭐ **1,000** | 🔤 **Java** | 📅 **2025-11-27**
+⭐ **1,001** | 🔤 **Java** | 📅 **2025-11-28**
 
 小智ESP32的Java企业级管理平台，提供设备监控、音色定制、角色切换和对话记录管理的前后端及服务端一体化解决方案
 
@@ -2554,7 +2564,7 @@ A web UI for Claude Code agents
 
 ### 244. [mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server)
 
-⭐ **999** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,000** | 🔤 **Python** | 📅 **2025-11-28**
 
 A Model Context Protocol (MCP) server that enables secure interaction with MySQL databases
 
@@ -2564,7 +2574,7 @@ A Model Context Protocol (MCP) server that enables secure interaction with MySQL
 
 ### 245. [mcp-gateway](https://github.com/docker/mcp-gateway)
 
-⭐ **997** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **998** | 🔤 **Go** | 📅 **2025-11-28**
 
 docker mcp CLI plugin / MCP Gateway
 
@@ -2572,7 +2582,7 @@ docker mcp CLI plugin / MCP Gateway
 
 ### 246. [lets-learn-mcp-python](https://github.com/microsoft/lets-learn-mcp-python)
 
-⭐ **996** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **997** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP Python Tutorial
 
@@ -2582,7 +2592,7 @@ MCP Python Tutorial
 
 ### 247. [cunzhi](https://github.com/imhuso/cunzhi)
 
-⭐ **989** | 🔤 **Rust** | 📅 **2025-11-27**
+⭐ **992** | 🔤 **Rust** | 📅 **2025-11-28**
 
 告别AI提前终止烦恼，助力AI更加持久
 
@@ -2592,7 +2602,7 @@ MCP Python Tutorial
 
 ### 248. [mcp-boilerplate](https://github.com/iannuttall/mcp-boilerplate)
 
-⭐ **982** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **983** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A remote Cloudflare MCP server boilerplate with user authentication and Stripe for paid tools.
 
@@ -2600,7 +2610,7 @@ A remote Cloudflare MCP server boilerplate with user authentication and Stripe f
 
 ### 249. [xhs-toolkit](https://github.com/aki66938/xhs-toolkit)
 
-⭐ **966** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **966** | 🔤 **Python** | 📅 **2025-11-28**
 
 📕 小红书创作者MCP工具包 - 支持与AI客户端集成的内容创作和发布工具
 
@@ -2608,7 +2618,7 @@ A remote Cloudflare MCP server boilerplate with user authentication and Stripe f
 
 ### 250. [tavily-mcp](https://github.com/tavily-ai/tavily-mcp)
 
-⭐ **957** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **962** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 Production ready MCP server with real-time search, extract, map & crawl.
 
@@ -2626,7 +2636,7 @@ A macOS app that provides an MCP server to your Messages, Contacts, Reminders an
 
 ### 252. [ApeRAG](https://github.com/apecloud/ApeRAG)
 
-⭐ **952** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **952** | 🔤 **Python** | 📅 **2025-11-28**
 
 ApeRAG: Production-ready GraphRAG with multi-modal indexing, AI agents, MCP support, and scalable K8s deployment
 
@@ -2634,7 +2644,15 @@ ApeRAG: Production-ready GraphRAG with multi-modal indexing, AI agents, MCP supp
 
 ---
 
-### 253. [ollama-mcp-bridge](https://github.com/patruff/ollama-mcp-bridge)
+### 253. [mcp-server-mysql](https://github.com/benborla/mcp-server-mysql)
+
+⭐ **949** | 🔤 **JavaScript** | 📅 **2025-11-28**
+
+A Model Context Protocol server that provides read-only access to MySQL databases. This server enables LLMs to inspect database schemas and execute read-only queries.
+
+---
+
+### 254. [ollama-mcp-bridge](https://github.com/patruff/ollama-mcp-bridge)
 
 ⭐ **945** | 🔤 **TypeScript** | 📅 **2025-11-26**
 
@@ -2642,17 +2660,9 @@ Bridge between Ollama and MCP servers, enabling local LLMs to use Model Context 
 
 ---
 
-### 254. [mcp-server-mysql](https://github.com/benborla/mcp-server-mysql)
-
-⭐ **945** | 🔤 **JavaScript** | 📅 **2025-11-27**
-
-A Model Context Protocol server that provides read-only access to MySQL databases. This server enables LLMs to inspect database schemas and execute read-only queries.
-
----
-
 ### 255. [google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)
 
-⭐ **941** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **944** | 🔤 **Python** | 📅 **2025-11-28**
 
 Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server
 
@@ -2662,7 +2672,7 @@ Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search
 
 ### 256. [WebMCP](https://github.com/MiguelsPizza/WebMCP)
 
-⭐ **939** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **940** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Bringing the power of MCP to the web
 
@@ -2690,7 +2700,7 @@ The most powerful MCP Slack Server with no permission requirements, Apps support
 
 ### 259. [claude-code-mcp](https://github.com/steipete/claude-code-mcp)
 
-⭐ **932** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **934** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 Claude Code as one-shot MCP server to have an agent in your agent.
 
@@ -2710,7 +2720,7 @@ A model context protocol server to work with JetBrains IDEs: IntelliJ, PyCharm, 
 
 ### 261. [fetcher-mcp](https://github.com/jae-jae/fetcher-mcp)
 
-⭐ **921** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **922** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 MCP server for fetch web page content using Playwright headless browser.
 
@@ -2728,9 +2738,15 @@ MCP server for fetch web page content using Playwright headless browser.
 
 ---
 
-### 263. [RedNote-MCP](https://github.com/iFurySt/RedNote-MCP)
+### 263. [google-analytics-mcp](https://github.com/googleanalytics/google-analytics-mcp)
 
-⭐ **912** | 🔤 **TypeScript** | 📅 **2025-11-26**
+⭐ **916** | 🔤 **Python** | 📅 **2025-11-28**
+
+---
+
+### 264. [RedNote-MCP](https://github.com/iFurySt/RedNote-MCP)
+
+⭐ **913** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 🚀MCP server for accessing RedNote(XiaoHongShu, xhs).
 
@@ -2738,15 +2754,9 @@ MCP server for fetch web page content using Playwright headless browser.
 
 ---
 
-### 264. [google-analytics-mcp](https://github.com/googleanalytics/google-analytics-mcp)
-
-⭐ **912** | 🔤 **Python** | 📅 **2025-11-28**
-
----
-
 ### 265. [better-chatbot](https://github.com/cgoinglove/better-chatbot)
 
-⭐ **905** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **906** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Just a Better Chatbot. Powered by Agent & MCP & Workflows.
 
@@ -2756,7 +2766,7 @@ Just a Better Chatbot. Powered by Agent & MCP & Workflows.
 
 ### 266. [claude-init](https://github.com/cfrs2005/claude-init)
 
-⭐ **899** | 🔤 **Shell** | 📅 **2025-11-27**
+⭐ **902** | 🔤 **Shell** | 📅 **2025-11-28**
 
 Claude Code 中文开发套件 - 为中国开发者定制的零门槛 AI 编程环境。一键安装完整中文化体验，集成 MCP 服务器、智能上下文管理、安全扫描，支持免翻墙访问。让 AI 编程更简单。
 
@@ -2774,7 +2784,7 @@ A curated list of awesome MCP servers focused on DevOps tools and capabilities.
 
 ### 268. [mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)
 
-⭐ **883** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **885** | 🔤 **Python** | 📅 **2025-11-28**
 
 Universal MCP memory service with semantic search, multi-client support, and autonomous consolidation for Claude Desktop, VS Code, and 13+ AI   applications
 
@@ -2804,7 +2814,7 @@ A framework for writing MCP (Model Context Protocol) servers in Typescript
 
 ### 271. [CloudBase-AI-ToolKit](https://github.com/TencentCloudBase/CloudBase-AI-ToolKit)
 
-⭐ **875** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **875** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Connect CloudBase to your AI Agent. Go from AI prompt to live app in one click. CloudBase AI ToolKit is the bridge that connects your AI IDE directly to CloudBase. 连接 CloudBase 与您的 AI Agent。从 AI 提示词变为生产级应用。CloudBase AI ToolKit 是连接您的 AI IDE 与 CloudBase 的桥梁。
 
@@ -2814,7 +2824,7 @@ Connect CloudBase to your AI Agent. Go from AI prompt to live app in one click. 
 
 ### 272. [mix.core](https://github.com/mixcore/mix.core)
 
-⭐ **873** | 🔤 **C#** | 📅 **2025-11-27**
+⭐ **873** | 🔤 **C#** | 📅 **2025-11-28**
 
 🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches. Build any type of app with customizable APIs on ASP.NET Core/.NET Core. Completely open-source and designed for flexibility.
 
@@ -2834,7 +2844,7 @@ MCP server helping models to understand your Vite/Nuxt app better.
 
 ### 274. [MCProtocolLib](https://github.com/GeyserMC/MCProtocolLib)
 
-⭐ **863** | 🔤 **Java** | 📅 **2025-11-26**
+⭐ **864** | 🔤 **Java** | 📅 **2025-11-28**
 
 A library for communication with a Minecraft client/server.
 
@@ -2844,7 +2854,7 @@ A library for communication with a Minecraft client/server.
 
 ### 275. [mcpdoc](https://github.com/langchain-ai/mcpdoc)
 
-⭐ **861** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **862** | 🔤 **Python** | 📅 **2025-11-28**
 
 Expose llms-txt to IDEs for development
 
@@ -2862,7 +2872,7 @@ Allow AI to wade through complex OpenAPIs using Simple Language
 
 ### 277. [ros-mcp-server](https://github.com/robotmcp/ros-mcp-server)
 
-⭐ **849** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **851** | 🔤 **Python** | 📅 **2025-11-28**
 
 Connect AI models like Claude & GPT with robots using MCP and ROS.
 
@@ -2880,7 +2890,7 @@ A concise list for mcp servers
 
 ### 279. [mcp-browser-use](https://github.com/Saik0s/mcp-browser-use)
 
-⭐ **843** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **844** | 🔤 **Python** | 📅 **2025-11-28**
 
 ---
 
@@ -2906,7 +2916,7 @@ A Model Context Protocol (MCP) server for Gmail integration in Claude Desktop wi
 
 ### 283. [mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server)
 
-⭐ **833** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **834** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.
 
@@ -2916,7 +2926,7 @@ A Model Context Protocol server to connect to MongoDB databases and MongoDB Atla
 
 ### 284. [short-video-maker](https://github.com/gyoridavid/short-video-maker)
 
-⭐ **828** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **830** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Creates short videos for TikTok, Instagram Reels, and YouTube Shorts using the Model Context Protocol (MCP) and a REST API.
 
@@ -2924,19 +2934,9 @@ Creates short videos for TikTok, Instagram Reels, and YouTube Shorts using the M
 
 ---
 
-### 285. [hyper-mcp](https://github.com/tuananh/hyper-mcp)
+### 285. [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)
 
-⭐ **827** | 🔤 **Rust** | 📅 **2025-11-26**
-
-📦️ A fast, secure MCP server that extends its capabilities through WebAssembly plugins.
-
-**Tags:** `mcp` `mcp-server` `extism` `oci` `wasm` `ai` `llm` `sandboxing`
-
----
-
-### 286. [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)
-
-⭐ **827** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **830** | 🔤 **Go** | 📅 **2025-11-28**
 
 Model Context Protocol (MCP) server for Kubernetes and OpenShift
 
@@ -2944,13 +2944,23 @@ Model Context Protocol (MCP) server for Kubernetes and OpenShift
 
 ---
 
-### 287. [mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j)
+### 286. [mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j)
 
-⭐ **826** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **828** | 🔤 **Python** | 📅 **2025-11-28**
 
 Model Context Protocol with Neo4j
 
 **Tags:** `database` `mcp` `mcp-server` `neo4j` `stdio`
+
+---
+
+### 287. [hyper-mcp](https://github.com/tuananh/hyper-mcp)
+
+⭐ **827** | 🔤 **Rust** | 📅 **2025-11-26**
+
+📦️ A fast, secure MCP server that extends its capabilities through WebAssembly plugins.
+
+**Tags:** `mcp` `mcp-server` `extism` `oci` `wasm` `ai` `llm` `sandboxing`
 
 ---
 
@@ -2966,7 +2976,7 @@ Model Context Protocol for WinDBG
 
 ### 289. [agentic-radar](https://github.com/splx-ai/agentic-radar)
 
-⭐ **819** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **821** | 🔤 **Python** | 📅 **2025-11-28**
 
 A security scanner for your LLM agentic workflows
 
@@ -2986,7 +2996,7 @@ A minimalistic MCP client with a good feature set.
 
 ### 291. [supabase-mcp-server](https://github.com/alexander-zuev/supabase-mcp-server)
 
-⭐ **812** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **813** | 🔤 **Python** | 📅 **2025-11-28**
 
 Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more.
 
@@ -2996,7 +3006,7 @@ Query MCP enables end-to-end management of Supabase via chat interface: read & w
 
 ### 292. [AI-Gateway](https://github.com/Azure-Samples/AI-Gateway)
 
-⭐ **810** | 🔤 **Jupyter Notebook** | 📅 **2025-11-26**
+⭐ **810** | 🔤 **Jupyter Notebook** | 📅 **2025-11-29**
 
 APIM ❤️ AI - This repo contains experiments on Azure API Management's AI capabilities, integrating with Azure OpenAI, AI Foundry, and much more 🚀 . New workshop experience at https://aka.ms/ai-gateway/workshop
 
@@ -3004,7 +3014,17 @@ APIM ❤️ AI - This repo contains experiments on Azure API Management's AI cap
 
 ---
 
-### 293. [solace-agent-mesh](https://github.com/SolaceLabs/solace-agent-mesh)
+### 293. [Peekaboo](https://github.com/steipete/Peekaboo)
+
+⭐ **810** | 🔤 **Swift** | 📅 **2025-11-29**
+
+Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.
+
+**Tags:** `ai` `macos` `mcp` `screenshots` `swift`
+
+---
+
+### 294. [solace-agent-mesh](https://github.com/SolaceLabs/solace-agent-mesh)
 
 ⭐ **809** | 🔤 **Python** | 📅 **2025-11-27**
 
@@ -3014,19 +3034,9 @@ An event-driven framework designed to build and orchestrate multi-agent AI syste
 
 ---
 
-### 294. [Peekaboo](https://github.com/steipete/Peekaboo)
-
-⭐ **807** | 🔤 **Swift** | 📅 **2025-11-27**
-
-Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.
-
-**Tags:** `ai` `macos` `mcp` `screenshots` `swift`
-
----
-
 ### 295. [mcpm.sh](https://github.com/pathintegral-institute/mcpm.sh)
 
-⭐ **805** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **806** | 🔤 **Python** | 📅 **2025-11-28**
 
 CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.
 
@@ -3036,7 +3046,7 @@ CLI MCP package manager & registry for all platforms and all clients. Search & c
 
 ### 296. [tools](https://github.com/strands-agents/tools)
 
-⭐ **803** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **806** | 🔤 **Python** | 📅 **2025-11-28**
 
 A set of tools that gives agents powerful capabilities.
 
@@ -3044,7 +3054,17 @@ A set of tools that gives agents powerful capabilities.
 
 ---
 
-### 297. [golf](https://github.com/golf-mcp/golf)
+### 297. [trustgraph](https://github.com/trustgraph-ai/trustgraph)
+
+⭐ **801** | 🔤 **Python** | 📅 **2025-11-28**
+
+Eliminate hallucinations from your AI agents.
+
+**Tags:** `graphrag` `ai` `neo4j` `open-source` `mcp` `ai-infra` `ai-tools` `chatbot`
+
+---
+
+### 298. [golf](https://github.com/golf-mcp/golf)
 
 ⭐ **800** | 🔤 **Python** | 📅 **2025-11-27**
 
@@ -3054,19 +3074,9 @@ Production-Ready MCP Server Framework • Build, deploy & scale secure AI agent 
 
 ---
 
-### 298. [docs-mcp-server](https://github.com/arabold/docs-mcp-server)
-
-⭐ **797** | 🔤 **TypeScript** | 📅 **2025-11-28**
-
-Grounded Docs MCP Server: Enhance Your AI Coding Assistant
-
-**Tags:** `agentic-ai` `copilot` `cursor` `llm` `mcp` `vscode` `windsurf`
-
----
-
 ### 299. [ref-tools-mcp](https://github.com/ref-tools/ref-tools-mcp)
 
-⭐ **796** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **799** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Helping coding agents never make mistakes working with public or private libraries without wasting the context window.
 
@@ -3074,21 +3084,21 @@ Helping coding agents never make mistakes working with public or private librari
 
 ---
 
-### 300. [Pixelle-MCP](https://github.com/AIDC-AI/Pixelle-MCP)
+### 300. [docs-mcp-server](https://github.com/arabold/docs-mcp-server)
 
-⭐ **794** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **798** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
-An Open-Source Multimodal AIGC Solution based on ComfyUI + MCP + LLM  https://pixelle.ai
+Grounded Docs MCP Server: Enhance Your AI Coding Assistant
+
+**Tags:** `agentic-ai` `copilot` `cursor` `llm` `mcp` `vscode` `windsurf`
 
 ---
 
-### 301. [trustgraph](https://github.com/trustgraph-ai/trustgraph)
+### 301. [Pixelle-MCP](https://github.com/AIDC-AI/Pixelle-MCP)
 
-⭐ **792** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **796** | 🔤 **Python** | 📅 **2025-11-29**
 
-Eliminate hallucinations from your AI agents.
-
-**Tags:** `graphrag` `ai` `neo4j` `open-source` `mcp` `ai-infra` `ai-tools` `chatbot`
+An Open-Source Multimodal AIGC Solution based on ComfyUI + MCP + LLM  https://pixelle.ai
 
 ---
 
@@ -3102,15 +3112,9 @@ Simple, modular, and observable Go framework for backend applications.
 
 ---
 
-### 303. [mcp-sequential-thinking](https://github.com/arben-adm/mcp-sequential-thinking)
+### 303. [jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server)
 
-⭐ **790** | 🔤 **Python** | 📅 **2025-11-27**
-
----
-
-### 304. [jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server)
-
-⭐ **789** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **790** | 🔤 **Python** | 📅 **2025-11-28**
 
 🪐 ✨ Model Context Protocol (MCP) Server for Jupyter.
 
@@ -3118,21 +3122,27 @@ Simple, modular, and observable Go framework for backend applications.
 
 ---
 
-### 305. [toolfront](https://github.com/statespace-tech/toolfront)
+### 304. [google-calendar-mcp](https://github.com/nspady/google-calendar-mcp)
+
+⭐ **790** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+MCP integration for Google Calendar to manage events.
+
+---
+
+### 305. [mcp-sequential-thinking](https://github.com/arben-adm/mcp-sequential-thinking)
+
+⭐ **789** | 🔤 **Python** | 📅 **2025-11-28**
+
+---
+
+### 306. [toolfront](https://github.com/statespace-tech/toolfront)
 
 ⭐ **789** | 🔤 **Python** | 📅 **2025-11-26**
 
 Build and deploy AI apps in minutes. All in pure Markdown. Zero boilerplate.
 
 **Tags:** `data-analysis` `data-engineering` `data-science` `database` `mcp` `sql` `artificial-intelligence` `analytics`
-
----
-
-### 306. [google-calendar-mcp](https://github.com/nspady/google-calendar-mcp)
-
-⭐ **789** | 🔤 **TypeScript** | 📅 **2025-11-27**
-
-MCP integration for Google Calendar to manage events.
 
 ---
 
@@ -3148,7 +3158,7 @@ Ultimate Context Engineering Infrastructure, starting from MCPs and Integrations
 
 ### 308. [OpenDerisk](https://github.com/derisk-ai/OpenDerisk)
 
-⭐ **783** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **784** | 🔤 **Python** | 📅 **2025-11-28**
 
 AI-Native Risk Intelligence Systems, OpenDeRisk——Your application system risk intelligent manager provides 7* 24-hour comprehensive and in-depth protection.
 
@@ -3168,13 +3178,29 @@ A Model Context Protocol (MCP) server implementation for remote memory bank mana
 
 ### 310. [MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist)
 
-⭐ **779** | 🔤 **N/A** | 📅 **2025-11-25**
+⭐ **780** | 🔤 **N/A** | 📅 **2025-11-28**
 
 A comprehensive security checklist for MCP-based AI tools. Built by SlowMist to safeguard LLM plugin ecosystems.
 
 ---
 
-### 311. [server](https://github.com/php-mcp/server)
+### 311. [gitlab-mcp](https://github.com/zereight/gitlab-mcp)
+
+⭐ **779** | 🔤 **JavaScript** | 📅 **2025-11-28**
+
+First gitlab mcp for you
+
+---
+
+### 312. [mcp_agent_mail](https://github.com/Dicklesworthstone/mcp_agent_mail)
+
+⭐ **777** | 🔤 **Python** | 📅 **2025-11-29**
+
+Like gmail for your coding agents. Lets various different agents communicate and coordinate with each other.
+
+---
+
+### 313. [server](https://github.com/php-mcp/server)
 
 ⭐ **775** | 🔤 **PHP** | 📅 **2025-11-24**
 
@@ -3182,7 +3208,7 @@ Core PHP implementation for the Model Context Protocol (MCP) server
 
 ---
 
-### 312. [browser-use-mcp-server](https://github.com/kontext-dev/browser-use-mcp-server)
+### 314. [browser-use-mcp-server](https://github.com/kontext-dev/browser-use-mcp-server)
 
 ⭐ **775** | 🔤 **Python** | 📅 **2025-11-26**
 
@@ -3192,25 +3218,9 @@ Browse the web, directly from Cursor etc.
 
 ---
 
-### 313. [gitlab-mcp](https://github.com/zereight/gitlab-mcp)
-
-⭐ **775** | 🔤 **JavaScript** | 📅 **2025-11-28**
-
-First gitlab mcp for you
-
----
-
-### 314. [mcp_agent_mail](https://github.com/Dicklesworthstone/mcp_agent_mail)
-
-⭐ **770** | 🔤 **Python** | 📅 **2025-11-28**
-
-Like gmail for your coding agents. Lets various different agents communicate and coordinate with each other.
-
----
-
 ### 315. [wassette](https://github.com/microsoft/wassette)
 
-⭐ **768** | 🔤 **Rust** | 📅 **2025-11-27**
+⭐ **769** | 🔤 **Rust** | 📅 **2025-11-28**
 
 Wassette: A security-oriented runtime that runs WebAssembly Components via MCP
 
@@ -3220,7 +3230,7 @@ Wassette: A security-oriented runtime that runs WebAssembly Components via MCP
 
 ### 316. [openapi-servers](https://github.com/open-webui/openapi-servers)
 
-⭐ **760** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **761** | 🔤 **Python** | 📅 **2025-11-28**
 
 OpenAPI Tool Servers
 
@@ -3228,7 +3238,17 @@ OpenAPI Tool Servers
 
 ---
 
-### 317. [arcade-mcp](https://github.com/ArcadeAI/arcade-mcp)
+### 317. [DeepMCPAgent](https://github.com/cryxnet/DeepMCPAgent)
+
+⭐ **758** | 🔤 **Python** | 📅 **2025-11-28**
+
+Model-agnostic plug-n-play LangChain/LangGraph agents powered entirely by MCP tools over HTTP/SSE.
+
+**Tags:** `agent-framework` `agentic-ai` `agents` `ai` `ai-agents` `ai-framework` `artificial-intelligence` `autonomous-agents`
+
+---
+
+### 318. [arcade-mcp](https://github.com/ArcadeAI/arcade-mcp)
 
 ⭐ **755** | 🔤 **Python** | 📅 **2025-11-27**
 
@@ -3238,19 +3258,9 @@ The best way to create, deploy, and share MCP Servers
 
 ---
 
-### 318. [DeepMCPAgent](https://github.com/cryxnet/DeepMCPAgent)
-
-⭐ **755** | 🔤 **Python** | 📅 **2025-11-28**
-
-Model-agnostic plug-n-play LangChain/LangGraph agents powered entirely by MCP tools over HTTP/SSE.
-
-**Tags:** `agent-framework` `agentic-ai` `agents` `ai` `ai-agents` `ai-framework` `artificial-intelligence` `autonomous-agents`
-
----
-
 ### 319. [runno](https://github.com/taybenlor/runno)
 
-⭐ **751** | 🔤 **TypeScript** | 📅 **2025-11-25**
+⭐ **752** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Sandboxed runtime for programming languages and WASI binaries. Works in the browser, on your server, or via MCP.
 
@@ -3258,15 +3268,35 @@ Sandboxed runtime for programming languages and WASI binaries. Works in the brow
 
 ---
 
-### 320. [Context](https://github.com/indragiek/Context)
+### 320. [ai-dev-tools-zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp)
 
-⭐ **742** | 🔤 **Swift** | 📅 **2025-11-23**
+⭐ **745** | 🔤 **JavaScript** | 📅 **2025-11-29**
+
+AI Dev Tools Zoomcamp is a free course that helps you use AI tools to write better code, faster. We're starting the first cohort of this course on November 18, 2025! Sign up here to join us 👇🏼
+
+**Tags:** `ai` `ai-agents` `automation` `cicd` `coding-agent` `course` `devops` `free`
+
+---
+
+### 321. [Context](https://github.com/indragiek/Context)
+
+⭐ **743** | 🔤 **Swift** | 📅 **2025-11-28**
 
 Native macOS client for Model Context Protocol (MCP)
 
 ---
 
-### 321. [lisa.py](https://github.com/ant4g0nist/lisa.py)
+### 322. [agents](https://github.com/inkeep/agents)
+
+⭐ **742** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For shipping AI assistants and multi-agent AI workflows.
+
+**Tags:** `agent` `agent-builder` `agent-framework` `ai-agents` `mulit-agent` `no-code` `workflows` `agents-sdk`
+
+---
+
+### 323. [lisa.py](https://github.com/ant4g0nist/lisa.py)
 
 ⭐ **738** | 🔤 **Python** | 📅 **2025-11-18**
 
@@ -3276,33 +3306,13 @@ LLDB MCP Integration + other helpful commands
 
 ---
 
-### 322. [agents](https://github.com/inkeep/agents)
-
-⭐ **738** | 🔤 **TypeScript** | 📅 **2025-11-27**
-
-Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For shipping AI assistants and multi-agent AI workflows.
-
-**Tags:** `agent` `agent-builder` `agent-framework` `ai-agents` `mulit-agent` `no-code` `workflows` `agents-sdk`
-
----
-
-### 323. [kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server)
+### 324. [kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server)
 
 ⭐ **736** | 🔤 **Python** | 📅 **2025-11-24**
 
 Chat with your Kubernetes Cluster using AI tools and IDEs like Claude and Cursor!
 
 **Tags:** `ai` `deployment` `devops` `genai` `kubernetes` `kubernetes-cluster` `llms` `mcp`
-
----
-
-### 324. [ai-dev-tools-zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp)
-
-⭐ **733** | 🔤 **JavaScript** | 📅 **2025-11-27**
-
-AI Dev Tools Zoomcamp is a free course that helps you use AI tools to write better code, faster. We're starting the first cohort of this course on November 18, 2025! Sign up here to join us 👇🏼
-
-**Tags:** `ai` `ai-agents` `automation` `cicd` `coding-agent` `course` `devops` `free`
 
 ---
 
@@ -3328,7 +3338,7 @@ Zotero MCP: Connects your Zotero research library with Claude and other AI assis
 
 ### 327. [mcp-marketplace](https://github.com/cline/mcp-marketplace)
 
-⭐ **731** | 🔤 **N/A** | 📅 **2025-11-26**
+⭐ **732** | 🔤 **N/A** | 📅 **2025-11-28**
 
 This is the official repository for submitting MCP servers to be included in Cline's MCP Marketplace. If you’ve built an MCP server and want it to be discoverable and easily installable by millions of developers using Cline, submit your server here.
 
@@ -3336,7 +3346,7 @@ This is the official repository for submitting MCP servers to be included in Cli
 
 ### 328. [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go)
 
-⭐ **725** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **726** | 🔤 **Go** | 📅 **2025-11-28**
 
 trpc-agent-go is a powerful Go framework for building intelligent agent systems using large language models (LLMs) and tools.
 
@@ -3356,7 +3366,7 @@ Vibetest MCP - automated QA testing using Browser-Use agents
 
 ### 330. [k8m](https://github.com/weibaohui/k8m)
 
-⭐ **712** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **714** | 🔤 **Go** | 📅 **2025-11-28**
 
 一款轻量级、跨平台的 Mini Kubernetes AI Dashboard，支持大模型+智能体+MCP(支持设置操作权限)，集成多集群管理、智能分析、实时异常检测等功能，支持多架构并可单文件部署，助力高效集群管理与运维优化。
 
@@ -3384,7 +3394,7 @@ Self-hosted MCP Gateway and Registry for AI agents
 
 ### 333. [qgis_mcp](https://github.com/jjsantos01/qgis_mcp)
 
-⭐ **705** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **705** | 🔤 **Python** | 📅 **2025-11-28**
 
 Model Context Protocol (MCP) that allows LLMs to use QGIS Desktop
 
@@ -3392,7 +3402,7 @@ Model Context Protocol (MCP) that allows LLMs to use QGIS Desktop
 
 ### 334. [heurist-agent-framework](https://github.com/heurist-network/heurist-agent-framework)
 
-⭐ **704** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **704** | 🔤 **Python** | 📅 **2025-11-28**
 
 A flexible multi-interface AI agent framework for building agents with reasoning, tool use, memory, deep research, blockchain interaction, MCP, and agents-as-a-service.
 
@@ -3402,7 +3412,7 @@ A flexible multi-interface AI agent framework for building agents with reasoning
 
 ### 335. [AITreasureBox](https://github.com/superiorlu/AITreasureBox)
 
-⭐ **699** | 🔤 **Ruby** | 📅 **2025-11-28**
+⭐ **700** | 🔤 **Ruby** | 📅 **2025-11-29**
 
 🤖 Collect practical AI repos, tools, websites, papers and tutorials on AI. 实用的AI百宝箱 💎
 
@@ -3412,7 +3422,7 @@ A flexible multi-interface AI agent framework for building agents with reasoning
 
 ### 336. [mcp-server](https://github.com/financial-datasets/mcp-server)
 
-⭐ **699** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **700** | 🔤 **Python** | 📅 **2025-11-28**
 
 An MCP server for interacting with the Financial Datasets stock market API.
 
@@ -3430,7 +3440,7 @@ AgentKit: Build multi-agent networks in TypeScript with deterministic routing an
 
 ### 338. [context-portal](https://github.com/GreatScottyMac/context-portal)
 
-⭐ **694** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **697** | 🔤 **Python** | 📅 **2025-11-28**
 
 Context Portal (ConPort): A memory bank MCP server building a project-specific knowledge graph to supercharge AI assistants. Enables powerful Retrieval Augmented Generation (RAG) for context-aware development in your IDE.
 
@@ -3438,7 +3448,7 @@ Context Portal (ConPort): A memory bank MCP server building a project-specific k
 
 ### 339. [jadx-ai-mcp](https://github.com/zinja-coder/jadx-ai-mcp)
 
-⭐ **692** | 🔤 **Java** | 📅 **2025-11-27**
+⭐ **693** | 🔤 **Java** | 📅 **2025-11-28**
 
 Plugin for JADX to integrate MCP server
 
@@ -3456,7 +3466,7 @@ just-prompt is an MCP server that provides a unified interface to top LLM provid
 
 ### 341. [llm-functions](https://github.com/sigoden/llm-functions)
 
-⭐ **676** | 🔤 **Shell** | 📅 **2025-11-27**
+⭐ **677** | 🔤 **Shell** | 📅 **2025-11-28**
 
 Easily create LLM tools and agents using plain Bash/JavaScript/Python functions.
 
@@ -3466,7 +3476,7 @@ Easily create LLM tools and agents using plain Bash/JavaScript/Python functions.
 
 ### 342. [wordpress-mcp](https://github.com/Automattic/wordpress-mcp)
 
-⭐ **671** | 🔤 **PHP** | 📅 **2025-11-26**
+⭐ **672** | 🔤 **PHP** | 📅 **2025-11-28**
 
 WordPress MCP — This repository will be deprecated as stable releases of mcp-adapter become available. Please use https://github.com/WordPress/mcp-adapter for ongoing development and support.
 
@@ -3474,7 +3484,7 @@ WordPress MCP — This repository will be deprecated as stable releases of mcp-a
 
 ### 343. [langgraph-mcp-agents](https://github.com/teddynote-lab/langgraph-mcp-agents)
 
-⭐ **669** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **670** | 🔤 **Python** | 📅 **2025-11-28**
 
 LangGraph-powered ReAct agent with Model Context Protocol (MCP) integration. A Streamlit web interface for dynamically configuring, deploying, and interacting with AI agents capable of accessing various data sources and APIs through MCP tools.
 
@@ -3482,7 +3492,7 @@ LangGraph-powered ReAct agent with Model Context Protocol (MCP) integration. A S
 
 ### 344. [openmcp-client](https://github.com/LSTM-Kirigaya/openmcp-client)
 
-⭐ **660** | 🔤 **Vue** | 📅 **2025-11-27**
+⭐ **663** | 🔤 **Vue** | 📅 **2025-11-28**
 
 All in one vscode plugin for mcp developer
 
@@ -3508,7 +3518,7 @@ MCP server for Docker
 
 ### 347. [go-mcp](https://github.com/ThinkInAIXYZ/go-mcp)
 
-⭐ **655** | 🔤 **Go** | 📅 **2025-11-24**
+⭐ **655** | 🔤 **Go** | 📅 **2025-11-28**
 
 Go-MCP is a powerful Go(Golang) version of the MCP SDK that implements the Model Context Protocol (MCP) to facilitate seamless communication between external systems and AI applications.
 
@@ -3524,7 +3534,7 @@ The YaCy Grid Master Connect Program
 
 ### 349. [12306-mcp](https://github.com/Joooook/12306-mcp)
 
-⭐ **654** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **655** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 This is a 12306 ticket search server based on the Model Context Protocol (MCP).
 
@@ -3532,7 +3542,15 @@ This is a 12306 ticket search server based on the Model Context Protocol (MCP).
 
 ---
 
-### 350. [mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner)
+### 350. [nanobot](https://github.com/nanobot-ai/nanobot)
+
+⭐ **655** | 🔤 **Go** | 📅 **2025-11-28**
+
+Build MCP Agents
+
+---
+
+### 351. [mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner)
 
 ⭐ **654** | 🔤 **Python** | 📅 **2025-11-27**
 
@@ -3542,17 +3560,9 @@ Scan MCP servers for potential threats & security findings.
 
 ---
 
-### 351. [nanobot](https://github.com/nanobot-ai/nanobot)
-
-⭐ **654** | 🔤 **Go** | 📅 **2025-11-27**
-
-Build MCP Agents
-
----
-
 ### 352. [duckduckgo-mcp-server](https://github.com/nickclyde/duckduckgo-mcp-server)
 
-⭐ **651** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **652** | 🔤 **Python** | 📅 **2025-11-28**
 
 A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing.
 
@@ -3588,15 +3598,23 @@ A secure local sandbox to run LLM-generated code using Apple containers
 
 ### 356. [mcp](https://github.com/hyperbrowserai/mcp)
 
-⭐ **640** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **641** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A MCP server implementation for hyperbrowser
 
 ---
 
-### 357. [laravel-restify](https://github.com/BinarCode/laravel-restify)
+### 357. [clojure-mcp](https://github.com/bhauman/clojure-mcp)
 
-⭐ **636** | 🔤 **PHP** | 📅 **2025-11-27**
+⭐ **637** | 🔤 **Clojure** | 📅 **2025-11-28**
+
+Clojure MCP
+
+---
+
+### 358. [laravel-restify](https://github.com/BinarCode/laravel-restify)
+
+⭐ **636** | 🔤 **PHP** | 📅 **2025-11-28**
 
 Laravel API for Ai Agents and humans.
 
@@ -3604,17 +3622,9 @@ Laravel API for Ai Agents and humans.
 
 ---
 
-### 358. [clojure-mcp](https://github.com/bhauman/clojure-mcp)
-
-⭐ **636** | 🔤 **Clojure** | 📅 **2025-11-27**
-
-Clojure MCP
-
----
-
 ### 359. [apple-docs-mcp](https://github.com/kimsungwhee/apple-docs-mcp)
 
-⭐ **635** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **636** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 MCP server for Apple Developer Documentation - Search iOS/macOS/SwiftUI/UIKit docs, WWDC videos, Swift/Objective-C APIs & code examples in Claude, Cursor & AI assistants
 
@@ -3634,7 +3644,7 @@ Querying local documents, powered by LLM
 
 ### 361. [llm-server-docs](https://github.com/varunvasudeva1/llm-server-docs)
 
-⭐ **623** | 🔤 **N/A** | 📅 **2025-11-27**
+⭐ **624** | 🔤 **N/A** | 📅 **2025-11-28**
 
 End-to-end documentation to set up your own local & fully private LLM server on Debian. Equipped with chat, web search, RAG, model management, MCP servers, image generation, and TTS.
 
@@ -3652,7 +3662,7 @@ EnrichMCP is a python framework for building data driven MCP servers
 
 ### 363. [wcgw](https://github.com/rusiaaman/wcgw)
 
-⭐ **618** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **619** | 🔤 **Python** | 📅 **2025-11-28**
 
 Shell and coding agent on claude desktop app
 
@@ -3662,7 +3672,7 @@ Shell and coding agent on claude desktop app
 
 ### 364. [python-utcp](https://github.com/universal-tool-calling-protocol/python-utcp)
 
-⭐ **614** | 🔤 **Python** | 📅 **2025-11-25**
+⭐ **617** | 🔤 **Python** | 📅 **2025-11-28**
 
 Official python implementation of UTCP. UTCP is an open standard that lets AI agents call any API directly, without extra middleware.
 
@@ -3672,7 +3682,7 @@ Official python implementation of UTCP. UTCP is an open standard that lets AI ag
 
 ### 365. [excel-mcp-server](https://github.com/negokaz/excel-mcp-server)
 
-⭐ **610** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **614** | 🔤 **Go** | 📅 **2025-11-29**
 
 A Model Context Protocol (MCP) server that reads and writes MS Excel data
 
@@ -3680,7 +3690,7 @@ A Model Context Protocol (MCP) server that reads and writes MS Excel data
 
 ### 366. [octocode-mcp](https://github.com/bgauryy/octocode-mcp)
 
-⭐ **610** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **613** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 MCP server for semantic code research and context generation on real-time using LLM patterns | Search naturally across public & private repos based on your permissions | Transform any accessible codebase/s into AI-optimized knowledge on simple and complex flows | Find real implementations and live docs from anywhere
 
@@ -3690,7 +3700,7 @@ MCP server for semantic code research and context generation on real-time using 
 
 ### 367. [mcp-mem0](https://github.com/coleam00/mcp-mem0)
 
-⭐ **609** | 🔤 **Python** | 📅 **2025-11-24**
+⭐ **610** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP server for long term agent memory with Mem0. Also useful as a template to get you started building your own MCP server with Python!
 
@@ -3716,7 +3726,7 @@ RAGLight is a modular framework for Retrieval-Augmented Generation (RAG). It mak
 
 ### 370. [mcp-clickhouse](https://github.com/ClickHouse/mcp-clickhouse)
 
-⭐ **602** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **603** | 🔤 **Python** | 📅 **2025-11-28**
 
 Connect ClickHouse to your AI assistants.
 
@@ -3742,7 +3752,7 @@ MCP server and CLI tool for searching and downloading documents from Anna's Arch
 
 ### 373. [linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server)
 
-⭐ **597** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **598** | 🔤 **Python** | 📅 **2025-11-28**
 
 This MCP server allows Claude and other AI assistants to access your LinkedIn. Scrape LinkedIn profiles and companies, get your recommended jobs, and perform job searches.
 
@@ -3752,7 +3762,7 @@ This MCP server allows Claude and other AI assistants to access your LinkedIn. S
 
 ### 374. [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security)
 
-⭐ **595** | 🔤 **N/A** | 📅 **2025-11-26**
+⭐ **596** | 🔤 **N/A** | 📅 **2025-11-28**
 
 🔥🔒 Awesome MCP (Model Context Protocol) Security 🖥️
 
@@ -3762,7 +3772,7 @@ This MCP server allows Claude and other AI assistants to access your LinkedIn. S
 
 ### 375. [apify-mcp-server](https://github.com/apify/apify-mcp-server)
 
-⭐ **590** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **591** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.
 
@@ -3772,7 +3782,7 @@ The Apify MCP server enables your AI agents to extract data from social media, s
 
 ### 376. [mcp-proxy](https://github.com/TBXark/mcp-proxy)
 
-⭐ **586** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **587** | 🔤 **Go** | 📅 **2025-11-29**
 
 An MCP proxy server that aggregates and serves multiple MCP resource servers through a single HTTP server.
 
@@ -3780,7 +3790,17 @@ An MCP proxy server that aggregates and serves multiple MCP resource servers thr
 
 ---
 
-### 377. [awesome-web3-mcp-servers](https://github.com/demcp/awesome-web3-mcp-servers)
+### 377. [todo-for-ai](https://github.com/todo-for-ai/todo-for-ai)
+
+⭐ **585** | 🔤 **Shell** | 📅 **2025-11-28**
+
+🤖 A comprehensive task management system specifically designed for AI assistants. Supports project management, task tracking, team collaboration, and seamless AI integration through MCP (Model Context Protocol). Built with modern tech stack including React, Flask, and Docker. Try it now at https://todo4ai.org/
+
+**Tags:** `ai-coding-tools` `cursor` `kiro` `todo4ai` `trae` `windsurf`
+
+---
+
+### 378. [awesome-web3-mcp-servers](https://github.com/demcp/awesome-web3-mcp-servers)
 
 ⭐ **582** | 🔤 **N/A** | 📅 **2025-11-24**
 
@@ -3788,23 +3808,13 @@ DeMCP is the first Decentralized MCP network, offering SSE proxies for MCP servi
 
 ---
 
-### 378. [FantasyPremierLeague](https://github.com/joreilly/FantasyPremierLeague)
+### 379. [FantasyPremierLeague](https://github.com/joreilly/FantasyPremierLeague)
 
-⭐ **581** | 🔤 **Jupyter Notebook** | 📅 **2025-11-26**
+⭐ **582** | 🔤 **Jupyter Notebook** | 📅 **2025-11-28**
 
 Fantasy Premier League Kotlin/Compose Multiplatform sample
 
 **Tags:** `android` `ios` `kotlin-multiplatform` `kotlin-native` `jetpack-compose` `koin` `kotlin` `swift`
-
----
-
-### 379. [todo-for-ai](https://github.com/todo-for-ai/todo-for-ai)
-
-⭐ **581** | 🔤 **Shell** | 📅 **2025-11-28**
-
-🤖 A comprehensive task management system specifically designed for AI assistants. Supports project management, task tracking, team collaboration, and seamless AI integration through MCP (Model Context Protocol). Built with modern tech stack including React, Flask, and Docker. Try it now at https://todo4ai.org/
-
-**Tags:** `ai-coding-tools` `cursor` `kiro` `todo4ai` `trae` `windsurf`
 
 ---
 
@@ -3818,7 +3828,7 @@ A simple MCP server for Obsidian
 
 ### 381. [mem-agent-mcp](https://github.com/firstbatchxyz/mem-agent-mcp)
 
-⭐ **579** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **580** | 🔤 **Python** | 📅 **2025-11-28**
 
 mem-agent mcp server
 
@@ -3844,33 +3854,41 @@ Convert Any OpenAPI V3 API to MCP Server
 
 ---
 
-### 384. [FLUJO](https://github.com/mario-andreschak/FLUJO)
+### 384. [mcp](https://github.com/laravel/mcp)
 
-⭐ **574** | 🔤 **TypeScript** | 📅 **2025-11-26**
-
-MCP-Hub and -Inspector, Multi-Model Workflow and Chat Interface
-
----
-
-### 385. [mcp](https://github.com/laravel/mcp)
-
-⭐ **572** | 🔤 **PHP** | 📅 **2025-11-26**
+⭐ **576** | 🔤 **PHP** | 📅 **2025-11-29**
 
 Rapidly build MCP servers for your Laravel applications.
 
 ---
 
-### 386. [code-index-mcp](https://github.com/johnhuang316/code-index-mcp)
+### 385. [code-index-mcp](https://github.com/johnhuang316/code-index-mcp)
 
-⭐ **570** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **575** | 🔤 **Python** | 📅 **2025-11-29**
 
 A Model Context Protocol (MCP) server that helps large language models index, search, and analyze code repositories with minimal setup
 
 ---
 
-### 387. [daydreams](https://github.com/daydreamsai/daydreams)
+### 386. [FLUJO](https://github.com/mario-andreschak/FLUJO)
 
-⭐ **569** | 🔤 **TypeScript** | 📅 **2025-11-26**
+⭐ **573** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+MCP-Hub and -Inspector, Multi-Model Workflow and Chat Interface
+
+---
+
+### 387. [acemcp](https://github.com/qy527145/acemcp)
+
+⭐ **572** | 🔤 **Python** | 📅 **2025-11-28**
+
+一个将ACE(Augment Context Engine) 做成MCP的项目
+
+---
+
+### 388. [daydreams](https://github.com/daydreamsai/daydreams)
+
+⭐ **570** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Daydreams is a set of tools for building agents for commerce
 
@@ -3878,9 +3896,9 @@ Daydreams is a set of tools for building agents for commerce
 
 ---
 
-### 388. [tome](https://github.com/runebookai/tome)
+### 389. [tome](https://github.com/runebookai/tome)
 
-⭐ **565** | 🔤 **Svelte** | 📅 **2025-11-26**
+⭐ **566** | 🔤 **Svelte** | 📅 **2025-11-28**
 
 a magical LLM desktop client that makes it easy for *anyone* to use LLMs and MCP
 
@@ -3888,19 +3906,11 @@ a magical LLM desktop client that makes it easy for *anyone* to use LLMs and MCP
 
 ---
 
-### 389. [langgraph-mcp](https://github.com/esxr/langgraph-mcp)
+### 390. [langgraph-mcp](https://github.com/esxr/langgraph-mcp)
 
 ⭐ **564** | 🔤 **Python** | 📅 **2025-11-24**
 
 LangGraph solution template for MCP
-
----
-
-### 390. [acemcp](https://github.com/qy527145/acemcp)
-
-⭐ **561** | 🔤 **Python** | 📅 **2025-11-28**
-
-一个将ACE(Augment Context Engine) 做成MCP的项目
 
 ---
 
@@ -3920,7 +3930,17 @@ Go server implementing Model Context Protocol (MCP) for filesystem operations.
 
 ---
 
-### 393. [dexto](https://github.com/truffle-ai/dexto)
+### 393. [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP)
+
+⭐ **553** | 🔤 **C#** | 📅 **2025-11-29**
+
+MCP Server + Plugin for Unity Editor and Unity game. The Plugin allows to connect to MCP clients like Claude Desktop or others.
+
+**Tags:** `ai` `ai-integration` `game-development` `mcp` `mcp-server` `unity` `claude` `claude-code`
+
+---
+
+### 394. [dexto](https://github.com/truffle-ai/dexto)
 
 ⭐ **551** | 🔤 **TypeScript** | 📅 **2025-11-27**
 
@@ -3930,27 +3950,17 @@ The Intelligence Layer for AI agents. Connect your models, tools, and data to cr
 
 ---
 
-### 394. [yargi-mcp](https://github.com/saidsurucu/yargi-mcp)
+### 395. [yargi-mcp](https://github.com/saidsurucu/yargi-mcp)
 
-⭐ **551** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **551** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP Server For Turkish Legal Databases
 
 ---
 
-### 395. [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP)
-
-⭐ **549** | 🔤 **C#** | 📅 **2025-11-27**
-
-MCP Server + Plugin for Unity Editor and Unity game. The Plugin allows to connect to MCP clients like Claude Desktop or others.
-
-**Tags:** `ai` `ai-integration` `game-development` `mcp` `mcp-server` `unity` `claude` `claude-code`
-
----
-
 ### 396. [mcp-pointer](https://github.com/etsd-tech/mcp-pointer)
 
-⭐ **542** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **544** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 MCP tool: let you point at DOM elements for your favorite agentic coding tool. Let AI see what you see.
 
@@ -3958,7 +3968,15 @@ MCP tool: let you point at DOM elements for your favorite agentic coding tool. L
 
 ---
 
-### 397. [spotify-mcp](https://github.com/varunneal/spotify-mcp)
+### 397. [Claude-Code-Everything-You-Need-to-Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know)
+
+⭐ **540** | 🔤 **Python** | 📅 **2025-11-28**
+
+The ultimate all-in-one guide to mastering Claude Code. From setup, prompt engineering, commands, hooks, workflows, automation, and integrations, to MCP servers, tools, and the BMAD method—packed with step-by-step tutorials, real-world examples, and expert strategies to make this the global go-to repo for Claude mastery.
+
+---
+
+### 398. [spotify-mcp](https://github.com/varunneal/spotify-mcp)
 
 ⭐ **537** | 🔤 **Python** | 📅 **2025-11-27**
 
@@ -3966,33 +3984,25 @@ MCP to connect your LLM with Spotify.
 
 ---
 
-### 398. [Claude-Code-Everything-You-Need-to-Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know)
-
-⭐ **537** | 🔤 **Python** | 📅 **2025-11-27**
-
-The ultimate all-in-one guide to mastering Claude Code. From setup, prompt engineering, commands, hooks, workflows, automation, and integrations, to MCP servers, tools, and the BMAD method—packed with step-by-step tutorials, real-world examples, and expert strategies to make this the global go-to repo for Claude mastery.
-
----
-
 ### 399. [gcloud-mcp](https://github.com/googleapis/gcloud-mcp)
 
-⭐ **532** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **533** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 gcloud MCP server
 
 ---
 
-### 400. [dolphin-mcp](https://github.com/QuixiAI/dolphin-mcp)
+### 400. [mcp-shield](https://github.com/riseandignite/mcp-shield)
 
-⭐ **528** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **529** | 🔤 **TypeScript** | 📅 **2025-11-29**
+
+Security scanner for MCP servers
 
 ---
 
-### 401. [mcp-shield](https://github.com/riseandignite/mcp-shield)
+### 401. [dolphin-mcp](https://github.com/QuixiAI/dolphin-mcp)
 
-⭐ **528** | 🔤 **TypeScript** | 📅 **2025-11-17**
-
-Security scanner for MCP servers
+⭐ **528** | 🔤 **Python** | 📅 **2025-11-26**
 
 ---
 
@@ -4006,13 +4016,13 @@ Vite plugin that enables a MCP server helping models to understand your Vue app 
 
 ### 403. [pg-mcp-server](https://github.com/stuzero/pg-mcp-server)
 
-⭐ **527** | 🔤 **Python** | 📅 **2025-11-25**
+⭐ **528** | 🔤 **Python** | 📅 **2025-11-28**
 
 ---
 
 ### 404. [samples](https://github.com/strands-agents/samples)
 
-⭐ **522** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **523** | 🔤 **Python** | 📅 **2025-11-28**
 
 Agent samples built using the Strands Agents SDK.
 
@@ -4020,17 +4030,9 @@ Agent samples built using the Strands Agents SDK.
 
 ---
 
-### 405. [mcp-server-neon](https://github.com/neondatabase/mcp-server-neon)
+### 405. [mcp-google-sheets](https://github.com/xing5/mcp-google-sheets)
 
-⭐ **521** | 🔤 **TypeScript** | 📅 **2025-11-27**
-
-MCP server for interacting with Neon Management API and databases
-
----
-
-### 406. [mcp-google-sheets](https://github.com/xing5/mcp-google-sheets)
-
-⭐ **519** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **522** | 🔤 **Python** | 📅 **2025-11-29**
 
 This MCP server integrates with your Google Drive and Google Sheets, to enable creating and modifying spreadsheets.
 
@@ -4038,9 +4040,17 @@ This MCP server integrates with your Google Drive and Google Sheets, to enable c
 
 ---
 
+### 406. [mcp-server-neon](https://github.com/neondatabase/mcp-server-neon)
+
+⭐ **521** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+MCP server for interacting with Neon Management API and databases
+
+---
+
 ### 407. [evo-ai](https://github.com/EvolutionAPI/evo-ai)
 
-⭐ **519** | 🔤 **TypeScript** | 📅 **2025-11-25**
+⭐ **520** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Evo AI is an open-source platform for creating and managing AI agents, enabling integration with different AI models and services.
 
@@ -4050,7 +4060,7 @@ Evo AI is an open-source platform for creating and managing AI agents, enabling 
 
 ### 408. [mcp-sequentialthinking-tools](https://github.com/spences10/mcp-sequentialthinking-tools)
 
-⭐ **519** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **520** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 🧠 An adaptation of the MCP Sequential Thinking Server to guide tool usage. This server provides recommendations for which MCP tools would be most effective at each stage.
 
@@ -4060,13 +4070,13 @@ Evo AI is an open-source platform for creating and managing AI agents, enabling 
 
 ### 409. [mem0-mcp](https://github.com/mem0ai/mem0-mcp)
 
-⭐ **517** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **518** | 🔤 **Python** | 📅 **2025-11-28**
 
 ---
 
 ### 410. [claude-code-plugins-plus](https://github.com/jeremylongshore/claude-code-plugins-plus)
 
-⭐ **517** | 🔤 **JavaScript** | 📅 **2025-11-28**
+⭐ **518** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 Claude Code Plugins Hub — browse and install 243 plugins (175 with Agent Skills v1.2.0). First 100% compliant with Anthropic 2025 Skills schema.
 
@@ -4076,7 +4086,7 @@ Claude Code Plugins Hub — browse and install 243 plugins (175 with Agent Skill
 
 ### 411. [MCP-Nest](https://github.com/rekog-labs/MCP-Nest)
 
-⭐ **515** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **516** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A NestJS module to effortlessly create Model Context Protocol (MCP) servers for exposing AI tools, resources, and prompts.
 
@@ -4084,19 +4094,19 @@ A NestJS module to effortlessly create Model Context Protocol (MCP) servers for 
 
 ---
 
-### 412. [manim-mcp-server](https://github.com/abhiemj/manim-mcp-server)
+### 412. [fastapi-mcp-langgraph-template](https://github.com/NicholasGoh/fastapi-mcp-langgraph-template)
 
-⭐ **512** | 🔤 **Python** | 📅 **2025-11-22**
-
----
-
-### 413. [fastapi-mcp-langgraph-template](https://github.com/NicholasGoh/fastapi-mcp-langgraph-template)
-
-⭐ **511** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **513** | 🔤 **Python** | 📅 **2025-11-28**
 
 A modern template for agentic orchestration — built for rapid iteration and scalable deployment using highly customizable, community-supported tools like MCP, LangGraph, and more.
 
 **Tags:** `compose` `fastapi` `grafana` `langfuse` `langgraph-python` `mcp` `nginx` `prometheus`
+
+---
+
+### 413. [manim-mcp-server](https://github.com/abhiemj/manim-mcp-server)
+
+⭐ **512** | 🔤 **Python** | 📅 **2025-11-22**
 
 ---
 
@@ -4174,7 +4184,7 @@ A Playwright-based Node.js tool that bypasses search engine anti-scraping mechan
 
 ### 422. [multimodal-agents-course](https://github.com/multi-modal-ai/multimodal-agents-course)
 
-⭐ **498** | 🔤 **Python** | 📅 **2025-11-23**
+⭐ **500** | 🔤 **Python** | 📅 **2025-11-28**
 
 An MCP Multimodal AI Agent with eyes and ears!
 
@@ -4184,7 +4194,7 @@ An MCP Multimodal AI Agent with eyes and ears!
 
 ### 423. [line-bot-mcp-server](https://github.com/line/line-bot-mcp-server)
 
-⭐ **498** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **499** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 MCP server that integrates the LINE Messaging API to connect an AI Agent to the LINE Official Account.
 
@@ -4192,17 +4202,17 @@ MCP server that integrates the LINE Messaging API to connect an AI Agent to the 
 
 ---
 
-### 424. [mcp-get](https://github.com/michaellatman/mcp-get)
+### 424. [macos-automator-mcp](https://github.com/steipete/macos-automator-mcp)
 
-⭐ **497** | 🔤 **TypeScript** | 📅 **2025-11-23**
+⭐ **498** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+An MCP server to run AppleScript and JXA (JavaScript for Automation) to macOS.
 
 ---
 
-### 425. [macos-automator-mcp](https://github.com/steipete/macos-automator-mcp)
+### 425. [mcp-get](https://github.com/michaellatman/mcp-get)
 
-⭐ **497** | 🔤 **TypeScript** | 📅 **2025-11-26**
-
-An MCP server to run AppleScript and JXA (JavaScript for Automation) to macOS.
+⭐ **497** | 🔤 **TypeScript** | 📅 **2025-11-23**
 
 ---
 
@@ -4216,7 +4226,7 @@ Yes Mcp server in bash
 
 ### 427. [MCP-Universe](https://github.com/SalesforceAIResearch/MCP-Universe)
 
-⭐ **494** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **496** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP-Universe is a comprehensive framework designed for developing, testing, and benchmarking AI agents
 
@@ -4232,7 +4242,7 @@ A Model Context Protocol server for IDA
 
 ### 429. [mcp.el](https://github.com/lizqwerscott/mcp.el)
 
-⭐ **492** | 🔤 **Emacs Lisp** | 📅 **2025-11-25**
+⭐ **494** | 🔤 **Emacs Lisp** | 📅 **2025-11-28**
 
 An Mcp client inside Emacs
 
@@ -4250,7 +4260,7 @@ MCP for Security: A collection of Model Context Protocol servers for popular sec
 
 ### 431. [iterm-mcp](https://github.com/ferrislucas/iterm-mcp)
 
-⭐ **489** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **490** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A Model Context Protocol server that executes commands in the current iTerm session - useful for REPL and CLI assistance
 
@@ -4328,9 +4338,19 @@ MCP Monitoring with eBPF
 
 ---
 
-### 440. [cloud-run-mcp](https://github.com/GoogleCloudPlatform/cloud-run-mcp)
+### 440. [obot](https://github.com/obot-platform/obot)
 
-⭐ **470** | 🔤 **JavaScript** | 📅 **2025-11-26**
+⭐ **472** | 🔤 **Go** | 📅 **2025-11-29**
+
+Open-source MCP Gateway and AI Platform
+
+**Tags:** `ai` `mcp` `modelcontextprotocol`
+
+---
+
+### 441. [cloud-run-mcp](https://github.com/GoogleCloudPlatform/cloud-run-mcp)
+
+⭐ **471** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 MCP server to deploy apps to Cloud Run
 
@@ -4338,7 +4358,7 @@ MCP server to deploy apps to Cloud Run
 
 ---
 
-### 441. [mcp-youtube](https://github.com/anaisbetts/mcp-youtube)
+### 442. [mcp-youtube](https://github.com/anaisbetts/mcp-youtube)
 
 ⭐ **470** | 🔤 **JavaScript** | 📅 **2025-11-27**
 
@@ -4346,7 +4366,7 @@ A Model-Context Protocol Server for YouTube
 
 ---
 
-### 442. [awesome-a2a](https://github.com/ai-boost/awesome-a2a)
+### 443. [awesome-a2a](https://github.com/ai-boost/awesome-a2a)
 
 ⭐ **470** | 🔤 **N/A** | 📅 **2025-11-25**
 
@@ -4356,23 +4376,13 @@ Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one p
 
 ---
 
-### 443. [reverse-engineering-assistant](https://github.com/cyberkaida/reverse-engineering-assistant)
+### 444. [reverse-engineering-assistant](https://github.com/cyberkaida/reverse-engineering-assistant)
 
 ⭐ **470** | 🔤 **Java** | 📅 **2025-11-27**
 
 MCP server for reverse engineering tasks in Ghidra 👩‍💻
 
 **Tags:** `assistant` `binaryninja` `ghidra` `llm` `reverse-engineering` `mcp` `mcp-server`
-
----
-
-### 444. [obot](https://github.com/obot-platform/obot)
-
-⭐ **470** | 🔤 **Go** | 📅 **2025-11-28**
-
-Open-source MCP Gateway and AI Platform
-
-**Tags:** `ai` `mcp` `modelcontextprotocol`
 
 ---
 
@@ -4386,7 +4396,13 @@ Enable any LLM (e.g. Claude) to interactively debug any language for you via MCP
 
 ---
 
-### 446. [aser](https://github.com/AmeNetwork/aser)
+### 446. [telegram-mcp](https://github.com/chigwell/telegram-mcp)
+
+⭐ **467** | 🔤 **Python** | 📅 **2025-11-28**
+
+---
+
+### 447. [aser](https://github.com/AmeNetwork/aser)
 
 ⭐ **466** | 🔤 **Python** | 📅 **2025-11-24**
 
@@ -4396,17 +4412,11 @@ Aser is a lightweight, self-assembling AI Agent frame.
 
 ---
 
-### 447. [openapi-mcp-generator](https://github.com/harsha-iiiv/openapi-mcp-generator)
+### 448. [openapi-mcp-generator](https://github.com/harsha-iiiv/openapi-mcp-generator)
 
 ⭐ **466** | 🔤 **TypeScript** | 📅 **2025-11-27**
 
 A tool that converts OpenAPI specifications to MCP server
-
----
-
-### 448. [telegram-mcp](https://github.com/chigwell/telegram-mcp)
-
-⭐ **464** | 🔤 **Python** | 📅 **2025-11-27**
 
 ---
 
@@ -4418,7 +4428,19 @@ An SDK building Laravel MCP servers
 
 ---
 
-### 450. [open-multi-agent-canvas](https://github.com/CopilotKit/open-multi-agent-canvas)
+### 450. [a-share-mcp-is-just-i-need](https://github.com/24mlight/a-share-mcp-is-just-i-need)
+
+⭐ **462** | 🔤 **Python** | 📅 **2025-11-28**
+
+---
+
+### 451. [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw)
+
+⭐ **462** | 🔤 **TypeScript** | 📅 **2025-11-29**
+
+---
+
+### 452. [open-multi-agent-canvas](https://github.com/CopilotKit/open-multi-agent-canvas)
 
 ⭐ **461** | 🔤 **TypeScript** | 📅 **2025-11-17**
 
@@ -4428,13 +4450,17 @@ The open-source multi-agent chat interface that lets you manage multiple agents 
 
 ---
 
-### 451. [a-share-mcp-is-just-i-need](https://github.com/24mlight/a-share-mcp-is-just-i-need)
+### 453. [paper-search-mcp](https://github.com/openags/paper-search-mcp)
 
-⭐ **460** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **461** | 🔤 **Python** | 📅 **2025-11-28**
+
+A MCP for searching and downloading academic papers from multiple sources like arXiv, PubMed, bioRxiv, etc.
+
+**Tags:** `ai-scientist` `arxiv-papers` `mcp-server` `paper-search`
 
 ---
 
-### 452. [mcp-gsuite](https://github.com/MarkusPfundstein/mcp-gsuite)
+### 454. [mcp-gsuite](https://github.com/MarkusPfundstein/mcp-gsuite)
 
 ⭐ **460** | 🔤 **Python** | 📅 **2025-11-23**
 
@@ -4442,7 +4468,7 @@ MCP Server to interact with Google Gsuite prodcuts
 
 ---
 
-### 453. [deeppowers](https://github.com/deeppowers/deeppowers)
+### 455. [deeppowers](https://github.com/deeppowers/deeppowers)
 
 ⭐ **460** | 🔤 **C++** | 📅 **2025-11-02**
 
@@ -4452,7 +4478,7 @@ DEEPPOWERS is a Fully Homomorphic Encryption (FHE) framework built for MCP (Mode
 
 ---
 
-### 454. [doctor](https://github.com/sisig-ai/doctor)
+### 456. [doctor](https://github.com/sisig-ai/doctor)
 
 ⭐ **460** | 🔤 **Python** | 📅 **2025-11-19**
 
@@ -4460,25 +4486,9 @@ Doctor is a tool for discovering, crawl, and indexing web sites to be exposed as
 
 ---
 
-### 455. [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw)
-
-⭐ **459** | 🔤 **TypeScript** | 📅 **2025-11-27**
-
----
-
-### 456. [paper-search-mcp](https://github.com/openags/paper-search-mcp)
-
-⭐ **458** | 🔤 **Python** | 📅 **2025-11-27**
-
-A MCP for searching and downloading academic papers from multiple sources like arXiv, PubMed, bioRxiv, etc.
-
-**Tags:** `ai-scientist` `arxiv-papers` `mcp-server` `paper-search`
-
----
-
 ### 457. [mcp-pandoc](https://github.com/vivekVells/mcp-pandoc)
 
-⭐ **457** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **458** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP server for document format conversion using pandoc.
 
@@ -4496,23 +4506,23 @@ Add Obsidian integrations like semantic search and custom Templater prompts to C
 
 ---
 
-### 459. [clickup-mcp-server](https://github.com/taazkareem/clickup-mcp-server)
+### 459. [douyin-mcp-server](https://github.com/yzfly/douyin-mcp-server)
+
+⭐ **453** | 🔤 **Python** | 📅 **2025-11-28**
+
+提取抖音无水印视频链接，视频文案，douyin-mcp-server
+
+**Tags:** `douyin` `mcp` `llm` `video` `video-processing`
+
+---
+
+### 460. [clickup-mcp-server](https://github.com/taazkareem/clickup-mcp-server)
 
 ⭐ **451** | 🔤 **TypeScript** | 📅 **2025-11-25**
 
 ClickUp MCP Server - Integrate ClickUp project management with AI through Model Context Protocol
 
 **Tags:** `ai` `artificial-intelligence` `lists` `llm` `mcp` `mcp-server` `model-context-protocol` `productivity`
-
----
-
-### 460. [douyin-mcp-server](https://github.com/yzfly/douyin-mcp-server)
-
-⭐ **451** | 🔤 **Python** | 📅 **2025-11-24**
-
-提取抖音无水印视频链接，视频文案，douyin-mcp-server
-
-**Tags:** `douyin` `mcp` `llm` `video` `video-processing`
 
 ---
 
@@ -4536,21 +4546,21 @@ MCP server providing seamless access to Apple Developer Documentation with smart
 
 ---
 
-### 463. [UnrealMCP](https://github.com/kvick-games/UnrealMCP)
+### 463. [sentry-mcp](https://github.com/getsentry/sentry-mcp)
 
-⭐ **446** | 🔤 **C++** | 📅 **2025-11-26**
-
-MCP to allow AI agents to control Unreal
-
----
-
-### 464. [sentry-mcp](https://github.com/getsentry/sentry-mcp)
-
-⭐ **444** | 🔤 **TypeScript** | 📅 **2025-11-26**
+⭐ **448** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 An MCP server for interacting with Sentry via LLMs.
 
 **Tags:** `mcp-server` `tag-production`
+
+---
+
+### 464. [UnrealMCP](https://github.com/kvick-games/UnrealMCP)
+
+⭐ **446** | 🔤 **C++** | 📅 **2025-11-26**
+
+MCP to allow AI agents to control Unreal
 
 ---
 
@@ -4628,7 +4638,7 @@ A MCP (Model Context Protocol) server for interacting with dbt.
 
 ### 473. [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp)
 
-⭐ **424** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **425** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP server integration for DaVinci Resolve
 
@@ -4638,7 +4648,7 @@ MCP server integration for DaVinci Resolve
 
 ### 474. [mcporter](https://github.com/steipete/mcporter)
 
-⭐ **419** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **421** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Call MCPs via TypeScript, masquerading as simple TypeScript API. Or package them as cli.
 
@@ -4648,7 +4658,7 @@ Call MCPs via TypeScript, masquerading as simple TypeScript API. Or package them
 
 ### 475. [echokit_server](https://github.com/second-state/echokit_server)
 
-⭐ **419** | 🔤 **Rust** | 📅 **2025-11-27**
+⭐ **421** | 🔤 **Rust** | 📅 **2025-11-28**
 
 Open Source Voice Agent Platform
 
@@ -4668,7 +4678,7 @@ The only general AI agent that does NOT requires extra API key, giving you full 
 
 ### 477. [adb-mcp](https://github.com/mikechambers/adb-mcp)
 
-⭐ **416** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **417** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 ---
 
@@ -4680,7 +4690,15 @@ MCP Server for Istanbul Stock Exchange and Turkish Investment Fund Data
 
 ---
 
-### 479. [mcp-send-email](https://github.com/resend/mcp-send-email)
+### 479. [rails-mcp-server](https://github.com/maquina-app/rails-mcp-server)
+
+⭐ **415** | 🔤 **Ruby** | 📅 **2025-11-28**
+
+A Ruby gem implementation of a Model Context Protocol (MCP) server for Rails projects. This server allows LLMs (Large Language Models) to interact with Rails projects through the Model Context Protocol.
+
+---
+
+### 480. [mcp-send-email](https://github.com/resend/mcp-send-email)
 
 ⭐ **414** | 🔤 **TypeScript** | 📅 **2025-11-26**
 
@@ -4688,17 +4706,9 @@ Send emails directly from Cursor with this email sending MCP server
 
 ---
 
-### 480. [rails-mcp-server](https://github.com/maquina-app/rails-mcp-server)
-
-⭐ **414** | 🔤 **Ruby** | 📅 **2025-11-27**
-
-A Ruby gem implementation of a Model Context Protocol (MCP) server for Rails projects. This server allows LLMs (Large Language Models) to interact with Rails projects through the Model Context Protocol.
-
----
-
 ### 481. [next-devtools-mcp](https://github.com/vercel/next-devtools-mcp)
 
-⭐ **412** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **413** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Next.js Development for Coding Agent
 
@@ -4708,7 +4718,7 @@ Next.js Development for Coding Agent
 
 ### 482. [nexus](https://github.com/grafbase/nexus)
 
-⭐ **412** | 🔤 **Rust** | 📅 **2025-11-27**
+⭐ **413** | 🔤 **Rust** | 📅 **2025-11-29**
 
 Govern & Secure your AI
 
@@ -4738,7 +4748,7 @@ Unlock 650+ MCP servers tools in your favorite agentic framework.
 
 ### 485. [mcp-server-spec-driven-development](https://github.com/formulahendry/mcp-server-spec-driven-development)
 
-⭐ **409** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **410** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Spec-Driven Development MCP Server, not just Vibe Coding
 
@@ -4748,7 +4758,7 @@ Spec-Driven Development MCP Server, not just Vibe Coding
 
 ### 486. [mcp-security](https://github.com/google/mcp-security)
 
-⭐ **407** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **408** | 🔤 **Python** | 📅 **2025-11-28**
 
 ---
 
@@ -4764,7 +4774,7 @@ Make your meetings accessible to AI Agents
 
 ### 488. [minecraft-mcp-server](https://github.com/yuniko-software/minecraft-mcp-server)
 
-⭐ **400** | 🔤 **TypeScript** | 📅 **2025-11-26**
+⭐ **400** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A Minecraft MCP Server powered by Mineflayer API. It allows to control a Minecraft character in real-time, allowing AI assistants to build structures, explore the world, and interact with the game environment through natural language instruction
 
@@ -4792,7 +4802,7 @@ MCP Server for YouTube API, enabling video management, Shorts creation, and adva
 
 ### 491. [mcp-cli](https://github.com/wong2/mcp-cli)
 
-⭐ **395** | 🔤 **JavaScript** | 📅 **2025-11-21**
+⭐ **397** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 A CLI inspector for the Model Context Protocol
 
@@ -4800,7 +4810,7 @@ A CLI inspector for the Model Context Protocol
 
 ### 492. [RestClient.Net](https://github.com/MelbourneDeveloper/RestClient.Net)
 
-⭐ **395** | 🔤 **C#** | 📅 **2025-11-27**
+⭐ **396** | 🔤 **C#** | 📅 **2025-11-28**
 
 The safest way to make REST calls in C# with an MCP Generator
 
@@ -4820,7 +4830,7 @@ Low-Code Full-Stack Agentic AI Development using LLMs, n8n, Loveable, UXPilot, S
 
 ### 494. [mcp-client-for-ollama](https://github.com/jonigl/mcp-client-for-ollama)
 
-⭐ **393** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **394** | 🔤 **Python** | 📅 **2025-11-28**
 
 A text-based user interface (TUI) client for interacting with MCP servers using Ollama. Features include agent mode, multi-server, dynamic model switching, streaming responses, tool management, human-in-the-loop, thinking mode, model parameters configuration, custom system prompt and saved preferences. Built for developers working with local LLMs.
 
@@ -4830,7 +4840,7 @@ A text-based user interface (TUI) client for interacting with MCP servers using 
 
 ### 495. [mcp-bench](https://github.com/Accenture/mcp-bench)
 
-⭐ **389** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **390** | 🔤 **Python** | 📅 **2025-11-29**
 
 MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers
 
@@ -4856,7 +4866,7 @@ A centralized manager for Model Context Protocol (MCP) servers with dynamic serv
 
 ### 498. [freecad-mcp](https://github.com/neka-nat/freecad-mcp)
 
-⭐ **384** | 🔤 **Python** | 📅 **2025-11-26**
+⭐ **386** | 🔤 **Python** | 📅 **2025-11-28**
 
 FreeCAD MCP(Model Context Protocol) server
 
@@ -4886,7 +4896,7 @@ MCP server that execute applescript giving you full control of your Mac
 
 ### 501. [kmcp](https://github.com/kagent-dev/kmcp)
 
-⭐ **376** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **377** | 🔤 **Go** | 📅 **2025-11-28**
 
 CLI tool and Kubernetes Controller for building, testing and deploying MCP servers
 
@@ -4896,7 +4906,7 @@ CLI tool and Kubernetes Controller for building, testing and deploying MCP serve
 
 ### 502. [mcp-server](https://github.com/PortSwigger/mcp-server)
 
-⭐ **375** | 🔤 **Kotlin** | 📅 **2025-11-27**
+⭐ **377** | 🔤 **Kotlin** | 📅 **2025-11-28**
 
 MCP Server for Burp
 
@@ -4916,7 +4926,7 @@ An MCP for Godot that lets you create and edit games in the Godot game engine wi
 
 ### 504. [groq-desktop-beta](https://github.com/groq/groq-desktop-beta)
 
-⭐ **374** | 🔤 **JavaScript** | 📅 **2025-11-27**
+⭐ **374** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 Local Groq Desktop chat app with MCP support
 
@@ -4932,7 +4942,15 @@ MCP-Zero: Active Tool Discovery for Autonomous LLM Agents
 
 ---
 
-### 506. [MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP)
+### 506. [AgentX](https://github.com/lucky-aeon/AgentX)
+
+⭐ **373** | 🔤 **Java** | 📅 **2025-11-28**
+
+AgentX 致力于让小白也能无门槛通过自然语言打造属于自己的 Agent。AgentX 采用了自研 MCP 网关，模型高可用组件打造高可用
+
+---
+
+### 507. [MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP)
 
 ⭐ **372** | 🔤 **Python** | 📅 **2025-11-27**
 
@@ -4940,37 +4958,25 @@ MCP Server for Metasploit
 
 ---
 
-### 507. [AgentX](https://github.com/lucky-aeon/AgentX)
-
-⭐ **371** | 🔤 **Java** | 📅 **2025-11-27**
-
-AgentX 致力于让小白也能无门槛通过自然语言打造属于自己的 Agent。AgentX 采用了自研 MCP 网关，模型高可用组件打造高可用
-
----
-
 ### 508. [mcp-hfspace](https://github.com/evalstate/mcp-hfspace)
 
-⭐ **369** | 🔤 **TypeScript** | 📅 **2025-11-25**
+⭐ **370** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode.
 
 ---
 
-### 509. [mcp-alchemy](https://github.com/runekaagaard/mcp-alchemy)
+### 509. [brave-search-mcp-server](https://github.com/brave/brave-search-mcp-server)
+
+⭐ **370** | 🔤 **TypeScript** | 📅 **2025-11-29**
+
+---
+
+### 510. [mcp-alchemy](https://github.com/runekaagaard/mcp-alchemy)
 
 ⭐ **369** | 🔤 **Python** | 📅 **2025-11-26**
 
 A MCP (model context protocol) server that gives the LLM access to and knowledge about relational databases like SQLite, Postgresql, MySQL & MariaDB, Oracle, and MS-SQL.
-
----
-
-### 510. [graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server)
-
-⭐ **369** | 🔤 **TypeScript** | 📅 **2025-11-23**
-
-Model Context Protocol (MCP) Server for Graphlit Platform
-
-**Tags:** `claude` `content-extraction` `content-ingestion` `data-collection` `llm-tools` `mcp-server` `model-context-protocol` `search-api`
 
 ---
 
@@ -4992,9 +4998,13 @@ CoexistAI is a modular, developer-friendly research assistant framework . It ena
 
 ---
 
-### 513. [brave-search-mcp-server](https://github.com/brave/brave-search-mcp-server)
+### 513. [graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server)
 
-⭐ **368** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **368** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+Model Context Protocol (MCP) Server for Graphlit Platform
+
+**Tags:** `claude` `content-extraction` `content-ingestion` `data-collection` `llm-tools` `mcp-server` `model-context-protocol` `search-api`
 
 ---
 
@@ -5020,7 +5030,7 @@ MCP server for DuckDB and MotherDuck
 
 ### 516. [LLMTornado](https://github.com/lofcz/LLMTornado)
 
-⭐ **367** | 🔤 **C#** | 📅 **2025-11-26**
+⭐ **368** | 🔤 **C#** | 📅 **2025-11-28**
 
 The .NET library to build AI agents with 25+ built-in connectors.
 
@@ -5030,7 +5040,7 @@ The .NET library to build AI agents with 25+ built-in connectors.
 
 ### 517. [MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server)
 
-⭐ **366** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **368** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP configuration to connect AI agent to a Linux machine.
 
@@ -5040,13 +5050,23 @@ MCP configuration to connect AI agent to a Linux machine.
 
 ### 518. [meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp)
 
-⭐ **365** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **366** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP server to manage Facebook and Instagram Ads (Meta Ads)
 
 ---
 
-### 519. [labs-ai-tools-for-devs](https://github.com/docker/labs-ai-tools-for-devs)
+### 519. [haiku.rag](https://github.com/ggozad/haiku.rag)
+
+⭐ **366** | 🔤 **Python** | 📅 **2025-11-28**
+
+Retrieval Augmented Generation based on LanceDB
+
+**Tags:** `mcp` `mcp-server` `rag` `ai` `ml` `lancedb`
+
+---
+
+### 520. [labs-ai-tools-for-devs](https://github.com/docker/labs-ai-tools-for-devs)
 
 ⭐ **365** | 🔤 **Clojure** | 📅 **2025-11-23**
 
@@ -5054,7 +5074,7 @@ Your trusted home for discovering MCP tools – seamlessly integrated into Docke
 
 ---
 
-### 520. [mnemo](https://github.com/MnemoAI/mnemo)
+### 521. [mnemo](https://github.com/MnemoAI/mnemo)
 
 ⭐ **365** | 🔤 **Python** | 📅 **2025-11-18**
 
@@ -5062,7 +5082,7 @@ A MCP-Ready Intelligence Engine for Data & Agent-as-a-Service.
 
 ---
 
-### 521. [mcp-k8s-go](https://github.com/strowk/mcp-k8s-go)
+### 522. [mcp-k8s-go](https://github.com/strowk/mcp-k8s-go)
 
 ⭐ **364** | 🔤 **Go** | 📅 **2025-11-25**
 
@@ -5072,19 +5092,9 @@ MCP server connecting to Kubernetes
 
 ---
 
-### 522. [haiku.rag](https://github.com/ggozad/haiku.rag)
-
-⭐ **364** | 🔤 **Python** | 📅 **2025-11-27**
-
-Retrieval Augmented Generation based on LanceDB
-
-**Tags:** `mcp` `mcp-server` `rag` `ai` `ml` `lancedb`
-
----
-
 ### 523. [alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server)
 
-⭐ **363** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **364** | 🔤 **Python** | 📅 **2025-11-28**
 
 Alpaca’s official MCP Server lets you trade stocks, ETFs, crypto, and options, run data analysis, and build strategies in plain English directly from your favorite LLM tools and IDEs
 
@@ -5094,7 +5104,7 @@ Alpaca’s official MCP Server lets you trade stocks, ETFs, crypto, and options,
 
 ### 524. [awesome-mcp-devtools](https://github.com/punkpeye/awesome-mcp-devtools)
 
-⭐ **363** | 🔤 **N/A** | 📅 **2025-11-25**
+⭐ **364** | 🔤 **N/A** | 📅 **2025-11-28**
 
 A curated list of developer tools, SDKs, libraries, and testing utilities for Model Context Protocol (MCP) server development.
 
@@ -5104,7 +5114,7 @@ A curated list of developer tools, SDKs, libraries, and testing utilities for Mo
 
 ### 525. [memento-mcp](https://github.com/gannonh/memento-mcp)
 
-⭐ **363** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **364** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Memento MCP: A Knowledge Graph Memory System for LLMs
 
@@ -5114,7 +5124,7 @@ Memento MCP: A Knowledge Graph Memory System for LLMs
 
 ### 526. [MCP-SecurityTools](https://github.com/Ta0ing/MCP-SecurityTools)
 
-⭐ **363** | 🔤 **Go** | 📅 **2025-11-26**
+⭐ **363** | 🔤 **Go** | 📅 **2025-11-28**
 
 MCP-SecurityTools 是一个专注于收录和更新网络安全领域 MCP 的开源项目，旨在汇总、整理和优化各类与 MCP 相关的安全工具、技术及实战经验。
 
@@ -5122,7 +5132,7 @@ MCP-SecurityTools 是一个专注于收录和更新网络安全领域 MCP 的开
 
 ### 527. [mcp](https://github.com/baidu-maps/mcp)
 
-⭐ **362** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **363** | 🔤 **Python** | 📅 **2025-11-28**
 
 Baidu Map MCP Server
 
@@ -5130,7 +5140,17 @@ Baidu Map MCP Server
 
 ---
 
-### 528. [bagel](https://github.com/Extelligence-ai/bagel)
+### 528. [biomcp](https://github.com/genomoncology/biomcp)
+
+⭐ **363** | 🔤 **Python** | 📅 **2025-11-28**
+
+BioMCP: Biomedical Model Context Protocol
+
+**Tags:** `ai` `bioinformatics` `clinical-trials` `genomics` `llm` `mcp` `mcp-server` `medical`
+
+---
+
+### 529. [bagel](https://github.com/Extelligence-ai/bagel)
 
 ⭐ **362** | 🔤 **Python** | 📅 **2025-11-24**
 
@@ -5140,21 +5160,11 @@ Chat with your robotics, drone, and IoT data — ChatGPT for the physical world.
 
 ---
 
-### 529. [mcp-sdk-php](https://github.com/logiscape/mcp-sdk-php)
+### 530. [mcp-sdk-php](https://github.com/logiscape/mcp-sdk-php)
 
 ⭐ **361** | 🔤 **PHP** | 📅 **2025-11-25**
 
 Model Context Protocol SDK for PHP
-
----
-
-### 530. [biomcp](https://github.com/genomoncology/biomcp)
-
-⭐ **361** | 🔤 **Python** | 📅 **2025-11-27**
-
-BioMCP: Biomedical Model Context Protocol
-
-**Tags:** `ai` `bioinformatics` `clinical-trials` `genomics` `llm` `mcp` `mcp-server` `medical`
 
 ---
 
@@ -5170,7 +5180,7 @@ A robust enterprise application sample (deployed on ACA) that leverages MCP and 
 
 ### 532. [airtable-mcp-server](https://github.com/domdomegg/airtable-mcp-server)
 
-⭐ **358** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **359** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 🗂️🤖 Airtable Model Context Protocol Server, for allowing AI systems to interact with your Airtable bases
 
@@ -5180,7 +5190,7 @@ A robust enterprise application sample (deployed on ACA) that leverages MCP and 
 
 ### 533. [mcp-code-graph](https://github.com/JudiniLabs/mcp-code-graph)
 
-⭐ **354** | 🔤 **JavaScript** | 📅 **2025-11-25**
+⭐ **355** | 🔤 **JavaScript** | 📅 **2025-11-28**
 
 MCP Server for code graph analysis and visualization by CodeGPT
 
@@ -5188,7 +5198,7 @@ MCP Server for code graph analysis and visualization by CodeGPT
 
 ### 534. [mcp-gateway](https://github.com/microsoft/mcp-gateway)
 
-⭐ **352** | 🔤 **C#** | 📅 **2025-11-27**
+⭐ **355** | 🔤 **C#** | 📅 **2025-11-28**
 
 MCP Gateway is a reverse proxy and management layer for MCP servers, enabling scalable, session-aware stateful routing and lifecycle management of MCP servers in Kubernetes environments.
 
@@ -5196,17 +5206,17 @@ MCP Gateway is a reverse proxy and management layer for MCP servers, enabling sc
 
 ---
 
-### 535. [ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server)
+### 535. [drawio-mcp-server](https://github.com/lgazo/drawio-mcp-server)
 
-⭐ **351** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **354** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
-A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API
+Draw.io Model Context Protocol (MCP) Server
 
 ---
 
 ### 536. [MCP-handle](https://github.com/WeatherPal-AI/MCP-handle)
 
-⭐ **351** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **352** | 🔤 **Python** | 📅 **2025-11-28**
 
 MCP integration platforms making AI-Agents developers focusing on their own tasks
 
@@ -5214,7 +5224,7 @@ MCP integration platforms making AI-Agents developers focusing on their own task
 
 ### 537. [station](https://github.com/cloudshipai/station)
 
-⭐ **351** | 🔤 **Go** | 📅 **2025-11-26**
+⭐ **352** | 🔤 **Go** | 📅 **2025-11-28**
 
 Station is our open-source runtime that lets teams deploy agents on their own infrastructure with full control.
 
@@ -5222,7 +5232,35 @@ Station is our open-source runtime that lets teams deploy agents on their own in
 
 ---
 
-### 538. [mcp-server](https://github.com/e2b-dev/mcp-server)
+### 538. [ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server)
+
+⭐ **351** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API
+
+---
+
+### 539. [tsidp](https://github.com/tailscale/tsidp)
+
+⭐ **351** | 🔤 **Go** | 📅 **2025-11-28**
+
+A simple OIDC / OAuth Identity Provider (IdP) server for your tailnet.
+
+**Tags:** `idp` `mcp` `oauth` `oauth2` `oidc` `tailscale`
+
+---
+
+### 540. [mcp-nixos](https://github.com/utensils/mcp-nixos)
+
+⭐ **350** | 🔤 **HTML** | 📅 **2025-11-28**
+
+MCP-NixOS - Model Context Protocol Server for NixOS resources
+
+**Tags:** `ai-assistant` `ai-integration` `ai-tools` `anthropic` `claude` `developer-tools` `devops-tools` `fastmcp`
+
+---
+
+### 541. [mcp-server](https://github.com/e2b-dev/mcp-server)
 
 ⭐ **349** | 🔤 **JavaScript** | 📅 **2025-11-24**
 
@@ -5232,51 +5270,23 @@ Giving Claude ability to run code with E2B via MCP (Model Context Protocol)
 
 ---
 
-### 539. [drawio-mcp-server](https://github.com/lgazo/drawio-mcp-server)
+### 542. [MCPSharp](https://github.com/afrise/MCPSharp)
 
-⭐ **349** | 🔤 **TypeScript** | 📅 **2025-11-27**
-
-Draw.io Model Context Protocol (MCP) Server
-
----
-
-### 540. [mcp-nixos](https://github.com/utensils/mcp-nixos)
-
-⭐ **349** | 🔤 **HTML** | 📅 **2025-11-27**
-
-MCP-NixOS - Model Context Protocol Server for NixOS resources
-
-**Tags:** `ai-assistant` `ai-integration` `ai-tools` `anthropic` `claude` `developer-tools` `devops-tools` `fastmcp`
-
----
-
-### 541. [yutu](https://github.com/eat-pray-ai/yutu)
-
-⭐ **349** | 🔤 **Go** | 📅 **2025-11-22**
-
-A fully functional MCP server and CLI for YouTube
-
-**Tags:** `cli` `golang` `youtube` `mcp` `automation` `bot` `shorts-automate` `video`
-
----
-
-### 542. [tsidp](https://github.com/tailscale/tsidp)
-
-⭐ **349** | 🔤 **Go** | 📅 **2025-11-27**
-
-A simple OIDC / OAuth Identity Provider (IdP) server for your tailnet.
-
-**Tags:** `idp` `mcp` `oauth` `oauth2` `oidc` `tailscale`
-
----
-
-### 543. [MCPSharp](https://github.com/afrise/MCPSharp)
-
-⭐ **348** | 🔤 **C#** | 📅 **2025-11-24**
+⭐ **349** | 🔤 **C#** | 📅 **2025-11-28**
 
 MCPSharp is a .NET library that helps you build Model Context Protocol (MCP) servers and clients - the standardized API protocol used by AI assistants and models.
 
 **Tags:** `ai` `dotnet` `mcp` `mcp-client` `mcp-server` `model-context-protocol` `sdk` `aifunctions`
+
+---
+
+### 543. [yutu](https://github.com/eat-pray-ai/yutu)
+
+⭐ **348** | 🔤 **Go** | 📅 **2025-11-28**
+
+A fully functional MCP server and CLI for YouTube
+
+**Tags:** `cli` `golang` `youtube` `mcp` `automation` `bot` `shorts-automate` `video`
 
 ---
 
@@ -5285,6 +5295,744 @@ MCPSharp is a .NET library that helps you build Model Context Protocol (MCP) ser
 ⭐ **348** | 🔤 **JavaScript** | 📅 **2025-11-26**
 
 This is an MCP server that allows you to directly download transcripts of YouTube videos.
+
+---
+
+### 545. [mcp-redis](https://github.com/redis/mcp-redis)
+
+⭐ **347** | 🔤 **Python** | 📅 **2025-11-26**
+
+The official Redis MCP Server is a natural language interface designed for agentic applications to manage and search data in Redis efficiently
+
+**Tags:** `database` `genai` `llm` `mcp` `mcp-server` `redis`
+
+---
+
+### 546. [GhidrAssistMCP](https://github.com/jtang613/GhidrAssistMCP)
+
+⭐ **347** | 🔤 **Java** | 📅 **2025-11-28**
+
+An MCP extension for Ghidra
+
+**Tags:** `ghidra` `ghidra-extension` `ghidra-plugin` `llm` `mcp` `mcp-server` `reverse-engineering`
+
+---
+
+### 547. [evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server)
+
+⭐ **345** | 🔤 **TypeScript** | 📅 **2025-11-26**
+
+MCP server that provides LLMs with tools for interacting with EVM networks
+
+**Tags:** `blockchain` `ethereum` `evm` `mcp` `mcp-server` `agent`
+
+---
+
+### 548. [tfmcp](https://github.com/nwiizo/tfmcp)
+
+⭐ **345** | 🔤 **Rust** | 📅 **2025-11-27**
+
+🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️
+
+**Tags:** `mcp` `mcp-server` `terraform`
+
+---
+
+### 549. [pdf-reader-mcp](https://github.com/SylphxAI/pdf-reader-mcp)
+
+⭐ **344** | 🔤 **TypeScript** | 📅 **2025-11-29**
+
+📄 Production-ready MCP server for PDF processing - 5-10x faster with parallel processing and 94%+ test coverage
+
+**Tags:** `ai-agent` `llm-tool` `mcp` `model-content-protocol` `nodejs` `pdf` `pdf-parse` `pdf-parser`
+
+---
+
+### 550. [mcpr](https://github.com/conikeec/mcpr)
+
+⭐ **344** | 🔤 **Rust** | 📅 **2025-11-26**
+
+Model Context Protocol (MCP) implementation in Rust
+
+---
+
+### 551. [automation-mcp](https://github.com/ashwwwin/automation-mcp)
+
+⭐ **344** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+Control your Mac with detailed mouse, keyboard, screen, and window management capabilities.
+
+**Tags:** `mcp` `mcp-server`
+
+---
+
+### 552. [mcp-searxng](https://github.com/ihor-sokoliuk/mcp-searxng)
+
+⭐ **342** | 🔤 **TypeScript** | 📅 **2025-11-29**
+
+MCP Server for SearXNG
+
+**Tags:** `ai` `llm` `llm-agent` `mcp` `mcp-server` `mcp-servers` `mcp-tools` `search`
+
+---
+
+### 553. [mcp](https://github.com/mondaycom/mcp)
+
+⭐ **341** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+Enable AI agents to work reliably - giving them secure access to structured data, tools to take action, and the context needed to make smart decisions.
+
+**Tags:** `agents` `copilot` `mcp` `mcp-server` `monday`
+
+---
+
+### 554. [mcp-registry](https://github.com/docker/mcp-registry)
+
+⭐ **341** | 🔤 **Go** | 📅 **2025-11-27**
+
+Official Docker MCP registry
+
+---
+
+### 555. [mcp2mqtt](https://github.com/mcp2everything/mcp2mqtt)
+
+⭐ **341** | 🔤 **Python** | 📅 **2025-11-28**
+
+本项目通过将 MCP 协议转换为 MQTT 协议，我们能够利用强大的大型语言模型（LLMs），就能轻松操控您的智能家居、机器人或其他硬件设备。
+
+---
+
+### 556. [ableton-live-mcp-server](https://github.com/Simon-Kansara/ableton-live-mcp-server)
+
+⭐ **341** | 🔤 **Python** | 📅 **2025-11-26**
+
+MCP Server implementation for Ableton Live OSC control
+
+---
+
+### 557. [agent-builder](https://github.com/strands-agents/agent-builder)
+
+⭐ **341** | 🔤 **Python** | 📅 **2025-11-27**
+
+An example agent demonstrating streaming, tool use, and interactivity from your terminal. This agent builder can help you to build your own agents and tools.
+
+**Tags:** `agentic` `agentic-ai` `agents` `ai` `anthropic` `autonomous-agents` `genai` `litellm`
+
+---
+
+### 558. [mcp-server-airbnb](https://github.com/openbnb-org/mcp-server-airbnb)
+
+⭐ **340** | 🔤 **JavaScript** | 📅 **2025-11-27**
+
+Search Airbnb using your AI Agent
+
+---
+
+### 559. [web-search-mcp](https://github.com/mrkrsl/web-search-mcp)
+
+⭐ **338** | 🔤 **TypeScript** | 📅 **2025-11-26**
+
+A simple, locally hosted Web Search MCP server for use with Local LLMs
+
+**Tags:** `llm` `lmstudio` `local-llm` `mcp` `web-search`
+
+---
+
+### 560. [pokemon-chat](https://github.com/skygazer42/pokemon-chat)
+
+⭐ **338** | 🔤 **Python** | 📅 **2025-11-28**
+
+基于 LightRAG、LangGraph、MCP、RagFlow、微调LLMs宝可梦主题的专有领域智能聊天助手
+
+**Tags:** `agent` `graphrag` `langraph` `lightrag` `llms` `mcp` `pokemon` `ragflow`
+
+---
+
+### 561. [blueprint-mcp](https://github.com/ArcadeAI/blueprint-mcp)
+
+⭐ **337** | 🔤 **Python** | 📅 **2025-11-29**
+
+Diagram generation for understanding codebases and system architecture using Nano Banana Pro.
+
+---
+
+### 562. [awesome-cursor-mpc-server](https://github.com/kleneway/awesome-cursor-mpc-server)
+
+⭐ **337** | 🔤 **TypeScript** | 📅 **2025-11-07**
+
+Example of an MCP server with custom tools that can be called directly from cursor
+
+---
+
+### 563. [daan](https://github.com/pluveto/daan)
+
+⭐ **337** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+✨Lightweight LLM Client with MCP 🔌 & Characters 👤
+
+**Tags:** `chatgpt` `client` `deepseek` `llm` `openai` `mcp` `mcp-client`
+
+---
+
+### 564. [linear-mcp-server](https://github.com/jerhadf/linear-mcp-server)
+
+⭐ **335** | 🔤 **JavaScript** | 📅 **2025-11-18**
+
+A server that integrates Linear's project management system with the Model Context Protocol (MCP) to allow LLMs to interact with Linear.
+
+**Tags:** `anthropic` `linear` `mcp` `mcp-server` `model-context-protocol`
+
+---
+
+### 565. [paws-on-mcp](https://github.com/hemanth/paws-on-mcp)
+
+⭐ **335** | 🔤 **Python** | 📅 **2025-11-15**
+
+A comprehensive Model Context Protocol (MCP) server implementing the latest specification.
+
+---
+
+### 566. [run-model-context-protocol-servers-with-aws-lambda](https://github.com/awslabs/run-model-context-protocol-servers-with-aws-lambda)
+
+⭐ **335** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+Run existing Model Context Protocol (MCP) stdio-based servers in AWS Lambda functions
+
+---
+
+### 567. [docling-mcp](https://github.com/docling-project/docling-mcp)
+
+⭐ **334** | 🔤 **Python** | 📅 **2025-11-28**
+
+Making docling agentic through MCP
+
+---
+
+### 568. [mcp-teams-server](https://github.com/InditexTech/mcp-teams-server)
+
+⭐ **334** | 🔤 **Python** | 📅 **2025-11-25**
+
+An MCP (Model Context Protocol) server implementation for Microsoft Teams integration, providing capabilities to read messages, create messages, reply to messages, mention members.
+
+**Tags:** `inditex` `mcp` `mcp-server` `msteams`
+
+---
+
+### 569. [lunar](https://github.com/TheLunarCompany/lunar)
+
+⭐ **334** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+lunar.dev: Ground Control for 3rd Party APIs
+
+**Tags:** `api` `api-proxy` `caching` `priority-queue` `quota` `rate-limit` `resilience` `throttling`
+
+---
+
+### 570. [himarket](https://github.com/higress-group/himarket)
+
+⭐ **333** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+HiMarket is an enterprise-level "AI Capability Marketplace and Developer Ecosystem Hub." It is not merely a simple aggregation of traditional APIs, but rather a comprehensive platform that packages, publishes, manages, and operates core AI assets such as enterprise Model APIs, MCP Servers, Agent APIs, etc., through standardized product formats.
+
+---
+
+### 571. [kicad-mcp](https://github.com/lamaalrajih/kicad-mcp)
+
+⭐ **332** | 🔤 **Python** | 📅 **2025-11-26**
+
+Model Context Protocol server for KiCad on Mac, Windows, and Linux
+
+---
+
+### 572. [xcode-mcp-server](https://github.com/r-huijts/xcode-mcp-server)
+
+⭐ **332** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+MCP Server implementation for Xcode integration
+
+---
+
+### 573. [edgeone-pages-mcp](https://github.com/TencentEdgeOne/edgeone-pages-mcp)
+
+⭐ **331** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+An MCP service designed for deploying HTML content to EdgeOne Pages and obtaining an accessible public URL.
+
+---
+
+### 574. [minion-agent](https://github.com/femto/minion-agent)
+
+⭐ **331** | 🔤 **Python** | 📅 **2025-11-23**
+
+A simple agent framework that's capable of browser use + mcp + auto instrument + plan + deep  research + more
+
+---
+
+### 575. [a2a-directory](https://github.com/sing1ee/a2a-directory)
+
+⭐ **331** | 🔤 **N/A** | 📅 **2025-11-28**
+
+Agent2Agent (A2A) – AgentCards, Servers, Clients, Docs
+
+**Tags:** `a2a` `a2a-protocol` `agent` `agent2agent` `mcp` `a2a-client` `a2a-server`
+
+---
+
+### 576. [NetCoreKevin](https://github.com/junkai-li/NetCoreKevin)
+
+⭐ **331** | 🔤 **C#** | 📅 **2025-11-29**
+
+基于NET8搭建DDD-微服务-现代化Saas企业级WebAPI前后端分离架构：前端Vue3、IDS4单点登录、多缓存、自动任务、分布式、一库多租户、日志、授权和鉴权、CAP集成事件、SignalR、领域事件、ESL、MCP协议服务、IOC模块化注入、Cors、Quartz自动任务、多短信集成、AI、AgentFramework智能体、AISemanticKernel集成、RAG检索增强、OCR验证码识别、API多版本兼容、单元集成测试、RabbitMQ
+
+---
+
+### 577. [Redbook-Search-Comment-MCP2.0](https://github.com/chenningling/Redbook-Search-Comment-MCP2.0)
+
+⭐ **330** | 🔤 **Python** | 📅 **2025-11-27**
+
+这是一款基于 Playwright 开发的小红书自动搜索和评论工具，作为 MCP Server，可通过特定配置接入 MCP Client（如Claude for Desktop），帮助用户自动完成登录小红书、搜索关键词、获取笔记内容及发布AI生成评论等操作。
+
+---
+
+### 578. [mcp-graphql](https://github.com/blurrah/mcp-graphql)
+
+⭐ **330** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+Model Context Protocol server for GraphQL
+
+**Tags:** `ai` `llm` `mcp` `mcp-server` `modelcontextprotocol`
+
+---
+
+### 579. [todoist-mcp-server](https://github.com/abhiz123/todoist-mcp-server)
+
+⭐ **330** | 🔤 **JavaScript** | 📅 **2025-11-28**
+
+MCP server for Todoist integration enabling natural language task management with Claude
+
+---
+
+### 580. [devtools-debugger-mcp](https://github.com/ScriptedAlchemy/devtools-debugger-mcp)
+
+⭐ **330** | 🔤 **JavaScript** | 📅 **2025-11-26**
+
+An MCP server exposing full Chrome DevTools Protocol debugging: breakpoints, step/run, call stacks, eval, and source maps.
+
+---
+
+### 581. [Construction-Hazard-Detection](https://github.com/yihong1120/Construction-Hazard-Detection)
+
+⭐ **330** | 🔤 **Python** | 📅 **2025-11-28**
+
+Enhances construction site safety using YOLO for object detection, identifying hazards like workers without helmets or safety vests, and proximity to machinery or vehicles. HDBSCAN clusters safety cone coordinates to create monitored zones. Post-processing algorithms improve detection accuracy.
+
+**Tags:** `alert-system` `computer-vision` `data-annotation` `deep-learning` `hazard-detection` `image-processing` `machine-learning` `object-detection`
+
+---
+
+### 582. [mcp-google-ads](https://github.com/cohnen/mcp-google-ads)
+
+⭐ **329** | 🔤 **Python** | 📅 **2025-11-28**
+
+An MCP tool that connects Google Ads with Claude AI/Cursor and others, allowing you to analyze your advertising data through natural language conversations. This integration gives you access to campaign information, performance metrics, keyword analytics, and ad management—all through simple chat with Claude, Cursor or Windsurf.
+
+**Tags:** `ai` `claude` `google-ads` `mcp` `mcp-server`
+
+---
+
+### 583. [vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server)
+
+⭐ **327** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye! Effective for: Coding, Ambiguous Tasks, High-Risk tasks
+
+**Tags:** `agentic-ai` `agentic-workflow` `ai-agents` `error-handling` `mcp` `mcp-server` `model-context-protocol` `vibe-coding`
+
+---
+
+### 584. [base-mcp](https://github.com/base/base-mcp)
+
+⭐ **326** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+A Model Context Protocol (MCP) server that provides onchain tools for LLMs, allowing them to interact with the Base network and Coinbase API.
+
+---
+
+### 585. [twitter-mcp](https://github.com/EnesCinr/twitter-mcp)
+
+⭐ **325** | 🔤 **TypeScript** | 📅 **2025-11-18**
+
+A Model Context Protocol server allows to interact with Twitter, enabling posting tweets and searching Twitter.
+
+---
+
+### 586. [applescript-mcp](https://github.com/joshrutkowski/applescript-mcp)
+
+⭐ **324** | 🔤 **TypeScript** | 📅 **2025-11-17**
+
+A macOS AppleScript MCP server
+
+---
+
+### 587. [laravel-mcp-server](https://github.com/opgginc/laravel-mcp-server)
+
+⭐ **324** | 🔤 **PHP** | 📅 **2025-11-12**
+
+A Laravel package for implementing secure Model Context Protocol servers using Streamable HTTP and SSE transport, providing real-time communication and a scalable tool system for enterprise environments.
+
+**Tags:** `ai` `laravel` `laravel-package` `llm` `mcp` `php` `sse`
+
+---
+
+### 588. [WebMCP](https://github.com/jasonjmcghee/WebMCP)
+
+⭐ **323** | 🔤 **JavaScript** | 📅 **2025-11-28**
+
+Early WebMCP proposal / implementation - since evolved and worked on by much more capable folks that develop the web: https://github.com/webmachinelearning/webmcp
+
+**Tags:** `llm` `local` `mcp` `web`
+
+---
+
+### 589. [FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP)
+
+⭐ **322** | 🔤 **JavaScript** | 📅 **2025-11-28**
+
+这是一个金融领域相关的mcp,本项目通过集成 Tushare API 和 Binance API 为语言模型（如Claude）提供全面的实时金融数据访问能力，支持股票、基金、债券、宏观经济指标、稳定币、虚拟货币等多维度金融数据分析。其中也包含了金融数据查询、财经新闻查询、国家统计局数据查询等
+
+**Tags:** `data` `finance` `llm` `mcp` `mcp-server` `news` `tushare` `binance`
+
+---
+
+### 590. [f2c-mcp](https://github.com/f2c-ai/f2c-mcp)
+
+⭐ **322** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+F2C MCP Server
+
+---
+
+### 591. [mcp-adapter](https://github.com/WordPress/mcp-adapter)
+
+⭐ **322** | 🔤 **PHP** | 📅 **2025-11-28**
+
+An MCP adapter that bridges the Abilities API to the Model Context Protocol, enabling MCP clients to discover and invoke WordPress plugin, theme, and core abilities programmatically.
+
+---
+
+### 592. [interactive-mcp](https://github.com/ttommyth/interactive-mcp)
+
+⭐ **320** | 🔤 **TypeScript** | 📅 **2025-11-23**
+
+Vibe coding should have human in the loop! interactive-mcp: Local, cross-platform MCP server for interact with your AI Agent
+
+**Tags:** `mcp` `mcp-server` `vibe-coding` `vibecoding`
+
+---
+
+### 593. [hermes-mcp](https://github.com/cloudwalk/hermes-mcp)
+
+⭐ **320** | 🔤 **Elixir** | 📅 **2025-11-28**
+
+Elixir Model Context Protocol (MCP) SDK
+
+**Tags:** `agentic-ai` `elixir` `mcp` `mcp-server`
+
+---
+
+### 594. [Minecraft-Hack-BaseClient](https://github.com/OxideWaveLength/Minecraft-Hack-BaseClient)
+
+⭐ **320** | 🔤 **Java** | 📅 **2025-11-16**
+
+This is a Minecraft Base Client
+
+**Tags:** `minecraft` `hack` `hacked` `base` `client` `mcp918` `1-8-8` `java`
+
+---
+
+### 595. [mcp-for-next.js](https://github.com/vercel-labs/mcp-for-next.js)
+
+⭐ **318** | 🔤 **JavaScript** | 📅 **2025-11-24**
+
+---
+
+### 596. [MemoryMesh](https://github.com/CheMiguel23/MemoryMesh)
+
+⭐ **317** | 🔤 **TypeScript** | 📅 **2025-11-19**
+
+A knowledge graph server that uses the Model Context Protocol (MCP) to provide structured memory persistence for AI models. v0.2.8
+
+**Tags:** `ai` `mcp`
+
+---
+
+### 597. [docfork-mcp](https://github.com/docfork/docfork-mcp)
+
+⭐ **317** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+Up-to-date documentation for devs and AI agents.
+
+**Tags:** `mcp` `mcp-server` `modelcontextprotocol` `documentation` `vibe-coding`
+
+---
+
+### 598. [moling](https://github.com/gojue/moling)
+
+⭐ **316** | 🔤 **Go** | 📅 **2025-11-25**
+
+MoLing is a computer-use and browser-use based MCP server. It is a locally deployed, dependency-free office AI assistant.
+
+**Tags:** `agent` `ai` `ai-agent` `ai-assistant` `llm` `mcp`
+
+---
+
+### 599. [autogenstudio-skills](https://github.com/madtank/autogenstudio-skills)
+
+⭐ **315** | 🔤 **Python** | 📅 **2025-11-22**
+
+Repo of skills for autogen studio using model context protocol (mcp)
+
+---
+
+### 600. [UnrealGenAISupport](https://github.com/prajwalshettydev/UnrealGenAISupport)
+
+⭐ **315** | 🔤 **C++** | 📅 **2025-11-26**
+
+An Unreal Engine plugin for LLM/GenAI models & MCP UE5 server. Supports Claude Desktop App, Windsurf  & Cursor, also includes OpenAI's GPT 5, Deepseek V3.1, Claude Sonnet 4 APIs and Grok 4, with plans to add Gemini, audio & realtime APIs soon. UnrealMCP is also here!! Automatic blueprint and scene generation from AI!!
+
+**Tags:** `claude` `deepseek` `game-development` `grok` `llama` `llm` `openai` `unreal-engine-5`
+
+---
+
+### 601. [mcp-gateway](https://github.com/lasso-security/mcp-gateway)
+
+⭐ **314** | 🔤 **Python** | 📅 **2025-11-28**
+
+A plugin-based gateway that orchestrates other MCPs and allows developers to build upon it enterprise-grade agents.
+
+**Tags:** `agent` `agent-security` `gateway` `genai` `mcp` `mcp-client` `mcp-server` `proxy`
+
+---
+
+### 602. [mcp-apple-notes](https://github.com/RafalWilinski/mcp-apple-notes)
+
+⭐ **313** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+Talk with your notes in Claude. RAG over your Apple Notes using Model Context Protocol.
+
+**Tags:** `ai` `claude` `llm` `mcp` `rag` `model-context`
+
+---
+
+### 603. [emcee](https://github.com/mattt/emcee)
+
+⭐ **313** | 🔤 **Go** | 📅 **2025-11-25**
+
+MCP generator for OpenAPIs 🫳🎤💥
+
+**Tags:** `modelcontextprotocol` `openapi` `agents`
+
+---
+
+### 604. [puppeteer-mcp-server](https://github.com/merajmehrabi/puppeteer-mcp-server)
+
+⭐ **312** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+This MCP server provides browser automation capabilities through Puppeteer, allowing interaction with both new browser instances and existing Chrome windows.
+
+---
+
+### 605. [MCP](https://github.com/jina-ai/MCP)
+
+⭐ **311** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+Official Jina AI Remote MCP Server
+
+**Tags:** `mcp` `mcp-server`
+
+---
+
+### 606. [mcp-gateway-registry](https://github.com/agentic-community/mcp-gateway-registry)
+
+⭐ **311** | 🔤 **Python** | 📅 **2025-11-28**
+
+Enterprise-ready MCP Gateway & Registry that centralizes AI development tools with secure OAuth authentication, dynamic tool discovery, and unified access for both autonomous AI agents and AI coding assistants. Transform scattered MCP server chaos into governed, auditable tool access with Keycloak/Cognito integration.
+
+**Tags:** `agentic-ai` `agents` `mcp` `mcp-gateway` `mcp-registry` `mcp-server` `3lo` `oauth2`
+
+---
+
+### 607. [db-mcp-server](https://github.com/FreePeak/db-mcp-server)
+
+⭐ **311** | 🔤 **Go** | 📅 **2025-11-28**
+
+A powerful multi-database server implementing the Model Context Protocol (MCP) to provide AI assistants with structured access to databases.
+
+**Tags:** `mcp-server` `database-mcp-server`
+
+---
+
+### 608. [mcp-mermaid](https://github.com/hustcc/mcp-mermaid)
+
+⭐ **311** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+❤️ Generate mermaid diagram and chart with AI MCP dynamically.
+
+**Tags:** `mcp` `mcp-server` `mermaid` `mermaidjs`
+
+---
+
+### 609. [mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops)
+
+⭐ **310** | 🔤 **TypeScript** | 📅 **2025-11-27**
+
+An MCP server for Azure DevOps
+
+**Tags:** `azure-devops` `mcp-server` `ai` `claude` `copilot` `cursor` `mcp` `vscode`
+
+---
+
+### 610. [BloodHound-MCP-AI](https://github.com/MorDavid/BloodHound-MCP-AI)
+
+⭐ **310** | 🔤 **Python** | 📅 **2025-11-26**
+
+BloodHound-MCP-AI is integration that connects BloodHound with AI through Model Context Protocol, allowing security professionals to analyze Active Directory attack paths using natural language instead of complex Cypher queries.
+
+**Tags:** `ai` `bloodhound` `bloodhoundad` `cypher-query-language` `mcp` `mcp-server`
+
+---
+
+### 611. [mcsmcp](https://github.com/microsoft/mcsmcp)
+
+⭐ **310** | 🔤 **Bicep** | 📅 **2025-11-27**
+
+Lab for creating an MCP Server and using it in Microsoft Copilot Studio.
+
+---
+
+### 612. [open-mcp](https://github.com/wegotdocs/open-mcp)
+
+⭐ **307** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+---
+
+### 613. [mcp-reddit](https://github.com/adhikasp/mcp-reddit)
+
+⭐ **305** | 🔤 **Python** | 📅 **2025-11-28**
+
+A Model Context Protocol (MCP) server that provides tools for fetching and analyzing Reddit content.
+
+**Tags:** `llm` `mcp` `model-context-protocol` `reddit`
+
+---
+
+### 614. [langconnect-client](https://github.com/teddynote-lab/langconnect-client)
+
+⭐ **305** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+A Modern GUI Interface for Vector Database Management(Supports MCP integration)
+
+**Tags:** `langchain` `mcp` `postgresql` `vector-database`
+
+---
+
+### 615. [css-mcp](https://github.com/stolinski/css-mcp)
+
+⭐ **304** | 🔤 **JavaScript** | 📅 **2025-11-28**
+
+---
+
+### 616. [ClimateTraceKMP](https://github.com/joreilly/ClimateTraceKMP)
+
+⭐ **304** | 🔤 **Kotlin** | 📅 **2025-11-18**
+
+Kotlin/Compose Multiplatform project to show climate related emission data from https://climatetrace.org/data.
+
+**Tags:** `compose` `kmp` `kotlin-multiplatform` `ktor` `compose-multiplatform` `wasm` `android` `compose-desktop`
+
+---
+
+### 617. [mcp-servers-hub](https://github.com/apappascs/mcp-servers-hub)
+
+⭐ **303** | 🔤 **N/A** | 📅 **2025-11-28**
+
+Discover the most comprehensive and up-to-date collection of MCP servers in the market. This repository serves as a centralized hub, offering an extensive catalog of open-source and proprietary MCP servers, complete with features, documentation links, and contributors.
+
+---
+
+### 618. [prism-insight](https://github.com/dragon1086/prism-insight)
+
+⭐ **303** | 🔤 **Python** | 📅 **2025-11-28**
+
+AI-based stock analysis and trading system
+
+**Tags:** `ai` `llm` `mcp` `multi-agent` `stock`
+
+---
+
+### 619. [mcp](https://github.com/IBM/mcp)
+
+⭐ **302** | 🔤 **N/A** | 📅 **2025-11-28**
+
+A collection of Model Context Protocol (MCP) servers, clients and developer tools by IBM.
+
+**Tags:** `agents` `llm` `mcp` `modelcontextprotocol` `toolcalling` `tools`
+
+---
+
+### 620. [mcp-selenium](https://github.com/angiejones/mcp-selenium)
+
+⭐ **301** | 🔤 **JavaScript** | 📅 **2025-11-26**
+
+An MCP implementation for Selenium WebDriver
+
+---
+
+### 621. [openmcp](https://github.com/getdatanaut/openmcp)
+
+⭐ **301** | 🔤 **TypeScript** | 📅 **2025-11-09**
+
+Turn any openapi file into an mcp server, with just the tools you need.
+
+**Tags:** `mcp` `mcp-client` `mcp-server` `model-context-protocol` `openapi`
+
+---
+
+### 622. [automcp](https://github.com/NapthaAI/automcp)
+
+⭐ **300** | 🔤 **Python** | 📅 **2025-11-26**
+
+Easily convert tool, agents and orchestrators from existing agent frameworks to MCP servers
+
+---
+
+### 623. [mcp-sse](https://github.com/sidharthrajaram/mcp-sse)
+
+⭐ **299** | 🔤 **Python** | 📅 **2025-11-20**
+
+A working pattern for SSE-based MCP clients and servers
+
+**Tags:** `agents` `llm` `mcp` `tool-use`
+
+---
+
+### 624. [revit-mcp](https://github.com/revit-mcp/revit-mcp)
+
+⭐ **296** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+AI-Powered Revit Modeling
+
+**Tags:** `mcp` `revit`
+
+---
+
+### 625. [mcprouter](https://github.com/chatmcp/mcprouter)
+
+⭐ **294** | 🔤 **Go** | 📅 **2025-11-21**
+
+api router for MCP Servers
+
+**Tags:** `mcp` `chatmcp` `mcprouter` `mcpservers`
 
 
 
@@ -5296,7 +6044,7 @@ This is an MCP server that allows you to directly download transcripts of YouTub
 
 ### 1. [n8n](https://github.com/n8n-io/n8n)
 
-⭐ **159,206** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **159,418** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
@@ -5306,7 +6054,7 @@ Fair-code workflow automation platform with native AI capabilities. Combine visu
 
 ### 2. [kong](https://github.com/Kong/kong)
 
-⭐ **42,273** | 🔤 **Lua** | 📅 **2025-11-28**
+⭐ **42,279** | 🔤 **Lua** | 📅 **2025-11-28**
 
 🦍 The Cloud-Native Gateway for APIs & AI
 
@@ -5316,7 +6064,7 @@ Fair-code workflow automation platform with native AI capabilities. Combine visu
 
 ### 3. [FastGPT](https://github.com/labring/FastGPT)
 
-⭐ **26,368** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **26,374** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
 
@@ -5326,7 +6074,7 @@ FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive 
 
 ### 4. [kratos](https://github.com/go-kratos/kratos)
 
-⭐ **25,129** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **25,132** | 🔤 **Go** | 📅 **2025-11-28**
 
 Your ultimate Go microservices framework for the cloud-native era.
 
@@ -5336,7 +6084,7 @@ Your ultimate Go microservices framework for the cloud-native era.
 
 ### 5. [excelize](https://github.com/qax-os/excelize)
 
-⭐ **19,977** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **19,981** | 🔤 **Go** | 📅 **2025-11-28**
 
 Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets
 
@@ -5346,7 +6094,7 @@ Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XL
 
 ### 6. [plate](https://github.com/udecode/plate)
 
-⭐ **15,516** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **15,523** | 🔤 **TypeScript** | 📅 **2025-11-29**
 
 Rich-text editor with AI, MCP, and shadcn/ui
 
@@ -5356,7 +6104,7 @@ Rich-text editor with AI, MCP, and shadcn/ui
 
 ### 7. [LangBot](https://github.com/langbot-app/LangBot)
 
-⭐ **14,152** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **14,164** | 🔤 **Python** | 📅 **2025-11-28**
 
 Production-grade platform for building IM bots / 生产级即时通信机器人开发平台. Bots for QQ / QQ频道 / Discord / LINE / WeChat(微信, 企业微信)/ Telegram / 飞书 / 钉钉 / Slack e.g. Integrated with ChatGPT(GPT), DeepSeek, Dify, n8n, Langflow, Coze, Claude, Google Gemini, Nano Banana, Kimi, PPIO, Ollama, MiniMax, SiliconFlow, Qwen, Moonshot, MCP etc. LLM & Agent & RAG
 
@@ -5366,7 +6114,7 @@ Production-grade platform for building IM bots / 生产级即时通信机器人�
 
 ### 8. [AstrBot](https://github.com/AstrBotDevs/AstrBot)
 
-⭐ **13,734** | 🔤 **Python** | 📅 **2025-11-28**
+⭐ **13,759** | 🔤 **Python** | 📅 **2025-11-28**
 
 ✨ Agentic IM ChatBot Infrastructure ✨ Integration with multiple IMs, easy-to-use plugin system, supports OpenAI, Gemini, Anthropic, Dify, Coze, built-in Knowledge Base, Agent. ✨ 一站式大模型聊天机器人平台及开发框架 ✨ 多消息平台（QQ, Telegram, 企微, 飞书, 钉钉等）集成，易用的插件系统，支持接入 OpenAI, Gemini, Anthropic, Dify, Coze, 阿里云百炼应用等平台，内置知识库、Agent 智能体
 
@@ -5376,7 +6124,7 @@ Production-grade platform for building IM bots / 生产级即时通信机器人�
 
 ### 9. [Fay](https://github.com/xszyou/Fay)
 
-⭐ **12,106** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **12,109** | 🔤 **Python** | 📅 **2025-11-28**
 
 fay是一个帮助数字人（2.5d、3d、移动、pc、网页）或大语言模型（openai兼容、deepseek）连通业务系统的mcp框架。
 
@@ -5386,7 +6134,7 @@ fay是一个帮助数字人（2.5d、3d、移动、pc、网页）或大语言模
 
 ### 10. [ui](https://github.com/creativetimofficial/ui)
 
-⭐ **11,268** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **11,269** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 Open-source components, blocks, and AI agents designed to speed up your workflow. Import them seamlessly into your favorite tools through Registry and MCPs.
 
@@ -5396,7 +6144,7 @@ Open-source components, blocks, and AI agents designed to speed up your workflow
 
 ### 11. [note-gen](https://github.com/codexu/note-gen)
 
-⭐ **10,054** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **10,060** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 A cross-platform Markdown AI note-taking software.
 
@@ -5406,7 +6154,7 @@ A cross-platform Markdown AI note-taking software.
 
 ### 12. [langchain4j](https://github.com/langchain4j/langchain4j)
 
-⭐ **9,766** | 🔤 **Java** | 📅 **2025-11-27**
+⭐ **9,779** | 🔤 **Java** | 📅 **2025-11-29**
 
 LangChain4j is an open-source Java library that simplifies the integration of LLMs into Java applications through a unified API, providing access to popular LLMs and vector databases. It makes implementing RAG, tool calling (including support for MCP), and agents easy. LangChain4j integrates seamlessly with various enterprise Java frameworks.
 
@@ -5416,7 +6164,7 @@ LangChain4j is an open-source Java library that simplifies the integration of LL
 
 ### 13. [OpenMetadata](https://github.com/open-metadata/OpenMetadata)
 
-⭐ **8,082** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **8,088** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.
 
@@ -5426,7 +6174,7 @@ OpenMetadata is a unified metadata platform for data discovery, data observabili
 
 ### 14. [Upsonic](https://github.com/Upsonic/Upsonic)
 
-⭐ **7,719** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **7,719** | 🔤 **Python** | 📅 **2025-11-28**
 
 Agent Framework For Fintech and Banks
 
@@ -5436,7 +6184,7 @@ Agent Framework For Fintech and Banks
 
 ### 15. [lamda](https://github.com/firerpa/lamda)
 
-⭐ **7,429** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **7,430** | 🔤 **Python** | 📅 **2025-11-28**
 
 The most powerful Android RPA agent framework, next generation of mobile automation robots.
 
@@ -5446,7 +6194,7 @@ The most powerful Android RPA agent framework, next generation of mobile automat
 
 ### 16. [astron-agent](https://github.com/iflytek/astron-agent)
 
-⭐ **6,755** | 🔤 **Java** | 📅 **2025-11-28**
+⭐ **6,787** | 🔤 **Java** | 📅 **2025-11-28**
 
 Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.
 
@@ -5456,7 +6204,7 @@ Enterprise-grade, commercial-friendly agentic workflow platform for building nex
 
 ### 17. [adk-go](https://github.com/google/adk-go)
 
-⭐ **5,227** | 🔤 **Go** | 📅 **2025-11-28**
+⭐ **5,350** | 🔤 **Go** | 📅 **2025-11-29**
 
 An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 
@@ -5466,7 +6214,7 @@ An open-source, code-first Go toolkit for building, evaluating, and deploying so
 
 ### 18. [deepchat](https://github.com/ThinkInAIXYZ/deepchat)
 
-⭐ **4,974** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **4,986** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 🐬DeepChat - A smart assistant that connects powerful AI to your personal world
 
@@ -5476,7 +6224,7 @@ An open-source, code-first Go toolkit for building, evaluating, and deploying so
 
 ### 19. [53AIHub](https://github.com/53AI/53AIHub)
 
-⭐ **4,604** | 🔤 **Vue** | 📅 **2025-11-28**
+⭐ **4,641** | 🔤 **Vue** | 📅 **2025-11-29**
 
 53AI Hub is an open-source AI portal, which enables you to quickly build a operational-level AI portal to launch and operate AI agents, prompts, and AI tools. It supports seamless integration with development platforms like Coze, Dify, FastGPT, RAGFlow.
 
@@ -5486,7 +6234,7 @@ An open-source, code-first Go toolkit for building, evaluating, and deploying so
 
 ### 20. [magic](https://github.com/dtyq/magic)
 
-⭐ **4,363** | 🔤 **PHP** | 📅 **2025-11-27**
+⭐ **4,363** | 🔤 **PHP** | 📅 **2025-11-28**
 
 Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)
 
@@ -5496,7 +6244,7 @@ Super Magic. The first open-source all-in-one AI productivity platform (Generali
 
 ### 21. [ENScan_GO](https://github.com/wgpsec/ENScan_GO)
 
-⭐ **4,079** | 🔤 **Go** | 📅 **2025-11-27**
+⭐ **4,080** | 🔤 **Go** | 📅 **2025-11-29**
 
 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。支持MCP接入
 
@@ -5506,7 +6254,7 @@ Super Magic. The first open-source all-in-one AI productivity platform (Generali
 
 ### 22. [nexent](https://github.com/ModelEngine-Group/nexent)
 
-⭐ **4,039** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **4,042** | 🔤 **Python** | 📅 **2025-11-28**
 
 Nexent is a zero-code platform for auto-generating agents — no orchestration, no complex drag-and-drop required. Nexent also offers powerful capabilities for agent running control, data processing and MCP tools.
 
@@ -5516,7 +6264,7 @@ Nexent is a zero-code platform for auto-generating agents — no orchestration, 
 
 ### 23. [ag2](https://github.com/ag2ai/ag2)
 
-⭐ **3,868** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **3,871** | 🔤 **Python** | 📅 **2025-11-28**
 
 AG2 (formerly AutoGen): The Open-Source AgentOS. Join us at: https://discord.gg/pAbnFJrkgZ
 
@@ -5526,7 +6274,7 @@ AG2 (formerly AutoGen): The Open-Source AgentOS. Join us at: https://discord.gg/
 
 ### 24. [koog](https://github.com/JetBrains/koog)
 
-⭐ **3,458** | 🔤 **Kotlin** | 📅 **2025-11-27**
+⭐ **3,463** | 🔤 **Kotlin** | 📅 **2025-11-28**
 
 Koog is the official Kotlin framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems
 
@@ -5536,7 +6284,7 @@ Koog is the official Kotlin framework for building predictable, fault-tolerant a
 
 ### 25. [semantic-router](https://github.com/vllm-project/semantic-router)
 
-⭐ **2,337** | 🔤 **Rust** | 📅 **2025-11-27**
+⭐ **2,341** | 🔤 **Rust** | 📅 **2025-11-29**
 
 Intelligent Router for Mixture-of-Models
 
@@ -5546,7 +6294,7 @@ Intelligent Router for Mixture-of-Models
 
 ### 26. [ultracite](https://github.com/haydenbleasel/ultracite)
 
-⭐ **2,311** | 🔤 **MDX** | 📅 **2025-11-28**
+⭐ **2,315** | 🔤 **MDX** | 📅 **2025-11-28**
 
 A highly opinionated, zero-configuration linter and formatter.
 
@@ -5556,7 +6304,7 @@ A highly opinionated, zero-configuration linter and formatter.
 
 ### 27. [harbor](https://github.com/av/harbor)
 
-⭐ **2,161** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **2,160** | 🔤 **Python** | 📅 **2025-11-28**
 
 Effortlessly run LLM backends, APIs, frontends, and services with one command.
 
@@ -5566,7 +6314,7 @@ Effortlessly run LLM backends, APIs, frontends, and services with one command.
 
 ### 28. [amazon-q-developer-cli](https://github.com/aws/amazon-q-developer-cli)
 
-⭐ **1,825** | 🔤 **Rust** | 📅 **2025-11-27**
+⭐ **1,829** | 🔤 **Rust** | 📅 **2025-11-28**
 
 ✨ Agentic chat experience in your terminal. Build applications using natural language.
 
@@ -5576,7 +6324,7 @@ Effortlessly run LLM backends, APIs, frontends, and services with one command.
 
 ### 29. [MinecraftDev](https://github.com/minecraft-dev/MinecraftDev)
 
-⭐ **1,682** | 🔤 **Kotlin** | 📅 **2025-11-27**
+⭐ **1,684** | 🔤 **Kotlin** | 📅 **2025-11-28**
 
 Plugin for IntelliJ IDEA that gives special support for Minecraft modding projects.
 
@@ -5586,7 +6334,7 @@ Plugin for IntelliJ IDEA that gives special support for Minecraft modding projec
 
 ### 30. [generative-ai](https://github.com/genieincodebottle/generative-ai)
 
-⭐ **1,600** | 🔤 **Jupyter Notebook** | 📅 **2025-11-27**
+⭐ **1,602** | 🔤 **Jupyter Notebook** | 📅 **2025-11-28**
 
 Comprehensive resources on Generative AI, including a detailed roadmap, projects, use cases, interview preparation, and coding preparation.
 
@@ -5614,7 +6362,7 @@ The main repository for the Linux and Mac OS Bedrock edition Minecraft launcher.
 
 ### 33. [awesome-hacking-lists](https://github.com/taielab/awesome-hacking-lists)
 
-⭐ **1,240** | 🔤 **N/A** | 📅 **2025-11-28**
+⭐ **1,241** | 🔤 **N/A** | 📅 **2025-11-28**
 
 A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join us to explore, contribute, and enhance your hacking toolkit!
 
@@ -5624,7 +6372,7 @@ A curated collection of top-tier penetration testing tools and productivity util
 
 ### 34. [NagaAgent](https://github.com/Xxiii8322766509/NagaAgent)
 
-⭐ **1,197** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **1,198** | 🔤 **Python** | 📅 **2025-11-28**
 
 A simple yet powerful agent framework for personal assistants, designed to enable intelligent interaction, multi-agent collaboration, and seamless tool integration.
 
@@ -5632,23 +6380,23 @@ A simple yet powerful agent framework for personal assistants, designed to enabl
 
 ---
 
-### 35. [any-agent](https://github.com/mozilla-ai/any-agent)
+### 35. [mcpp-standard](https://github.com/Sunrisepeak/mcpp-standard)
+
+⭐ **1,039** | 🔤 **C++** | 📅 **2025-11-29**
+
+D2X | Modern C++ Core Language Features - "A C++ tutorial project focused on practical"
+
+**Tags:** `course` `cpp` `d2x` `exercises` `modern-cpp` `open-source` `tutorial` `video`
+
+---
+
+### 36. [any-agent](https://github.com/mozilla-ai/any-agent)
 
 ⭐ **1,037** | 🔤 **Python** | 📅 **2025-11-27**
 
 A single interface to use and evaluate different agent frameworks
 
 **Tags:** `agent-evaluation` `agents` `ai` `a2a` `mcp`
-
----
-
-### 36. [mcpp-standard](https://github.com/Sunrisepeak/mcpp-standard)
-
-⭐ **1,034** | 🔤 **C++** | 📅 **2025-11-27**
-
-D2X | Modern C++ Core Language Features - "A C++ tutorial project focused on practical"
-
-**Tags:** `course` `cpp` `d2x` `exercises` `modern-cpp` `open-source` `tutorial` `video`
 
 ---
 
@@ -5684,7 +6432,7 @@ Korea Investment & Securities Open API Github
 
 ### 40. [AIPex](https://github.com/AIPexStudio/AIPex)
 
-⭐ **870** | 🔤 **TypeScript** | 📅 **2025-11-27**
+⭐ **871** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 AIPex: agentic assistant in your browser, automate your browser using natural language. ChatGPT Atlas Alternative, Alternative to Manus Browser Operator.
 
@@ -5694,7 +6442,7 @@ AIPex: agentic assistant in your browser, automate your browser using natural la
 
 ### 41. [BuildingAI](https://github.com/BidingCC/BuildingAI)
 
-⭐ **815** | 🔤 **TypeScript** | 📅 **2025-11-28**
+⭐ **817** | 🔤 **TypeScript** | 📅 **2025-11-28**
 
 BuildingAI is an enterprise-grade open-source intelligent agent platform designed for AI developers, AI entrepreneurs, and forward-thinking organizations. Through a visual configuration interface (Do It Yourself), you can build native enterprise AI applications without code. The platform offers native capabilities such as intelligent agents, MCP...
 
@@ -5760,7 +6508,7 @@ A Cursor-inspired AI assistant for Obsidian that offers smart autocomplete and i
 
 ### 48. [LightAgent](https://github.com/wxai-space/LightAgent)
 
-⭐ **417** | 🔤 **Python** | 📅 **2025-11-27**
+⭐ **418** | 🔤 **Python** | 📅 **2025-11-28**
 
 LightAgent: Lightweight AI agent framework with memory, tools & tree-of-thought. Supports multi-agent collaboration, self-learning, and major LLMs (OpenAI/DeepSeek/Qwen). Open-source with MCP/SSE protocol integration.
 
@@ -5799,6 +6547,122 @@ Arduino Library for Adafruit MCP23017
 ⭐ **355** | 🔤 **Python** | 📅 **2025-11-27**
 
 这是一个为大模型提供 A 股数据的的 MCP(Model Content Protocol) 服务。
+
+---
+
+### 53. [ai-code-helper](https://github.com/liyupi/ai-code-helper)
+
+⭐ **347** | 🔤 **Vue** | 📅 **2025-11-28**
+
+2025 年 AI 编程助手实战项目（作者：程序员鱼皮），基于 Spring Boot 3.5 + Java 21 + LangChain4j + AI 构建智能编程学习与求职辅导机器人，覆盖 AI 大模型接入、LangChain4j 核心特性、流式对话、Prompt 工程、RAG 检索增强、向量数据库、Tool Calling 工具调用、MCP 模型上下文协议、Web 爬虫、安全防护、Vue.js 前端开发、SSE 服务端推送等企业级 AI 应用开发技术。帮助开发者掌握 AI 时代必备技能，熟悉 LangChain 框架，提升编程学习效率和求职竞争力，成为企业需要的 AI 全栈开发人才。
+
+**Tags:** `ai` `ai-model` `backend` `frontend` `java` `langchain4j` `mcp` `rag`
+
+---
+
+### 54. [AIWriteX](https://github.com/iniwap/AIWriteX)
+
+⭐ **344** | 🔤 **Python** | 📅 **2025-11-26**
+
+AIWriteX是基于CrewAI、AIForge的新一代智能内容创作平台，从微信公众号自动化工具起步，正在重新定义AI辅助内容创作的边界，融合"搜索+借鉴+AI+创意"四重能力，多种超绝玩法，内容创作充满无限可能。
+
+**Tags:** `crewai` `weixin` `wx` `ai-wx` `wx-template` `ai-agents` `wechat` `aipy`
+
+---
+
+### 55. [exograph](https://github.com/exograph/exograph)
+
+⭐ **335** | 🔤 **Rust** | 📅 **2025-11-25**
+
+Build production-ready backends in minutes
+
+**Tags:** `api` `deno` `graphql` `postgres` `rust` `typescript` `access-control` `authorization`
+
+---
+
+### 56. [browser-operator-core](https://github.com/BrowserOperator/browser-operator-core)
+
+⭐ **332** | 🔤 **TypeScript** | 📅 **2025-11-28**
+
+Browser Operator - The AI browser with built in Multi-Agent platform! Open source alternative to ChatGPT Atlas, Perplexity Comet, Dia and Microsoft CoPilot Edge Browser
+
+**Tags:** `agent-workflow` `agentic-ai` `agents` `langgraph` `llamacpp` `llm` `mcp` `mcp-client`
+
+---
+
+### 57. [mcpmark](https://github.com/eval-sys/mcpmark)
+
+⭐ **330** | 🔤 **Python** | 📅 **2025-11-25**
+
+MCPMark is a comprehensive, stress-testing MCP benchmark designed to evaluate model and agent capabilities in real-world MCP use.
+
+**Tags:** `benchmark` `mcp-servers` `mcpmark` `eval-sys` `agentic` `tool-use` `mcp`
+
+---
+
+### 58. [MCprep](https://github.com/Moo-Ack-Productions/MCprep)
+
+⭐ **329** | 🔤 **Python** | 📅 **2025-11-22**
+
+Blender python addon to increase workflow for creating minecraft renders and animations
+
+---
+
+### 59. [Sentient](https://github.com/existence-master/Sentient)
+
+⭐ **321** | 🔤 **Python** | 📅 **2025-11-26**
+
+A personal AI assistant for everyone
+
+**Tags:** `agents` `artificial-intelligence` `automation` `memory` `open-source` `personalization` `artificial-general-intelligence` `context`
+
+---
+
+### 60. [UE5-MCP](https://github.com/VedantRGosavi/UE5-MCP)
+
+⭐ **320** | 🔤 **N/A** | 📅 **2025-11-27**
+
+MCP for Unreal Engine 5
+
+**Tags:** `ai` `artificial-intelligence` `game-development` `game-engine` `mcp` `mcp-server` `unreal-engine` `unreal-engine-5`
+
+---
+
+### 61. [MCPanelViewController](https://github.com/matthewcheok/MCPanelViewController)
+
+⭐ **319** | 🔤 **Objective-C** | 📅 **2025-11-21**
+
+Drop-in panel control for iOS with blurring background and screen-edge activation gestures.
+
+---
+
+### 62. [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
+
+⭐ **317** | 🔤 **Python** | 📅 **2025-11-28**
+
+Python toolkit for building graph-enhanced GenAI applications
+
+**Tags:** `amazon-neptune` `graph-database` `graphrag` `llama-index` `amazon-opensearch-serverless` `mcp` `postgresql`
+
+---
+
+### 63. [eechat](https://github.com/Lucassssss/eechat)
+
+⭐ **309** | 🔤 **JavaScript** | 📅 **2025-11-28**
+
+🚀 Powerful Local AI Chat Application - Mcp, Secure, Efficient, Personalized 本地化部署的大模型客户端
+
+**Tags:** `deepseek` `mcp` `mcp-client`
+
+---
+
+### 64. [news-agents](https://github.com/eugeneyan/news-agents)
+
+⭐ **306** | 🔤 **Python** | 📅 **2025-11-19**
+
+📰 Building News Agents to Summarize News with MCP, Q, and tmux
+
+**Tags:** `agent` `amazon-q` `mcp` `tmux`
 
 
 
