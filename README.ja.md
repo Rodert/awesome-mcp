@@ -19,6 +19,201 @@
 - [Français](https://rodert.github.io/awesome-mcp/fr/projects)
 - [Español](https://rodert.github.io/awesome-mcp/es/projects)
 
+## 🚀 クイックスタート：AIツールでMCPを使用する方法
+
+Model Context Protocol (MCP) により、AIアシスタントは外部データソースやツールに接続できます。人気のあるAIツールでMCPを設定する方法は以下の通りです：
+
+### 📱 Claude Desktop
+
+1. **設定ファイルを見つける：**
+   - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
+2. **設定ファイルを編集**してMCPサーバーを追加：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/directory"]
+    }
+  }
+}
+```
+
+3. **Claude Desktopを再起動**して変更を適用。
+
+### 💻 Cursor IDE
+
+1. **設定を開く**：`Cmd/Ctrl + ,`
+2. **移動**：Features → Agent → MCP Servers
+3. **"Add Server"をクリック**
+4. **サーバーの詳細を入力**：
+   - **名前**：サーバーのわかりやすい名前
+   - **コマンド**：実行するコマンド（例：`npx`）
+   - **引数**：コマンド引数（例：`["-y", "@modelcontextprotocol/server-github"]`）
+   - **環境変数**：環境変数（必要に応じて）
+
+### 🔌 Continue (VS Code拡張機能)
+
+1. **Continue拡張機能をインストール**：VS Codeマーケットプレイスから
+2. **Continue設定を開く**：サイドバーのContinueアイコンをクリック
+3. **移動**：Settings → MCP Servers
+4. **`~/.continue/config.json`にMCPサーバーを追加**：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+5. **VS Codeを再読み込み**して変更を適用。
+
+### 🔌 Cline (VS Code拡張機能)
+
+1. **Cline拡張機能をインストール**：VS Codeマーケットプレイスから
+2. **コマンドパレットを開く**：`Cmd/Ctrl + Shift + P`
+3. **実行**：`Cline: Configure MCP Servers`
+4. **開いた設定ファイルを編集**するか、手動で`~/.cline/mcp_config.json`を編集：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+5. **VS Codeを再起動**して変更を適用。
+
+### ⚡ Aider (コマンドライン)
+
+1. **Aiderをインストール**：`pip install aider-chat`
+2. **MCPサーバー用の環境変数を設定**：
+
+```bash
+export MCP_SERVERS='{"github": {"command": "npx", "args": ["-y", "@modelcontextprotocol/server-github"], "env": {"GITHUB_PERSONAL_ACCESS_TOKEN": "your_token"}}}'
+```
+
+3. **または`~/.aider/mcp_config.json`を作成**：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+4. **Aiderを実行**：`aider`（MCPサーバーが自動的に読み込まれます）
+
+### 🌊 Windsurf
+
+1. **Windsurf設定を開く**：`Cmd/Ctrl + ,`
+2. **移動**：Extensions → MCP
+3. **"Add MCP Server"をクリック**
+4. **サーバーを設定**：
+   - **名前**：サーバー識別子
+   - **コマンド**：実行するコマンド
+   - **引数**：コマンド引数
+   - **環境変数**：環境変数
+5. **保存してWindsurfを再起動**
+
+### 🎨 Composer (Anthropic)
+
+1. **Composer設定を開く**
+2. **移動**：Settings → Integrations → MCP
+3. **MCPサーバー設定を追加**：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+4. **Composerを再起動**して変更を適用。
+
+### 🔍 MCPサーバーの検索
+
+以下の[プロジェクトリスト](#-プロジェクト合計-9)を閲覧して、利用可能なMCPサーバーを見つけます。人気のあるオプションには以下が含まれます：
+
+- **[GitHub MCP Server](https://github.com/github/github-mcp-server)** - GitHubリポジトリとイシューにアクセス
+- **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** - ブラウザ自動化
+- **[Filesystem Server](https://github.com/modelcontextprotocol/servers)** - ファイルシステムアクセス
+- **[SQLite Server](https://github.com/modelcontextprotocol/servers)** - データベースクエリ
+
+### 📝 例：GitHub MCP Server
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_your_token_here"
+      }
+    }
+  }
+}
+```
+
+**GitHubトークンを取得**：[GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
+
+### 🎯 MCPでできること
+
+設定後、MCPはAIアシスタントに以下を可能にします：
+- 📂 ファイルとディレクトリへのアクセス
+- 🔍 コードリポジトリの検索
+- 🌐 ウェブの閲覧
+- 💾 データベースのクエリ
+- 📊 データの分析
+- 🔧 ツールとスクリプトの実行
+
+### 📚 詳細情報
+
+- [公式MCPドキュメント](https://modelcontextprotocol.io/)
+- [MCP仕様](https://github.com/modelcontextprotocol/specification)
+- [MCPサーバーコレクション](https://github.com/modelcontextprotocol/servers)を閲覧
+
+---
+
 ## 📚 プロジェクト（合計 9）
 
 > 最終更新：**2025-11-22**

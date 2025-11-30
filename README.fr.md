@@ -19,6 +19,201 @@ Ce dépôt collecte et organise automatiquement des projets MCP de haute qualit�
 - [Français](https://rodert.github.io/awesome-mcp/fr/projects)
 - [Español](https://rodert.github.io/awesome-mcp/es/projects)
 
+## 🚀 Démarrage rapide : Comment utiliser MCP dans les outils IA
+
+Le Model Context Protocol (MCP) permet aux assistants IA de se connecter à des sources de données et outils externes. Voici comment le configurer dans les outils IA populaires :
+
+### 📱 Claude Desktop
+
+1. **Trouvez le fichier de configuration :**
+   - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
+2. **Modifiez le fichier de configuration** et ajoutez vos serveurs MCP :
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/directory"]
+    }
+  }
+}
+```
+
+3. **Redémarrez Claude Desktop** pour appliquer les modifications.
+
+### 💻 Cursor IDE
+
+1. **Ouvrez les paramètres** : `Cmd/Ctrl + ,`
+2. **Naviguez vers** : Features → Agent → MCP Servers
+3. **Cliquez sur "Add Server"**
+4. **Entrez les détails du serveur** :
+   - **Nom** : Un nom convivial pour le serveur
+   - **Commande** : La commande à exécuter (par ex. `npx`)
+   - **Arguments** : Arguments de la commande (par ex. `["-y", "@modelcontextprotocol/server-github"]`)
+   - **Variables d'environnement** : Variables d'environnement (si nécessaire)
+
+### 🔌 Continue (Extension VS Code)
+
+1. **Installez l'extension Continue** depuis le marketplace VS Code
+2. **Ouvrez les paramètres Continue** : Cliquez sur l'icône Continue dans la barre latérale
+3. **Naviguez vers** : Settings → MCP Servers
+4. **Ajoutez un serveur MCP** dans `~/.continue/config.json` :
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+5. **Rechargez VS Code** pour appliquer les modifications.
+
+### 🔌 Cline (Extension VS Code)
+
+1. **Installez l'extension Cline** depuis le marketplace VS Code
+2. **Ouvrez la palette de commandes** : `Cmd/Ctrl + Shift + P`
+3. **Exécutez** : `Cline: Configure MCP Servers`
+4. **Modifiez le fichier de configuration** qui s'ouvre, ou modifiez manuellement `~/.cline/mcp_config.json` :
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+5. **Redémarrez VS Code** pour appliquer les modifications.
+
+### ⚡ Aider (Ligne de commande)
+
+1. **Installez Aider** : `pip install aider-chat`
+2. **Définissez la variable d'environnement** pour les serveurs MCP :
+
+```bash
+export MCP_SERVERS='{"github": {"command": "npx", "args": ["-y", "@modelcontextprotocol/server-github"], "env": {"GITHUB_PERSONAL_ACCESS_TOKEN": "your_token"}}}'
+```
+
+3. **Ou créez** `~/.aider/mcp_config.json` :
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+4. **Exécutez Aider** : `aider` (les serveurs MCP seront automatiquement chargés)
+
+### 🌊 Windsurf
+
+1. **Ouvrez les paramètres Windsurf** : `Cmd/Ctrl + ,`
+2. **Naviguez vers** : Extensions → MCP
+3. **Cliquez sur "Add MCP Server"**
+4. **Configurez le serveur** :
+   - **Nom** : Identifiant du serveur
+   - **Commande** : Commande à exécuter
+   - **Arguments** : Arguments de la commande
+   - **Variables d'environnement** : Variables d'environnement
+5. **Enregistrez et redémarrez** Windsurf
+
+### 🎨 Composer (Anthropic)
+
+1. **Ouvrez les paramètres Composer**
+2. **Naviguez vers** : Settings → Integrations → MCP
+3. **Ajoutez la configuration du serveur MCP** :
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+4. **Redémarrez Composer** pour appliquer les modifications.
+
+### 🔍 Trouver des serveurs MCP
+
+Parcourez la [liste des projets](#-projets-9-au-total) ci-dessous pour découvrir les serveurs MCP disponibles. Les options populaires incluent :
+
+- **[GitHub MCP Server](https://github.com/github/github-mcp-server)** - Accéder aux dépôts et problèmes GitHub
+- **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** - Automatisation du navigateur
+- **[Filesystem Server](https://github.com/modelcontextprotocol/servers)** - Accès au système de fichiers
+- **[SQLite Server](https://github.com/modelcontextprotocol/servers)** - Requêtes de base de données
+
+### 📝 Exemple : GitHub MCP Server
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_your_token_here"
+      }
+    }
+  }
+}
+```
+
+**Obtenir un token GitHub** : [GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
+
+### 🎯 Que peut faire MCP ?
+
+Une fois configuré, MCP permet aux assistants IA de :
+- 📂 Accéder aux fichiers et répertoires
+- 🔍 Rechercher dans les dépôts de code
+- 🌐 Naviguer sur le web
+- 💾 Interroger les bases de données
+- 📊 Analyser les données
+- 🔧 Exécuter des outils et scripts
+
+### 📚 En savoir plus
+
+- [Documentation officielle MCP](https://modelcontextprotocol.io/)
+- [Spécification MCP](https://github.com/modelcontextprotocol/specification)
+- Parcourir la [Collection de serveurs MCP](https://github.com/modelcontextprotocol/servers)
+
+---
+
 ## 📚 Projets (9 au total)
 
 > Dernière mise à jour : **2025-11-22**

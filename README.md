@@ -19,6 +19,201 @@ This repository automatically collects and organizes high-quality MCP projects f
 - [Français](https://rodert.github.io/awesome-mcp/fr/projects)
 - [Español](https://rodert.github.io/awesome-mcp/es/projects)
 
+## 🚀 Quick Start: How to Use MCP in AI Tools
+
+The Model Context Protocol (MCP) allows AI assistants to connect to external data sources and tools. Here's how to set it up in popular AI tools:
+
+### 📱 Claude Desktop
+
+1. **Find the configuration file:**
+   - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
+2. **Edit the configuration file** and add your MCP servers:
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/directory"]
+    }
+  }
+}
+```
+
+3. **Restart Claude Desktop** to apply changes.
+
+### 💻 Cursor IDE
+
+1. **Open Settings**: `Cmd/Ctrl + ,`
+2. **Navigate to**: Features → Agent → MCP Servers
+3. **Click "Add Server"**
+4. **Enter server details**:
+   - **Name**: A friendly name for the server
+   - **Command**: The command to run (e.g., `npx`)
+   - **Args**: Command arguments (e.g., `["-y", "@modelcontextprotocol/server-github"]`)
+   - **Env**: Environment variables (if needed)
+
+### 🔌 Continue (VS Code Extension)
+
+1. **Install Continue extension** from VS Code marketplace
+2. **Open Continue settings**: Click the Continue icon in the sidebar
+3. **Navigate to**: Settings → MCP Servers
+4. **Add MCP server** in `~/.continue/config.json`:
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+5. **Reload VS Code** to apply changes.
+
+### 🔌 Cline (VS Code Extension)
+
+1. **Install Cline extension** from VS Code marketplace
+2. **Open Command Palette**: `Cmd/Ctrl + Shift + P`
+3. **Run**: `Cline: Configure MCP Servers`
+4. **Edit the configuration file** that opens, or manually edit `~/.cline/mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+5. **Restart VS Code** to apply changes.
+
+### ⚡ Aider (Command Line)
+
+1. **Install Aider**: `pip install aider-chat`
+2. **Set environment variable** for MCP servers:
+
+```bash
+export MCP_SERVERS='{"github": {"command": "npx", "args": ["-y", "@modelcontextprotocol/server-github"], "env": {"GITHUB_PERSONAL_ACCESS_TOKEN": "your_token"}}}'
+```
+
+3. **Or create** `~/.aider/mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+4. **Run Aider**: `aider` (MCP servers will be automatically loaded)
+
+### 🌊 Windsurf
+
+1. **Open Windsurf Settings**: `Cmd/Ctrl + ,`
+2. **Navigate to**: Extensions → MCP
+3. **Click "Add MCP Server"**
+4. **Configure server**:
+   - **Name**: Server identifier
+   - **Command**: Command to execute
+   - **Arguments**: Command arguments
+   - **Environment**: Environment variables
+5. **Save and restart** Windsurf
+
+### 🎨 Composer (Anthropic)
+
+1. **Open Composer settings**
+2. **Navigate to**: Settings → Integrations → MCP
+3. **Add MCP server configuration**:
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+4. **Restart Composer** to apply changes.
+
+### 🔍 Finding MCP Servers
+
+Browse the [projects list](#-projects-890-total) below to discover available MCP servers. Popular options include:
+
+- **[GitHub MCP Server](https://github.com/github/github-mcp-server)** - Access GitHub repositories and issues
+- **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** - Browser automation
+- **[Filesystem Server](https://github.com/modelcontextprotocol/servers)** - File system access
+- **[SQLite Server](https://github.com/modelcontextprotocol/servers)** - Database queries
+
+### 📝 Example: GitHub MCP Server
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_your_token_here"
+      }
+    }
+  }
+}
+```
+
+**Get a GitHub token**: [GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
+
+### 🎯 What Can MCP Do?
+
+Once configured, MCP enables AI assistants to:
+- 📂 Access files and directories
+- 🔍 Search code repositories
+- 🌐 Browse the web
+- 💾 Query databases
+- 📊 Analyze data
+- 🔧 Execute tools and scripts
+
+### 📚 Learn More
+
+- [Official MCP Documentation](https://modelcontextprotocol.io/)
+- [MCP Specification](https://github.com/modelcontextprotocol/specification)
+- Browse [MCP Servers Collection](https://github.com/modelcontextprotocol/servers)
+
+---
+
 ## 📚 Projects (890 total)
 
 > Last updated: **2025-11-30**

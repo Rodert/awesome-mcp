@@ -19,6 +19,201 @@
 - [Français](https://rodert.github.io/awesome-mcp/fr/projects)
 - [Español](https://rodert.github.io/awesome-mcp/es/projects)
 
+## 🚀 快速开始：如何在 AI 工具中使用 MCP
+
+Model Context Protocol (MCP) 允许 AI 助手连接到外部数据源和工具。以下是在主流 AI 工具中设置 MCP 的方法：
+
+### 📱 Claude Desktop
+
+1. **找到配置文件：**
+   - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
+2. **编辑配置文件**并添加 MCP 服务器：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/directory"]
+    }
+  }
+}
+```
+
+3. **重启 Claude Desktop** 以应用更改。
+
+### 💻 Cursor IDE
+
+1. **打开设置**：`Cmd/Ctrl + ,`
+2. **导航到**：Features → Agent → MCP Servers
+3. **点击 "Add Server"**
+4. **输入服务器详情**：
+   - **名称**：服务器的友好名称
+   - **命令**：要运行的命令（例如 `npx`）
+   - **参数**：命令参数（例如 `["-y", "@modelcontextprotocol/server-github"]`）
+   - **环境变量**：环境变量（如需要）
+
+### 🔌 Continue (VS Code 扩展)
+
+1. **安装 Continue 扩展**：从 VS Code 市场安装
+2. **打开 Continue 设置**：点击侧边栏中的 Continue 图标
+3. **导航到**：Settings → MCP Servers
+4. **在 `~/.continue/config.json` 中添加 MCP 服务器**：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+5. **重新加载 VS Code** 以应用更改。
+
+### 🔌 Cline (VS Code 扩展)
+
+1. **安装 Cline 扩展**：从 VS Code 市场安装
+2. **打开命令面板**：`Cmd/Ctrl + Shift + P`
+3. **运行**：`Cline: Configure MCP Servers`
+4. **编辑打开的配置文件**，或手动编辑 `~/.cline/mcp_config.json`：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+5. **重启 VS Code** 以应用更改。
+
+### ⚡ Aider (命令行工具)
+
+1. **安装 Aider**：`pip install aider-chat`
+2. **设置环境变量**用于 MCP 服务器：
+
+```bash
+export MCP_SERVERS='{"github": {"command": "npx", "args": ["-y", "@modelcontextprotocol/server-github"], "env": {"GITHUB_PERSONAL_ACCESS_TOKEN": "your_token"}}}'
+```
+
+3. **或创建** `~/.aider/mcp_config.json`：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+4. **运行 Aider**：`aider`（MCP 服务器将自动加载）
+
+### 🌊 Windsurf
+
+1. **打开 Windsurf 设置**：`Cmd/Ctrl + ,`
+2. **导航到**：Extensions → MCP
+3. **点击 "Add MCP Server"**
+4. **配置服务器**：
+   - **名称**：服务器标识符
+   - **命令**：要执行的命令
+   - **参数**：命令参数
+   - **环境变量**：环境变量
+5. **保存并重启** Windsurf
+
+### 🎨 Composer (Anthropic)
+
+1. **打开 Composer 设置**
+2. **导航到**：Settings → Integrations → MCP
+3. **添加 MCP 服务器配置**：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
+```
+
+4. **重启 Composer** 以应用更改。
+
+### 🔍 查找 MCP 服务器
+
+浏览下面的[项目列表](#-项目共-890-个)以发现可用的 MCP 服务器。热门选项包括：
+
+- **[GitHub MCP Server](https://github.com/github/github-mcp-server)** - 访问 GitHub 仓库和问题
+- **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** - 浏览器自动化
+- **[Filesystem Server](https://github.com/modelcontextprotocol/servers)** - 文件系统访问
+- **[SQLite Server](https://github.com/modelcontextprotocol/servers)** - 数据库查询
+
+### 📝 示例：GitHub MCP Server
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_your_token_here"
+      }
+    }
+  }
+}
+```
+
+**获取 GitHub token**：[GitHub 设置 → 开发者设置 → 个人访问令牌](https://github.com/settings/tokens)
+
+### 🎯 MCP 能做什么？
+
+配置完成后，MCP 使 AI 助手能够：
+- 📂 访问文件和目录
+- 🔍 搜索代码仓库
+- 🌐 浏览网页
+- 💾 查询数据库
+- 📊 分析数据
+- 🔧 执行工具和脚本
+
+### 📚 了解更多
+
+- [官方 MCP 文档](https://modelcontextprotocol.io/)
+- [MCP 规范](https://github.com/modelcontextprotocol/specification)
+- 浏览 [MCP 服务器集合](https://github.com/modelcontextprotocol/servers)
+
+---
+
 ## 📚 项目（共 9 个）
 
 > 最后更新：**2025-11-22**
