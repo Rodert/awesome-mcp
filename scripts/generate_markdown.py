@@ -176,7 +176,7 @@ def generate_readme_projects(data_file: str, readme_file: str):
 
 """
     
-    # 显示所有分类的项目（最多前 5 个）
+    # 显示所有分类的所有项目
     for cat_key in ['servers', 'clients', 'tools', 'examples', 'documentation']:
         cat_name = CATEGORY_NAMES.get(cat_key, cat_key.title())
         cat_desc = CATEGORY_DESCRIPTIONS.get(cat_key, '')
@@ -186,23 +186,17 @@ def generate_readme_projects(data_file: str, readme_file: str):
             projects_content += f"*{cat_desc}*\n\n"
         
         if cat_key in categories:
-            projects_list = sorted(categories[cat_key], key=lambda x: x['stars'], reverse=True)[:5]
+            # 显示所有项目，按 stars 排序
+            projects_list = sorted(categories[cat_key], key=lambda x: x['stars'], reverse=True)
             for idx, project in enumerate(projects_list, 1):
                 projects_content += f"{idx}. **[{project['name']}]({project['url']})** - ⭐ {project['stars']:,}\n"
                 if project.get('description'):
                     projects_content += f"   {project['description']}\n"
                 projects_content += "\n"
-            
-            if len(categories[cat_key]) > 5:
-                projects_content += f"[View all {len(categories[cat_key])} →](https://rodert.github.io/awesome-mcp/en/projects)\n\n"
         else:
             projects_content += "*Coming soon...*\n\n"
     
-    projects_content += """---
-
-**[View complete project list on GitHub Pages →](https://rodert.github.io/awesome-mcp/)**
-
-"""
+    projects_content += "---\n\n"
     
     # 读取现有 README，替换项目部分
     with open(readme_file, 'r', encoding='utf-8') as f:

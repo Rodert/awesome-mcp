@@ -68,7 +68,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/ docs/
+          git add data/ docs/ README.md
           git diff --quiet && git diff --staged --quiet || \
             (git commit -m "🤖 Auto update projects [skip ci]" && git push)
 
