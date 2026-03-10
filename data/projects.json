@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-03-10T06:32:04.562673",
-  "total": 3990,
+  "total": 3991,
   "projects": [
     {
       "name": "n8n",
@@ -84624,6 +84624,31 @@
       ],
       "category": "servers",
       "owner": "oksure",
+      "archived": false
+    },
+    {
+      "name": "roundtable-dashboard",
+      "full_name": "deadpixel/roundtable-dashboard",
+      "description": "Multi-model AI debate platform — GPT-4o, Claude, Gemini & 200+ models discuss, then synthesize insight. MCP tools: consult_council, review_code, debug_issue, design_architecture, plan_implementation, assess_tradeoffs.",
+      "url": "https://github.com/deadpixel/roundtable-dashboard",
+      "stars": 0,
+      "language": "TypeScript",
+      "updated_at": "2026-03-10T00:00:00+00:00",
+      "created_at": "2025-01-01T00:00:00+00:00",
+      "topics": [
+        "mcp",
+        "mcp-server",
+        "ai",
+        "multi-model",
+        "reasoning",
+        "typescript",
+        "debate",
+        "code-review",
+        "debugging",
+        "architecture"
+      ],
+      "category": "servers",
+      "owner": "deadpixel",
       "archived": false
     }
   ]
