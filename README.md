@@ -11793,6 +11793,9 @@ Once configured, MCP enables AI assistants to:
 3889. **[actual-mcp-server](https://github.com/agigante80/actual-mcp-server)** - ⭐ 10
    Docker MCP server connecting MCP clients (tested with LibreChat/LobeChat) to Actual Budget for natural-language budgeting, transaction management, and financial insights.
 
+3890. **[operant-mcp](https://github.com/operantlabs/operant-mcp)** - ⭐ 10
+   Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment. Install via `npx operant-mcp`.
+
 ### MCP Clients
 
 *MCP client applications that connect to MCP servers*
