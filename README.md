@@ -12087,6 +12087,9 @@ Once configured, MCP enables AI assistants to:
 3987. **[zebbern-kali-mcp](https://github.com/zebbern/zebbern-kali-mcp)** - ⭐ 10
    MCP server for Kali Linux penetration testing - 149 tools for AI-assisted security testing - Giving Agents access to full pentesting tools
 
+3890. **[operant-mcp](https://github.com/operantlabs/operant-mcp)** - ⭐ 0
+   Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment.
+
 ### MCP Clients
 
 *MCP client applications that connect to MCP servers*
