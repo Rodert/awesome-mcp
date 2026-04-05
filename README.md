@@ -12243,6 +12243,9 @@ Once configured, MCP enables AI assistants to:
 4039. **[Cortex](https://github.com/cdeust/Cortex)** - ⭐ 10
    C.O.R.T.E.X. — Cognitive profiling system for Claude Code
 
+3890. **[operant-mcp](https://github.com/operantlabs/operant-mcp)** - ⭐ 0
+   Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment.
+
 ### MCP Clients
 
 *MCP client applications that connect to MCP servers*
