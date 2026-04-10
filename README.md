@@ -173,6 +173,7 @@ export MCP_SERVERS='{"github": {"command": "npx", "args": ["-y", "@modelcontextp
 
 Browse the [projects list](#-projects-890-total) below to discover available MCP servers. Popular options include:
 
+- [APIbase](https://apibase.pro) - Universal MCP gateway aggregating 200+ tools from 46 providers — flights, stocks, news, search, maps, legal, OCR, image generation. x402 USDC pay-per-call on Base.
 - **[GitHub MCP Server](https://github.com/github/github-mcp-server)** - Access GitHub repositories and issues
 - **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** - Browser automation
 - **[Filesystem Server](https://github.com/modelcontextprotocol/servers)** - File system access
@@ -13312,4 +13313,3 @@ These AI assistants collaborate to keep the project up-to-date, collect new MCP 
 ## 🙏 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
