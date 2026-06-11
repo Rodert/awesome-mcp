@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-11T06:27:49.597643",
-  "total": 4857,
+  "total": 4858,
   "projects": [
     {
       "name": "ECC",
@@ -107313,6 +107313,41 @@
       ],
       "category": "servers",
       "owner": "finmap-org",
+      "archived": false
+    },
+    {
+      "name": "x-twitter-scraper",
+      "full_name": "Xquik-dev/x-twitter-scraper",
+      "description": "Twitter scraper API skill for tweet search, advanced Twitter search, profile tweets, follower export, media download, monitors, webhooks, MCP, and posting automation: send tweets and replies.",
+      "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+      "stars": 112,
+      "language": "JavaScript",
+      "updated_at": "2026-06-09T15:48:53+00:00",
+      "created_at": "2026-02-27T03:10:09+00:00",
+      "topics": [
+        "ai-agent",
+        "mcp",
+        "mcp-server",
+        "twitter-api",
+        "twitter",
+        "data-extraction",
+        "x-api",
+        "twitter-scraper",
+        "advanced-search",
+        "agent-skill",
+        "follower-export",
+        "sdk",
+        "social-media-api",
+        "social-media-automation",
+        "tweet-search",
+        "twitter-api-alternative",
+        "twitter-automation",
+        "send-tweets",
+        "x-api-alternative",
+        "profile-tweets"
+      ],
+      "category": "servers",
+      "owner": "Xquik-dev",
       "archived": false
     }
   ]
