@@ -214,7 +214,7 @@ Once configured, MCP enables AI assistants to:
 
 ---
 
-## 📚 Projects (4952 total)
+## 📚 Projects (4953 total)
 
 > Last updated: **2026-06-28**
 
@@ -14011,6 +14011,9 @@ Once configured, MCP enables AI assistants to:
 
 4627. **[mcp-server](https://github.com/finmap-org/mcp-server)** - ⭐ 10
    The finmap.org MCP server provides comprehensive historical data from the US, UK, Russian and Turkish stock exchanges. Access sectors, tickers, company profiles, market cap, volume, value, and trade counts, as well as treemap and histogram visualizations
+
+4628. **[neuron](https://github.com/conquext/neuron)** - ⭐ 0
+   AI-powered WhatsApp chatbot platform with 196 MCP tools for building, deploying, and managing intelligent chatbots. Features knowledge bases, campaigns, broadcasts, contact management, and multi-model AI support.
 
 ### MCP Clients
 
