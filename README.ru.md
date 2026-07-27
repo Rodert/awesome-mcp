@@ -212,6 +212,11 @@ export MCP_SERVERS='{"github": {"command": "npx", "args": ["-y", "@modelcontextp
 - [Спецификация MCP](https://github.com/modelcontextprotocol/specification)
 - Просмотреть [Коллекцию MCP-серверов](https://github.com/modelcontextprotocol/servers)
 
+### 🔗 Рекомендуемый ресурс
+
+- [silicogrove](https://silicogrove.com/) - Сторонняя универсальная AI-платформа и руководство, объединяющие популярные AI-сервисы и ресурсы в простом едином интерфейсе.
+- [ChongPlus Image Studio](https://api.chongplus.plus/tools/image-studio/) - Сторонний онлайн-инструмент генерации изображений с помощью AI для создания изображений в браузере.
+
 ---
 
 ## 📚 Проекты (всего 9)
@@ -311,4 +316,3 @@ awesome-mcp/
 ## 🙏 Вклад
 
 Вклад приветствуется! Пожалуйста, не стесняйтесь отправлять Pull Request.
-

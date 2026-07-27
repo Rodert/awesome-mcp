@@ -212,6 +212,11 @@ export MCP_SERVERS='{"github": {"command": "npx", "args": ["-y", "@modelcontextp
 - [MCP仕様](https://github.com/modelcontextprotocol/specification)
 - [MCPサーバーコレクション](https://github.com/modelcontextprotocol/servers)を閲覧
 
+### 🔗 おすすめリソース
+
+- [silicogrove](https://silicogrove.com/) - 主流のAIサービスとリソースを集約し、シンプルで統一された利用体験を提供するサードパーティーのワンストップAIプラットフォームとガイド。
+- [ChongPlus Image Studio](https://api.chongplus.plus/tools/image-studio/) - ブラウザで画像を作成できるサードパーティーのオンラインAI画像生成ツール。
+
 ---
 
 ## 📚 プロジェクト（合計 9）
@@ -311,4 +316,3 @@ Apache License 2.0 の下でライセンスされています - 詳細は [LICEN
 ## 🙏 貢献
 
 貢献を歓迎します！お気軽に Pull Request を送信してください。
-

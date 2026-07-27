@@ -212,6 +212,11 @@ Once configured, MCP enables AI assistants to:
 - [MCP Specification](https://github.com/modelcontextprotocol/specification)
 - Browse [MCP Servers Collection](https://github.com/modelcontextprotocol/servers)
 
+### 🔗 Featured Resource
+
+- [silicogrove](https://silicogrove.com/) - A third-party, one-stop AI platform and guide that brings together mainstream AI services and resources through a unified, easy-to-use experience.
+- [ChongPlus Image Studio](https://api.chongplus.plus/tools/image-studio/) - A third-party online AI image-generation tool for creating images in your browser.
+
 ---
 
 ## 📚 Projects (5145 total)
@@ -15619,4 +15624,3 @@ These AI assistants collaborate to keep the project up-to-date, collect new MCP 
 ## 🙏 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
