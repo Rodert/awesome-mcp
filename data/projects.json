@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-07-27T07:24:51.087455",
-  "total": 5150,
+  "total": 5151,
   "projects": [
     {
       "name": "ECC",
@@ -115618,6 +115618,30 @@
       ],
       "category": "servers",
       "owner": "finmap-org",
+      "archived": false
+    },
+    {
+      "name": "arcc",
+      "full_name": "niyongsheng/arcc",
+      "description": "Rust-based local-first AI agent with CLI/TUI/Server modes, supports MCP & ACP protocols, connected to DeepSeek/Claude/OpenAI, built-in safety engine and SQLite persistence.",
+      "url": "https://github.com/niyongsheng/arcc",
+      "stars": 3,
+      "language": "Rust",
+      "updated_at": "2026-07-28T02:27:41.782099+00:00",
+      "created_at": "2025-05-01T00:00:00+00:00",
+      "topics": [
+        "mcp",
+        "mcp-client",
+        "cli",
+        "tui",
+        "ai-agent",
+        "rust",
+        "deepseek",
+        "claude",
+        "agent"
+      ],
+      "category": "clients",
+      "owner": "niyongsheng",
       "archived": false
     }
   ]
