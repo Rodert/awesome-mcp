@@ -216,6 +216,7 @@ export MCP_SERVERS='{"github": {"command": "npx", "args": ["-y", "@modelcontextp
 
 - [silicogrove](https://silicogrove.com/) - Сторонняя универсальная AI-платформа и руководство, объединяющие популярные AI-сервисы и ресурсы в простом едином интерфейсе.
 - [ChongPlus Image Studio](https://api.chongplus.plus/tools/image-studio/) - Сторонний онлайн-инструмент генерации изображений с помощью AI для создания изображений в браузере.
+- [chongplus-image-skill](https://github.com/Rodert/chongplus-image-skill) - Open-source Agent Skill для генерации и редактирования изображений через ChongPlus API в совместимых AI-агентах.
 
 ---
 

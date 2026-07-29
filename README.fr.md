@@ -216,6 +216,7 @@ Une fois configuré, MCP permet aux assistants IA de :
 
 - [silicogrove](https://silicogrove.com/) - Une plateforme et un guide IA tiers tout-en-un, regroupant des services et ressources IA populaires dans une expérience unifiée et simple d'utilisation.
 - [ChongPlus Image Studio](https://api.chongplus.plus/tools/image-studio/) - Un outil tiers de génération d'images par IA en ligne pour créer des images dans le navigateur.
+- [chongplus-image-skill](https://github.com/Rodert/chongplus-image-skill) - Un Agent Skill open source permettant aux agents IA compatibles de générer et modifier des images via l'API ChongPlus.
 
 ---
 
