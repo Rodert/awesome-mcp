@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-07-31T05:25:11.690817",
-  "total": 5172,
+  "total": 5173,
   "projects": [
     {
       "name": "ECC",
@@ -116245,6 +116245,29 @@
       "category": "servers",
       "owner": "finmap-org",
       "archived": false
+    },
+    {
+      "name": "agent-search-mcp",
+      "full_name": "lennney/agent-search-mcp",
+      "description": "Zero-key MCP web search for AI agents: native Chinese sources, multi-engine aggregation, optional commercial backends, news, extraction & Streamable HTTP.",
+      "url": "https://github.com/lennney/agent-search-mcp",
+      "stars": 12,
+      "language": "TypeScript",
+      "updated_at": "2026-07-25T06:37:49+00:00",
+      "created_at": "2026-06-22T11:54:37Z",
+      "topics": [
+        "mcp",
+        "search",
+        "web-search",
+        "free-search",
+        "chinese-search",
+        "multi-engine",
+        "typescript",
+        "model-context-protocol",
+        "zero-config",
+        "ai-agent",
+        "agent"
+      ]
     }
   ]
 }
