@@ -212,6 +212,12 @@ Une fois configuré, MCP permet aux assistants IA de :
 - [Spécification MCP](https://github.com/modelcontextprotocol/specification)
 - Parcourir la [Collection de serveurs MCP](https://github.com/modelcontextprotocol/servers)
 
+### 🔗 Ressource recommandée
+
+- [silicogrove](https://silicogrove.com/) - Une plateforme et un guide IA tiers tout-en-un, regroupant des services et ressources IA populaires dans une expérience unifiée et simple d'utilisation.
+- [ChongPlus Image Studio](https://api.chongplus.plus/tools/image-studio/) - Un outil tiers de génération d'images par IA en ligne pour créer des images dans le navigateur.
+- [chongplus-image-skill](https://github.com/Rodert/chongplus-image-skill) - Un Agent Skill open source permettant aux agents IA compatibles de générer et modifier des images via l'API ChongPlus.
+
 ---
 
 ## 📚 Projets (9 au total)
@@ -311,4 +317,3 @@ Ces assistants IA collaborent pour maintenir le projet à jour, collecter de nou
 ## 🙏 Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à soumettre une Pull Request.
-

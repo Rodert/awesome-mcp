@@ -212,6 +212,12 @@ export MCP_SERVERS='{"github": {"command": "npx", "args": ["-y", "@modelcontextp
 - [MCP 规范](https://github.com/modelcontextprotocol/specification)
 - 浏览 [MCP 服务器集合](https://github.com/modelcontextprotocol/servers)
 
+### 🔗 推荐资源
+
+- [silicogrove](https://silicogrove.com/) - 面向国内用户的一站式 AI 平台与指南，聚合主流 AI 服务和资源，提供简单、统一的使用体验。
+- [ChongPlus Image Studio](https://api.chongplus.plus/tools/image-studio/) - 第三方在线 AI 生图工具，可直接在浏览器中进行图像创作。
+- [chongplus-image-skill](https://github.com/Rodert/chongplus-image-skill) - 开源 Agent Skill，让兼容的 AI Agent 可通过 ChongPlus API 生成和编辑图片。
+
 ---
 
 ## 📚 项目（共 9 个）
@@ -311,4 +317,3 @@ awesome-mcp/
 ## 🙏 贡献
 
 欢迎贡献！请随时提交 Pull Request。
-
