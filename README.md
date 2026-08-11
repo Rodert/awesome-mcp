@@ -14848,6 +14848,9 @@ Once configured, MCP enables AI assistants to:
 4904. **[mcp-server](https://github.com/finmap-org/mcp-server)** - ⭐ 10
    The finmap.org MCP server provides comprehensive historical data from the US, UK, Russian and Turkish stock exchanges. Access sectors, tickers, company profiles, market cap, volume, value, and trade counts, as well as treemap and histogram visualizations
 
+3890. **[operant-mcp](https://github.com/operantlabs/operant-mcp)** - ⭐ 0
+   Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment.
+
 ### MCP Clients
 
 *MCP client applications that connect to MCP servers*
