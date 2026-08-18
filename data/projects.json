@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-08-17T04:00:32.451500",
-  "total": 5274,
+  "total": 5275,
   "projects": [
     {
       "name": "ECC",
@@ -119179,6 +119179,32 @@
       ],
       "category": "servers",
       "owner": "finmap-org",
+      "archived": false
+    },
+    {
+      "name": "Project-Koma",
+      "full_name": "swnotmetal/Project-Koma",
+      "description": "Lightweight, agent-friendly AI security toolkit for Node.js & TypeScript. Stop prompt injection, audio hallucinations, and RAG data scraping. Zero dependencies. MIT",
+      "url": "https://github.com/swnotmetal/Project-Koma",
+      "stars": 9,
+      "language": "TypeScript",
+      "updated_at": "2026-08-18T00:39:55Z",
+      "created_at": "2026-07-24T20:17:19Z",
+      "topics": [
+        "ai-firewall",
+        "ai-security",
+        "guardrails",
+        "llm-security",
+        "middleware",
+        "nodejs",
+        "prompt-injection",
+        "rag",
+        "rate-limiting",
+        "typescript",
+        "voice-ai"
+      ],
+      "category": "servers",
+      "owner": "swnotmetal",
       "archived": false
     }
   ]
