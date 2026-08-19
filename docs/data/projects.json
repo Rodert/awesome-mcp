@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-08-19T03:49:46.767861",
-  "total": 5285,
+  "total": 5286,
   "projects": [
     {
       "name": "ECC",
@@ -55248,6 +55248,41 @@
       ],
       "category": "servers",
       "owner": "brijr",
+      "archived": false
+    },
+    {
+      "name": "x-twitter-scraper",
+      "full_name": "Xquik-dev/x-twitter-scraper",
+      "description": "Xquik agent Skill for REST, MCP, webhooks, exports, monitoring, tweet search, and confirmation-gated publishing. Not affiliated with X Corp.",
+      "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+      "stars": 183,
+      "language": "JavaScript",
+      "updated_at": "2026-08-18T19:23:26+00:00",
+      "created_at": "2026-02-27T03:10:09+00:00",
+      "topics": [
+        "advanced-search",
+        "agent-skill",
+        "ai-agent",
+        "data-extraction",
+        "follower-export",
+        "mcp",
+        "mcp-server",
+        "profile-tweets",
+        "sdk",
+        "send-tweets",
+        "social-media-api",
+        "social-media-automation",
+        "tweet-search",
+        "twitter-api",
+        "twitter-api-alternative",
+        "twitter-automation",
+        "twitter-scraper",
+        "x-api",
+        "x-api-alternative",
+        "xquik"
+      ],
+      "category": "servers",
+      "owner": "Xquik-dev",
       "archived": false
     },
     {
