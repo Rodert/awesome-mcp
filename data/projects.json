@@ -3,6 +3,34 @@
   "total": 5367,
   "projects": [
     {
+      "name": "mcpscan",
+      "full_name": "kuldeep-poonia/mcpscan",
+      "description": "Local, zero-telemetry CLI to discover shadow/unauthenticated MCP servers on your network and audit their authentication status. Detects unprotected MCP endpoints (network + local AI tool configs like Claude Desktop, Cursor, VS Code) before they become a security incident.",
+      "url": "https://github.com/kuldeep-poonia/mcpscan",
+      "stars": 0,
+      "language": "Go",
+      "updated_at": "2026-08-18T00:00:00+00:00",
+      "created_at": "2026-08-12T00:00:00+00:00",
+      "topics": [
+        "cli-tool",
+        "cybersecurity",
+        "devsecops",
+        "go",
+        "golang",
+        "mcp",
+        "model-context-protocol",
+        "network-security",
+        "privacy-first",
+        "security-audit",
+        "security-scanner",
+        "shadow-it",
+        "vulnerability-scanner"
+      ],
+      "category": "Security",
+      "owner": "kuldeep-poonia",
+      "archived": false
+    },
+    {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
