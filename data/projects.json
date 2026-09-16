@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-16T06:26:07.293675",
-  "total": 5421,
+  "total": 5422,
   "projects": [
     {
       "name": "ECC",
@@ -94404,6 +94404,29 @@
       "topics": [],
       "category": "servers",
       "owner": "vitalyrodnenko",
+      "archived": false
+    },
+    {
+      "name": "mcp-server",
+      "full_name": "contextstream/mcp-server",
+      "description": "Shared project context for AI coding agents: hosted MCP with code search, decisions, lessons, and plans.",
+      "url": "https://github.com/contextstream/mcp-server",
+      "stars": 43,
+      "language": "Rust",
+      "updated_at": "2026-09-15T09:44:31+00:00",
+      "created_at": "2025-12-12T18:12:00+00:00",
+      "topics": [
+        "agent",
+        "claude",
+        "context",
+        "context-management",
+        "cursor",
+        "gemini-cli-extension",
+        "mcp",
+        "windsurf"
+      ],
+      "category": "servers",
+      "owner": "contextstream",
       "archived": false
     },
     {
