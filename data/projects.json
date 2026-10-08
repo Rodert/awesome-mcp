@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-08T07:31:57.936294",
-  "total": 5532,
+  "last_updated": "2026-10-08T10:47:11.075701",
+  "total": 5533,
   "projects": [
     {
       "name": "ECC",
@@ -107348,6 +107348,41 @@
       ],
       "category": "servers",
       "owner": "macarthy",
+      "archived": false
+    },
+    {
+      "name": "Tale",
+      "full_name": "tale-project/tale",
+      "description": "Open-source project workspace with a built-in HTTP MCP server for organizational knowledge retrieval and automation authoring, tests, deployments, and runs. Requires an API key and organization header.",
+      "url": "https://github.com/tale-project/tale",
+      "stars": 32,
+      "language": "TypeScript",
+      "updated_at": "2026-10-08T10:31:17+00:00",
+      "created_at": "2025-11-30T10:41:32+00:00",
+      "topics": [
+        "agent-orchestration",
+        "agent-skills",
+        "ai-agents",
+        "automation",
+        "claude-code",
+        "codex",
+        "hermes-agent",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "open-source",
+        "openclaw",
+        "project-management",
+        "rag",
+        "sandbox",
+        "self-hosted",
+        "task-management",
+        "team-collaboration",
+        "typescript",
+        "workflow-automation"
+      ],
+      "category": "servers",
+      "owner": "tale-project",
       "archived": false
     },
     {
