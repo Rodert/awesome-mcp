@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-19T08:40:22.908081",
-  "total": 5772,
+  "total": 5773,
   "projects": [
     {
       "name": "rea",
@@ -131874,6 +131874,39 @@
       ],
       "category": "servers",
       "owner": "verygoodplugins",
+      "archived": false
+    },
+    {
+      "name": "youtube-mcp",
+      "full_name": "tubeagentkit/youtube-mcp",
+      "description": "YouTube MCP server: get YouTube video transcripts, search YouTube, browse channels and playlists from Claude, ChatGPT, Cursor and VS Code. Remote, free tier.",
+      "url": "https://github.com/tubeagentkit/youtube-mcp",
+      "stars": 10,
+      "language": "JavaScript",
+      "updated_at": "2026-11-19T03:17:24+00:00",
+      "created_at": "2026-09-12T20:07:58+00:00",
+      "topics": [
+        "ai-agent",
+        "ai-tools",
+        "chatgpt",
+        "claude",
+        "claude-desktop",
+        "cursor",
+        "gemini-cli-extension",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "remote-mcp-server",
+        "transcript",
+        "youtube",
+        "youtube-api",
+        "youtube-mcp",
+        "youtube-search",
+        "youtube-transcript"
+      ],
+      "category": "servers",
+      "owner": "tubeagentkit",
       "archived": false
     },
     {
