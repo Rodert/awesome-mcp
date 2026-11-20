@@ -17534,3 +17534,7 @@ These AI assistants collaborate to keep the project up-to-date, collect new MCP 
 ## 🙏 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+- [NovaPixel LexGrid x402 Agent Tools](https://lexgrid.novapixel.it) `https://lexgrid.novapixel.it/mcp`
+  [![LexGrid MCP](https://glama.ai/mcp/connectors/it.novapixel.lexgrid/nova-pixel-lex-grid/badges/score.svg)](https://glama.ai/mcp/connectors/it.novapixel.lexgrid/nova-pixel-lex-grid)
+  🔓 - Sovereign European Legal, Fiscal & Procurement deterministic engine with 32 production tools across 8 vertical suites (EU Tax VIES, FatturaPA, Italian Tenders D.Lgs 36/2023, DORA, NIS2, CBAM Customs, and CCNL Labour Law).
